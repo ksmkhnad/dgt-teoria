@@ -1,0 +1,332 @@
+import type { Question } from "@/lib/types";
+
+// DGT Manual Permiso B (Lectura Fácil, 2024), Anexo — Permiso por puntos.
+
+const SOURCE = "DGT Manual Permiso B (Lectura Fácil, 2024), Anexo";
+
+export const QUESTIONS_MANUAL_ANEXO: Question[] = [
+  {
+    id: "manual-anexo-01",
+    section: "admin",
+    correctIndex: 0,
+    source: SOURCE,
+    termIds: ["conductor_novel"],
+    translations: {
+      es: {
+        text: "¿Con cuántos puntos empieza un conductor novel?",
+        options: ["8 puntos", "12 puntos", "10 puntos", "15 puntos"],
+        explanation:
+          "Los conductores noveles empiezan con 8 puntos durante los dos primeros años. Si no pierden ninguno, pasan a 12.",
+        optionRationales: [
+          "",
+          "12 puntos es lo que se tiene TRAS los primeros dos años sin sanciones.",
+          "10 no es una cifra oficial en el sistema por puntos.",
+          "15 es el máximo posible, tras más de 8 años sin faltas — no de un novel.",
+        ],
+      },
+      en: {
+        text: "How many points does a novice driver start with?",
+        options: ["8 points", "12 points", "10 points", "15 points"],
+        explanation:
+          "Novice drivers start with 8 points for the first two years. If they lose none, they move to 12.",
+        optionRationales: [
+          "",
+          "12 is what you get AFTER two years without offences.",
+          "10 isn't an official points-system figure.",
+          "15 is the maximum after 8+ years without offences — not for a novice.",
+        ],
+      },
+      ru: {
+        text: "С каким количеством баллов начинает начинающий водитель?",
+        options: ["8 баллов", "12 баллов", "10 баллов", "15 баллов"],
+        explanation:
+          "Начинающие водители начинают с 8 баллов в первые 2 года. Если не теряют — переходят на 12.",
+        optionRationales: [
+          "",
+          "12 — это ПОСЛЕ двух лет без нарушений.",
+          "10 — не официальная цифра системы.",
+          "15 — максимум после 8+ лет без нарушений; не для начинающего.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-anexo-02",
+    section: "admin",
+    correctIndex: 3,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "¿Cuál es el número máximo de puntos que puede tener un conductor?",
+        options: ["8", "10", "12", "15"],
+        explanation:
+          "El máximo es 15 puntos: 8 novel → 12 (a los 2 años) → 14 (a los 5 años) → 15 (a los 8 años). Todo sin perder puntos por sanciones.",
+        optionRationales: [
+          "8 son los puntos iniciales del novel.",
+          "10 no es una cifra oficial.",
+          "12 es el estándar tras 2 años; no el máximo posible.",
+          "",
+        ],
+      },
+      en: {
+        text: "What is the maximum number of points a driver can have?",
+        options: ["8", "10", "12", "15"],
+        explanation:
+          "The maximum is 15: 8 novice → 12 (after 2 years) → 14 (after 5) → 15 (after 8). All without losing any points.",
+        optionRationales: [
+          "8 is the novice starting figure.",
+          "10 isn't an official figure.",
+          "12 is standard after 2 years; not the max.",
+          "",
+        ],
+      },
+      ru: {
+        text: "Каково максимальное количество баллов у водителя?",
+        options: ["8", "10", "12", "15"],
+        explanation:
+          "Максимум — 15: 8 начинающий → 12 (через 2 года) → 14 (через 5) → 15 (через 8). Без потери баллов.",
+        optionRationales: [
+          "8 — стартовые баллы новичка.",
+          "10 — не официальная цифра.",
+          "12 — стандарт через 2 года, не максимум.",
+          "",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-anexo-03",
+    section: "admin",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Si pierdes TODOS los puntos, no podrás volver a conducir hasta que pasen…",
+        options: ["1 mes", "3 meses", "6 meses", "1 año"],
+        explanation:
+          "Perder todos los puntos: 6 meses sin conducir. Después, curso de 24 horas + examen en Jefatura de Tráfico. Si vuelve a pasar en 3 años: 12 meses.",
+        optionRationales: [
+          "1 mes es demasiado corto; la sanción real es 6 meses.",
+          "3 meses tampoco corresponde; se pide medio año.",
+          "",
+          "1 año es el plazo cuando REPITES en los 3 años siguientes, no la primera vez.",
+        ],
+      },
+      en: {
+        text: "If you lose ALL your points, you cannot drive again until…",
+        options: ["1 month", "3 months", "6 months", "1 year"],
+        explanation:
+          "Losing all points: 6-month suspension. Then a 24-hour course + exam at Jefatura de Tráfico. If it happens again within 3 years: 12 months.",
+        optionRationales: [
+          "1 month is too short; the actual ban is 6 months.",
+          "3 months isn't the correct figure either.",
+          "",
+          "1 year applies if you REPEAT within 3 years, not the first time.",
+        ],
+      },
+      ru: {
+        text: "Если потерять ВСЕ баллы, водить снова нельзя до…",
+        options: ["1 месяца", "3 месяцев", "6 месяцев", "1 года"],
+        explanation:
+          "Все баллы потеряны — 6 месяцев без вождения. Затем курс 24 часа + экзамен в Jefatura de Tráfico. Если снова в течение 3 лет — 12 месяцев.",
+        optionRationales: [
+          "1 месяц слишком мало; реальный срок — 6 месяцев.",
+          "3 месяца — тоже неверно.",
+          "",
+          "1 год — если ПОВТОРНО в течение 3 лет, а не с первого раза.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-anexo-04",
+    section: "admin",
+    correctIndex: 1,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Los conductores que solo pierden algunos puntos pueden recuperarlos haciendo un curso de…",
+        options: [
+          "6 horas, recuperando hasta 3 puntos",
+          "12 horas, recuperando hasta 6 puntos",
+          "24 horas, recuperando todos los puntos",
+          "3 horas, recuperando 1 punto",
+        ],
+        explanation:
+          "Curso de educación vial de 12 horas recupera hasta 6 puntos. El curso de 24 horas + examen es solo tras haber perdido TODOS los puntos.",
+        optionRationales: [
+          "6 horas no es la duración oficial del curso de recuperación parcial.",
+          "",
+          "24 horas + examen es para recuperar el PERMISO después de perder todos los puntos, no puntos aislados.",
+          "3 horas es una duración inventada, no oficial.",
+        ],
+      },
+      en: {
+        text: "Drivers who only lose some points can recover them by taking a course of…",
+        options: [
+          "6 hours, recovering up to 3 points",
+          "12 hours, recovering up to 6 points",
+          "24 hours, recovering all points",
+          "3 hours, recovering 1 point",
+        ],
+        explanation:
+          "A 12-hour road-safety course recovers up to 6 points. The 24-hour course + exam is only after losing ALL points.",
+        optionRationales: [
+          "6 hours isn't the official partial-recovery course length.",
+          "",
+          "24 hours + exam is to recover your LICENCE after losing all points, not individual points.",
+          "3 hours isn't an official figure.",
+        ],
+      },
+      ru: {
+        text: "Водители, потерявшие часть баллов, могут восстановить их курсом…",
+        options: [
+          "6 часов, до 3 баллов",
+          "12 часов, до 6 баллов",
+          "24 часа, все баллы",
+          "3 часа, 1 балл",
+        ],
+        explanation:
+          "Курс безопасности 12 часов восстанавливает до 6 баллов. Курс 24 часа + экзамен — только после полной потери всех баллов.",
+        optionRationales: [
+          "6 часов — не официальная длительность.",
+          "",
+          "24 часа + экзамен — для возврата ПРАВ после полной потери, а не отдельных баллов.",
+          "3 часа — не официальная цифра.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-anexo-05",
+    section: "admin",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Conducir con una tasa de alcohol superior a 0,50 mg/l (general) supone la pérdida de…",
+        options: ["2 puntos", "4 puntos", "6 puntos", "10 puntos"],
+        explanation:
+          "Tasa > 0,50 mg/l aire (general) o > 0,30 mg/l (noveles/profesionales) = pérdida de 6 puntos. Entre 0,25 y 0,50 = 4 puntos. Consumir drogas = 6 puntos.",
+        optionRationales: [
+          "2 puntos es una infracción menor; el alcohol elevado no lo es.",
+          "4 puntos corresponden a alcoholemia INTERMEDIA (0,25-0,50 mg/l), no a la superior.",
+          "",
+          "10 puntos no existe como sanción única; el máximo por falta es 6.",
+        ],
+      },
+      en: {
+        text: "Driving with a BAC over 0.50 mg/l (general) loses you…",
+        options: ["2 points", "4 points", "6 points", "10 points"],
+        explanation:
+          "BAC > 0.50 mg/l air (general) or > 0.30 mg/l (novice/professional) = 6 points lost. Between 0.25 and 0.50 = 4 points. Drug use = 6 points.",
+        optionRationales: [
+          "2 points is for minor offences; high BAC isn't minor.",
+          "4 points is for the INTERMEDIATE BAC (0.25-0.50), not the higher band.",
+          "",
+          "10 points isn't a single penalty; max per offence is 6.",
+        ],
+      },
+      ru: {
+        text: "Вождение с алкоголем более 0,50 мг/л (общий лимит) — потеря…",
+        options: ["2 баллов", "4 баллов", "6 баллов", "10 баллов"],
+        explanation:
+          "Алкоголь > 0,50 мг/л (общий) или > 0,30 мг/л (начинающие/профи) = минус 6 баллов. От 0,25 до 0,50 = минус 4. Наркотики = 6.",
+        optionRationales: [
+          "2 балла — за мелкие нарушения; сильный алкоголь — не мелочь.",
+          "4 балла — за СРЕДНЮЮ концентрацию (0,25-0,50), не выше.",
+          "",
+          "10 баллов — не существует как единая санкция; максимум за нарушение — 6.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-anexo-06",
+    section: "admin",
+    correctIndex: 3,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Conducir con el teléfono móvil en la mano supone la pérdida de…",
+        options: ["2 puntos", "3 puntos", "4 puntos", "6 puntos"],
+        explanation:
+          "Conducir con el móvil sujeto con la mano = 6 puntos + multa. Manos libres SÍ está permitido si no requiere sujeción manual.",
+        optionRationales: [
+          "2 puntos es demasiado poco para una infracción tan grave.",
+          "3 puntos corresponde a otras faltas menores (cambio de sentido, auriculares).",
+          "4 puntos es alcoholemia intermedia, no móvil en mano.",
+          "",
+        ],
+      },
+      en: {
+        text: "Driving with a hand-held mobile phone loses you…",
+        options: ["2 points", "3 points", "4 points", "6 points"],
+        explanation:
+          "Hand-held mobile while driving = 6 points + fine. Hands-free IS allowed if it doesn't require holding.",
+        optionRationales: [
+          "2 points is too little for such a serious offence.",
+          "3 points is for other minor offences (illegal U-turn, headphones).",
+          "4 points is mid-range BAC, not the phone in hand.",
+          "",
+        ],
+      },
+      ru: {
+        text: "Вождение с телефоном в руке — потеря…",
+        options: ["2 баллов", "3 баллов", "4 баллов", "6 баллов"],
+        explanation:
+          "Держать телефон в руке = минус 6 баллов + штраф. Громкая связь разрешена, если не требует держать.",
+        optionRationales: [
+          "2 балла — слишком мало для такого серьёзного нарушения.",
+          "3 балла — за другие мелкие (незаконный разворот, наушники).",
+          "4 балла — средняя алкоголь-концентрация, не телефон.",
+          "",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-anexo-07",
+    section: "admin",
+    correctIndex: 3,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Adelantar a un ciclista sin dejar 1,5 m de separación supone la pérdida de…",
+        options: ["2 puntos", "3 puntos", "4 puntos", "6 puntos"],
+        explanation:
+          "Adelantar sin dejar 1,5 m con ciclistas o poniéndoles en peligro = 6 puntos + multa. Es una de las faltas más graves porque afecta a usuarios vulnerables.",
+        optionRationales: [
+          "2 puntos es demasiado poco; adelantar mal a un ciclista puede ser mortal.",
+          "3 puntos es para otras faltas menores.",
+          "4 puntos no corresponde a esta infracción.",
+          "",
+        ],
+      },
+      en: {
+        text: "Overtaking a cyclist without leaving 1.5 m clearance loses you…",
+        options: ["2 points", "3 points", "4 points", "6 points"],
+        explanation:
+          "Overtaking without leaving 1.5 m clearance for cyclists or endangering them = 6 points + fine. One of the most serious offences, as it affects vulnerable users.",
+        optionRationales: [
+          "2 points is too little; unsafe overtakes of cyclists can be fatal.",
+          "3 points is for other minor offences.",
+          "4 points doesn't match this offence.",
+          "",
+        ],
+      },
+      ru: {
+        text: "Обгон велосипедиста без 1,5 м бокового интервала — потеря…",
+        options: ["2 баллов", "3 баллов", "4 баллов", "6 баллов"],
+        explanation:
+          "Обгон велосипедиста без 1,5 м интервала или с созданием опасности = минус 6 баллов + штраф. Одно из самых серьёзных нарушений — уязвимые участники.",
+        optionRationales: [
+          "2 балла — слишком мало; опасный обгон велосипедиста может быть смертельным.",
+          "3 балла — за другие мелкие нарушения.",
+          "4 балла — не соответствует.",
+          "",
+        ],
+      },
+    },
+  },
+];
