@@ -33,6 +33,7 @@ export default function Home() {
     { href: "/stats", key: "stats", num: "04" },
     { href: "/glossary", key: "glossary", num: "05" },
     { href: "/reference", key: "reference", num: "06" },
+    { href: "/resources", key: "resources", num: "07" },
   ];
 
   return (

@@ -19,6 +19,10 @@ export interface QuestionTranslation {
   text: string;
   options: string[];
   explanation: string;
+  // Optional 1:1 with options. Short reason each option is right/wrong.
+  // Encourages elimination-based reasoning, mirroring the "why the others are
+  // wrong" teaching style (Estudia el Teórico and similar channels).
+  optionRationales?: string[];
 }
 
 export interface Question {
@@ -32,6 +36,9 @@ export interface Question {
   source?: string;
   // Glossary term IDs to surface as tappable in the question text.
   termIds?: string[];
+  // Optional link to a video (usually YouTube) that explains this question or
+  // the underlying topic. Shown in the feedback sheet as "Watch on YouTube".
+  videoUrl?: string;
 }
 
 export interface AnswerRecord {

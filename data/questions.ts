@@ -22,18 +22,36 @@ const SEED: Question[] = [
         options: ["Obligación", "Peligro / advertencia", "Prohibición", "Indicación"],
         explanation:
           "Las señales triangulares con borde rojo advierten de un peligro próximo. Las circulares con borde rojo son de prohibición o restricción.",
+        optionRationales: [
+          "Las señales de obligación son circulares con fondo azul y símbolos blancos, nunca triangulares.",
+          "",
+          "Las prohibiciones sí llevan borde rojo, pero son circulares (no triangulares). La forma es la clave.",
+          "Las señales de indicación son rectangulares o cuadradas y suelen tener fondo azul o verde.",
+        ],
       },
       en: {
         text: "A triangular sign with a red border and white background is a…",
         options: ["Mandatory sign", "Warning / danger sign", "Prohibition sign", "Information sign"],
         explanation:
           "Triangular signs with a red border warn of an upcoming hazard. Circular signs with a red border are prohibitions or restrictions.",
+        optionRationales: [
+          "Mandatory signs are circular with a blue background and white symbols — never triangular.",
+          "",
+          "Prohibitions do use a red border, but they are circular (not triangular). Shape is the tell.",
+          "Information signs are rectangular or square, usually with a blue or green background.",
+        ],
       },
       ru: {
         text: "Треугольный знак с красной каймой на белом фоне — это знак…",
         options: ["Предписания", "Предупреждения об опасности", "Запрета", "Информационный"],
         explanation:
           "Треугольные знаки с красной каймой предупреждают о приближающейся опасности. Круглые с красной каймой — запрещающие.",
+        optionRationales: [
+          "Предписывающие знаки — круглые с синим фоном и белыми символами, никогда не треугольные.",
+          "",
+          "У запрещающих действительно красная кайма, но они круглые, а не треугольные. Форма — ключ.",
+          "Информационные знаки прямоугольные или квадратные, обычно на синем или зелёном фоне.",
+        ],
       },
     },
   },

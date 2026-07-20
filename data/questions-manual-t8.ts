@@ -64,6 +64,12 @@ export const QUESTIONS_MANUAL_T8: Question[] = [
         ],
         explanation:
           "Cuando coexisten un STOP y un semáforo en verde, prevalece el semáforo. Los semáforos tienen prioridad sobre las señales verticales.",
+        optionRationales: [
+          "El STOP es una señal vertical, y las verticales están por debajo de los semáforos en la jerarquía.",
+          "",
+          "Nunca hay libre elección: la jerarquía de señales fija siempre una única respuesta correcta.",
+          "En el enunciado no hay agente; solo se obedece al agente cuando efectivamente está regulando el cruce.",
+        ],
       },
       en: {
         text: "At a junction with both a STOP sign and a green traffic light, which do you obey?",
@@ -75,6 +81,12 @@ export const QUESTIONS_MANUAL_T8: Question[] = [
         ],
         explanation:
           "When a STOP sign and a green light coexist, the light prevails. Traffic lights outrank vertical signs.",
+        optionRationales: [
+          "STOP is a vertical sign, and vertical signs sit below traffic lights in the hierarchy.",
+          "",
+          "You never get to pick freely: the sign hierarchy always fixes exactly one right answer.",
+          "The question doesn't mention an officer; you obey an officer only when one is actually directing traffic.",
+        ],
       },
       ru: {
         text: "На перекрёстке одновременно знак STOP и зелёный сигнал светофора — чему подчиняться?",
@@ -86,6 +98,12 @@ export const QUESTIONS_MANUAL_T8: Question[] = [
         ],
         explanation:
           "Если одновременно STOP и зелёный сигнал — приоритет у светофора. Светофоры выше по приоритету, чем постоянные знаки.",
+        optionRationales: [
+          "STOP — постоянный знак, а постоянные знаки в иерархии ниже светофоров.",
+          "",
+          "Свободного выбора не бывает: иерархия сигналов всегда однозначна.",
+          "В вопросе не сказано о регулировщике; подчиняются ему только когда он реально управляет движением.",
+        ],
       },
     },
   },

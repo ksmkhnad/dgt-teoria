@@ -231,6 +231,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "El color de los ojos no afecta al metabolismo del alcohol. Sí influyen: cantidad, peso, sexo, tiempo transcurrido, tipo de bebida, velocidad, comida, sueño, edad y circunstancias personales.",
+        optionRationales: [
+          "El sexo sí influye: según el manual, el alcohol suele afectar más a las mujeres.",
+          "",
+          "Comer antes de beber ralentiza la absorción del alcohol, por eso sí influye.",
+          "Beber rápido eleva la tasa más que beber despacio, por eso sí influye.",
+        ],
       },
       en: {
         text: "Which of the following factors does NOT influence blood alcohol concentration?",
@@ -242,6 +248,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "Eye colour has no effect on alcohol metabolism. Amount, weight, sex, time elapsed, type of drink, drinking rate, food, sleep, age and personal circumstances do influence it.",
+        optionRationales: [
+          "Sex does influence: the manual notes alcohol tends to affect women more.",
+          "",
+          "Eating before drinking slows absorption, so it does influence BAC.",
+          "Drinking fast raises BAC more than drinking slowly, so it does influence it.",
+        ],
       },
       ru: {
         text: "Какой из следующих факторов НЕ влияет на уровень алкоголя в крови?",
@@ -253,6 +265,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "Цвет глаз не влияет на метаболизм алкоголя. Влияют: количество, вес, пол, прошедшее время, тип напитка, скорость, приём пищи, сон, возраст и личные обстоятельства.",
+        optionRationales: [
+          "Пол влияет: по руководству, алкоголь сильнее действует на женщин.",
+          "",
+          "Приём пищи замедляет всасывание алкоголя, поэтому влияет.",
+          "Быстрое питьё повышает концентрацию сильнее, чем медленное — поэтому влияет.",
+        ],
       },
     },
   },

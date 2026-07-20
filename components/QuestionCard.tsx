@@ -145,6 +145,10 @@ export default function QuestionCard({
         <FeedbackSheet
           isCorrect={isCorrect}
           explanation={tr.explanation}
+          options={tr.options}
+          optionRationales={tr.optionRationales}
+          correctIndex={question.correctIndex}
+          videoUrl={question.videoUrl}
           onContinue={onNext}
           t={t}
         />
@@ -158,17 +162,27 @@ export default function QuestionCard({
 function FeedbackSheet({
   isCorrect,
   explanation,
+  options,
+  optionRationales,
+  correctIndex,
+  videoUrl,
   onContinue,
   t,
 }: {
   isCorrect: boolean;
   explanation: string;
+  options: string[];
+  optionRationales?: string[];
+  correctIndex: number;
+  videoUrl?: string;
   onContinue?: () => void;
   t: (k: string) => string;
 }) {
+  const hasRationales =
+    Array.isArray(optionRationales) && optionRationales.some(Boolean);
   return (
     <div
-      className={`fixed inset-x-0 bottom-0 z-30 border-t-4 ${
+      className={`fixed inset-x-0 bottom-0 z-30 border-t-4 max-h-[80vh] overflow-y-auto ${
         isCorrect
           ? "bg-paper dark:bg-paper-dark border-emerald-600"
           : "bg-paper dark:bg-paper-dark border-brand"
@@ -178,22 +192,59 @@ function FeedbackSheet({
         <div className="flex items-center gap-3 mb-3">
           <span
             className={`inline-flex items-center justify-center h-8 w-8 text-lg font-bold ${
-              isCorrect
-                ? "bg-emerald-600 text-white"
-                : "bg-brand text-white"
+              isCorrect ? "bg-emerald-600 text-white" : "bg-brand text-white"
             }`}
           >
             {isCorrect ? "✓" : "×"}
           </span>
-          <div className={`text-sm font-mono uppercase tracking-widest font-bold ${
-            isCorrect ? "text-emerald-700 dark:text-emerald-400" : "text-brand"
-          }`}>
+          <div
+            className={`text-sm font-mono uppercase tracking-widest font-bold ${
+              isCorrect ? "text-emerald-700 dark:text-emerald-400" : "text-brand"
+            }`}
+          >
             {isCorrect ? t("lesson.correct") : t("lesson.wrong")}
           </div>
         </div>
+
         <p className="text-sm leading-relaxed text-ink-soft mb-4 pl-11">
           {explanation}
         </p>
+
+        {hasRationales && (
+          <div className="mb-4 border-t hairline pt-3">
+            <div className="overline mb-2">{t("lesson.whyOthers")}</div>
+            <ul className="space-y-2">
+              {options.map((opt, i) => {
+                if (i === correctIndex) return null;
+                const rationale = optionRationales?.[i];
+                if (!rationale) return null;
+                return (
+                  <li key={i} className="flex gap-3 items-start text-sm">
+                    <span className="shrink-0 inline-flex items-center justify-center h-6 w-6 mt-0.5 font-mono text-[10px] font-bold border-2 border-line-soft dark:border-neutral-800 text-ink-soft">
+                      {String.fromCharCode(65 + i)}
+                    </span>
+                    <span className="flex-1 leading-relaxed text-ink-soft">
+                      <span className="font-medium text-ink">{opt}.</span>{" "}
+                      {rationale}
+                    </span>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        )}
+
+        {videoUrl && (
+          <a
+            href={videoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mb-3 inline-flex items-center gap-2 text-xs font-mono uppercase tracking-widest text-brand hover:underline"
+          >
+            ▶ {t("lesson.watchVideo")}
+          </a>
+        )}
+
         {onContinue && (
           <button
             onClick={onContinue}
