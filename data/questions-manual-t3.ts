@@ -24,6 +24,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "En condiciones normales el tiempo de reacción de un conductor está entre 0,5 y 1 segundo. Aumenta con la fatiga, el alcohol, algunos medicamentos y la edad avanzada.",
+        optionRationales: [
+          "1-2 segundos es un tiempo de reacción ya alterado por fatiga o alcohol.",
+          "2-3 segundos indica una reacción muy deteriorada; a esa velocidad se recorren decenas de metros.",
+          "",
+          "Menos de 0,1 s es imposible fisiológicamente para un humano; ni un piloto profesional reacciona tan rápido.",
+        ],
       },
       en: {
         text: "Under normal conditions, what is a driver's reaction time?",
@@ -35,6 +41,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "Under normal conditions a driver's reaction time is between 0.5 and 1 second. It increases with fatigue, alcohol, some medications and advanced age.",
+        optionRationales: [
+          "1-2 seconds is a reaction already impaired by fatigue or alcohol.",
+          "2-3 seconds means seriously impaired; at speed you cover tens of metres.",
+          "",
+          "Under 0.1 s is physiologically impossible for humans; even pro drivers can't react that fast.",
+        ],
       },
       ru: {
         text: "В нормальных условиях время реакции водителя составляет…",
@@ -46,6 +58,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "В нормальных условиях время реакции водителя — от 0,5 до 1 секунды. Оно возрастает при усталости, алкоголе, некоторых лекарствах и в пожилом возрасте.",
+        optionRationales: [
+          "1-2 секунды — уже нарушенная реакция при усталости или алкоголе.",
+          "2-3 секунды — сильно нарушенная; на скорости это десятки метров пути.",
+          "",
+          "Меньше 0,1 с физиологически невозможно даже для профессиональных пилотов.",
+        ],
       },
     },
   },
@@ -107,6 +125,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "El pico de alcoholemia se alcanza aproximadamente 1 hora después de beber. A partir de ahí los efectos van disminuyendo muy poco a poco.",
+        optionRationales: [
+          "El alcohol no llega a la sangre en el instante; necesita tiempo para absorberse.",
+          "30 minutos es demasiado pronto; el pico llega alrededor de la hora.",
+          "",
+          "3 horas es demasiado tarde; a esa altura la tasa ya está bajando.",
+        ],
       },
       en: {
         text: "How long after drinking is the peak blood alcohol concentration reached?",
@@ -118,6 +142,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "Peak BAC is reached about 1 hour after drinking. After that the effects slowly decrease.",
+        optionRationales: [
+          "Alcohol doesn't reach the blood instantly; it needs time to absorb.",
+          "30 minutes is too early; the peak arrives around the one-hour mark.",
+          "",
+          "3 hours is too late; by then the level is already falling.",
+        ],
       },
       ru: {
         text: "Через сколько времени после употребления алкоголя достигается его максимальная концентрация в крови?",
@@ -129,6 +159,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "Пик концентрации алкоголя достигается примерно через 1 час после употребления. Затем действие медленно снижается.",
+        optionRationales: [
+          "Алкоголь не попадает в кровь мгновенно; нужно время на всасывание.",
+          "30 минут — слишком рано; пик приходится примерно на час.",
+          "",
+          "3 часа — слишком поздно; концентрация к этому моменту уже снижается.",
+        ],
       },
     },
   },
@@ -190,6 +226,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "Ante los primeros síntomas hay que parar el vehículo en un lugar seguro y dormir 20-30 minutos. El café o la música son soluciones temporales que no resuelven la fatiga.",
+        optionRationales: [
+          "Abrir la ventanilla despierta unos segundos, pero no elimina la fatiga; sigue habiendo microsueños.",
+          "La música alta es un estímulo pasajero; el cerebro se adapta y la somnolencia vuelve.",
+          "",
+          "El café tarda 20-30 minutos en hacer efecto y solo enmascara la fatiga; lo mejor es dormir esos mismos 20-30 minutos.",
+        ],
       },
       en: {
         text: "If you notice the first symptoms of fatigue or drowsiness, you must…",
@@ -201,6 +243,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "At the first symptoms, stop in a safe place and sleep 20-30 minutes. Coffee or loud music are only temporary fixes; they don't resolve fatigue.",
+        optionRationales: [
+          "Opening the window wakes you briefly, but doesn't remove fatigue; microsleeps still happen.",
+          "Loud music is a fleeting stimulus; the brain adapts and drowsiness returns.",
+          "",
+          "Coffee takes 20-30 minutes to kick in and only masks fatigue; better to sleep for those same 20-30 minutes.",
+        ],
       },
       ru: {
         text: "При первых признаках усталости или сонливости за рулём нужно…",
@@ -212,6 +260,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "При первых симптомах — остановиться в безопасном месте и поспать 20-30 минут. Кофе или музыка — временные меры и усталость не устраняют.",
+        optionRationales: [
+          "Открытое окно бодрит несколько секунд, но не убирает усталость; микросны продолжатся.",
+          "Громкая музыка — короткий стимул; мозг адаптируется и сонливость возвращается.",
+          "",
+          "Кофе начинает действовать через 20-30 минут и лишь маскирует усталость; лучше поспать эти же 20-30 минут.",
+        ],
       },
     },
   },
@@ -290,6 +344,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "La somnolencia es un estado en el que se tiene sensación de cansancio, pesadez en el cuerpo y sueño. Es distinta de la fatiga, que puede ser física o psicológica.",
+        optionRationales: [
+          "El cansancio muscular es solo una parte; la somnolencia incluye sueño y pesadez general.",
+          "",
+          "La somnolencia es un estado normal ante falta de sueño, no una enfermedad mental.",
+          "El alcohol puede provocar somnolencia, pero la somnolencia también aparece sin haber bebido.",
+        ],
       },
       en: {
         text: "Drowsiness (somnolence) is defined as…",
@@ -301,6 +361,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "Drowsiness is a state of tiredness, body heaviness and sleepiness. It is distinct from fatigue, which can be physical or psychological.",
+        optionRationales: [
+          "Muscle tiredness is only part of it; drowsiness also includes sleepiness and heaviness.",
+          "",
+          "Drowsiness is a normal state after poor sleep, not a mental illness.",
+          "Alcohol can cause drowsiness, but drowsiness also appears without any alcohol.",
+        ],
       },
       ru: {
         text: "Сонливость определяется как…",
@@ -312,6 +378,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "Сонливость — это состояние усталости, тяжести в теле и желания спать. Отличается от «фатиги», которая может быть физической или психологической.",
+        optionRationales: [
+          "Мышечная усталость — лишь часть; сонливость включает ещё и сон, и тяжесть в теле.",
+          "",
+          "Сонливость — обычное состояние при недосыпе, а не психическое заболевание.",
+          "Алкоголь может вызвать сонливость, но сонливость возникает и без алкоголя.",
+        ],
       },
     },
   },
@@ -331,6 +403,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "El alcohol se extiende por el cuerpo a través de la sangre y afecta sobre todo al cerebro y a la vista, reduciendo reflejos, atención y percepción.",
+        optionRationales: [
+          "Los músculos y huesos no son los principales órganos afectados; el impacto es en el sistema nervioso.",
+          "El estómago y el hígado sufren daño a largo plazo, pero al conducir lo crítico es el efecto sobre cerebro y visión.",
+          "",
+          "El equilibrio se resiente, pero es solo un síntoma; lo principal es el deterioro cerebral y visual.",
+        ],
       },
       en: {
         text: "Circulating through the bloodstream, alcohol mainly affects…",
@@ -342,6 +420,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "Alcohol spreads through the body via the blood and mainly affects the brain and vision, reducing reflexes, attention and perception.",
+        optionRationales: [
+          "Muscles and bones aren't the main affected organs; the impact is on the nervous system.",
+          "Stomach and liver suffer long-term damage, but for driving what matters is the effect on brain and vision.",
+          "",
+          "Balance is affected, but it's just one symptom; the main impact is on brain and vision.",
+        ],
       },
       ru: {
         text: "Циркулируя по крови, алкоголь в первую очередь воздействует на…",
@@ -353,6 +437,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "Алкоголь распространяется по телу через кровь и в первую очередь влияет на мозг и зрение, снижая рефлексы, внимание и восприятие.",
+        optionRationales: [
+          "Мышцы и кости — не главные затронутые органы; удар по нервной системе.",
+          "Желудок и печень страдают в долгосрочной перспективе, а за рулём критично воздействие на мозг и зрение.",
+          "",
+          "Равновесие страдает, но это только симптом; главное — воздействие на мозг и зрение.",
+        ],
       },
     },
   },
@@ -367,18 +457,36 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         options: ["15 °C", "18 °C", "28 °C", "23 °C"],
         explanation:
           "El manual señala 23 °C como temperatura adecuada dentro del vehículo. Mucho calor dentro del coche contribuye a la fatiga.",
+        optionRationales: [
+          "15 °C es demasiado frío; incomoda y no es la temperatura óptima según el manual.",
+          "18 °C está por debajo del valor de referencia; no es la cifra que da el manual.",
+          "28 °C es demasiado calor y precisamente causa fatiga.",
+          "",
+        ],
       },
       en: {
         text: "Inside the vehicle, the appropriate temperature to help avoid fatigue is roughly…",
         options: ["15 °C", "18 °C", "28 °C", "23 °C"],
         explanation:
           "The manual gives 23 °C as an appropriate cabin temperature. Excessive heat inside the car contributes to fatigue.",
+        optionRationales: [
+          "15 °C is too cold; uncomfortable and not the manual's reference.",
+          "18 °C is below the reference figure the manual gives.",
+          "28 °C is too hot — that's exactly what causes fatigue.",
+          "",
+        ],
       },
       ru: {
         text: "Комфортная температура в салоне для снижения усталости — примерно…",
         options: ["15 °C", "18 °C", "28 °C", "23 °C"],
         explanation:
           "Руководство указывает температуру около 23 °C как комфортную. Слишком жарко в салоне — фактор, усиливающий усталость.",
+        optionRationales: [
+          "15 °C — слишком холодно; некомфортно и не является ориентиром в руководстве.",
+          "18 °C ниже указанной в руководстве величины.",
+          "28 °C — слишком жарко и именно это вызывает усталость.",
+          "",
+        ],
       },
     },
   },
@@ -398,6 +506,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "Según el manual, el alcohol afecta más a personas delgadas y suele afectar más a las mujeres. También influyen la edad y las circunstancias personales.",
+        optionRationales: [
+          "",
+          "Es al revés: el alcohol afecta MENOS a personas de más peso (más volumen sanguíneo diluye el alcohol).",
+          "El efecto depende de muchos factores, no solo de la edad; y afecta a todas las edades.",
+          "Comer sí influye, pero el efecto se produce también en quienes han comido, con menor intensidad.",
+        ],
       },
       en: {
         text: "Alcohol tends to affect more intensely…",
@@ -409,6 +523,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "According to the manual, alcohol affects thinner people more, and tends to affect women more. Age and personal circumstances also matter.",
+        optionRationales: [
+          "",
+          "The opposite is true: alcohol affects heavier people LESS (larger blood volume dilutes it).",
+          "Age is one factor among many; alcohol affects all ages.",
+          "Eating matters, but people who've eaten are also affected, just less intensely.",
+        ],
       },
       ru: {
         text: "Сильнее всего алкоголь обычно воздействует на…",
@@ -420,6 +540,12 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
         ],
         explanation:
           "Согласно руководству, алкоголь сильнее влияет на людей с меньшим весом и, как правило, на женщин. Возраст и личные обстоятельства также имеют значение.",
+        optionRationales: [
+          "",
+          "Наоборот: людей с большим весом алкоголь затрагивает СЛАБЕЕ (больший объём крови разбавляет).",
+          "Возраст — лишь один из факторов; алкоголь действует на всех возрастах.",
+          "Приём пищи влияет, но и на поевших алкоголь действует, только слабее.",
+        ],
       },
     },
   },
