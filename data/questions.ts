@@ -1,9 +1,12 @@
 import type { Question } from "@/lib/types";
 import { QUESTIONS_MANUAL_T2 } from "./questions-manual-t2";
 import { QUESTIONS_MANUAL_T3 } from "./questions-manual-t3";
+import { QUESTIONS_MANUAL_T4 } from "./questions-manual-t4";
 import { QUESTIONS_MANUAL_T5 } from "./questions-manual-t5";
+import { QUESTIONS_MANUAL_T6 } from "./questions-manual-t6";
 import { QUESTIONS_MANUAL_T7 } from "./questions-manual-t7";
 import { QUESTIONS_MANUAL_T8 } from "./questions-manual-t8";
+import { QUESTIONS_MANUAL_T9 } from "./questions-manual-t9";
 import { QUESTIONS_MANUAL_T10 } from "./questions-manual-t10";
 import { QUESTIONS_MANUAL_T11 } from "./questions-manual-t11";
 import { QUESTIONS_MANUAL_T12 } from "./questions-manual-t12";
@@ -840,9 +843,12 @@ export const QUESTIONS: Question[] = [
   ...SEED,
   ...QUESTIONS_MANUAL_T2,
   ...QUESTIONS_MANUAL_T3,
+  ...QUESTIONS_MANUAL_T4,
   ...QUESTIONS_MANUAL_T5,
+  ...QUESTIONS_MANUAL_T6,
   ...QUESTIONS_MANUAL_T7,
   ...QUESTIONS_MANUAL_T8,
+  ...QUESTIONS_MANUAL_T9,
   ...QUESTIONS_MANUAL_T10,
   ...QUESTIONS_MANUAL_T11,
   ...QUESTIONS_MANUAL_T12,
