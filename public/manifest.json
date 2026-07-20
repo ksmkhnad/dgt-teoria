@@ -1,0 +1,17 @@
+{
+  "name": "DGT Teoría",
+  "short_name": "DGT Teoría",
+  "description": "Practice for the Spanish DGT driving theory exam (EN/ES/RU).",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#DC2626",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

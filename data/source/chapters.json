@@ -1,0 +1,24 @@
+{
+  "source": "Manual del Permiso B en Lectura Fácil (DGT, 2024). NIPO 12824008X.",
+  "totalPages": 476,
+  "chapters": [
+    { "tema": 1, "title": "Definiciones", "startPage": 5, "endPage": 25, "section": "others" },
+    { "tema": 2, "title": "Documentación", "startPage": 26, "endPage": 41, "section": "admin" },
+    { "tema": 3, "title": "El estado del conductor", "startPage": 42, "endPage": 73, "section": "alcohol_drugs" },
+    { "tema": 4, "title": "Obligaciones de conductores y peatones", "startPage": 74, "endPage": 85, "section": "others" },
+    { "tema": 5, "title": "Dispositivos de seguridad en el vehículo", "startPage": 86, "endPage": 119, "section": "safety" },
+    { "tema": 6, "title": "Elementos del vehículo y normas para usarlos", "startPage": 120, "endPage": 138, "section": "mechanics" },
+    { "tema": 7, "title": "Sistema de luces de los vehículos", "startPage": 139, "endPage": 153, "section": "driving_conditions" },
+    { "tema": 8, "title": "Señales de circulación", "startPage": 154, "endPage": 211, "section": "signs" },
+    { "tema": 9, "title": "La vía", "startPage": 212, "endPage": 242, "section": "driving_conditions" },
+    { "tema": 10, "title": "Velocidad y distancias", "startPage": 243, "endPage": 266, "section": "driving_conditions" },
+    { "tema": 11, "title": "Maniobras", "startPage": 267, "endPage": 300, "section": "others" },
+    { "tema": 12, "title": "Normas de preferencia para circular", "startPage": 301, "endPage": 318, "section": "priorities" },
+    { "tema": 13, "title": "Transportar personas y cargas", "startPage": 319, "endPage": 340, "section": "others" },
+    { "tema": 14, "title": "Conducir de forma segura", "startPage": 341, "endPage": 364, "section": "safety" },
+    { "tema": 15, "title": "Mecánica y mantenimiento del vehículo", "startPage": 365, "endPage": 387, "section": "mechanics" },
+    { "tema": 16, "title": "Accidentes de tráfico", "startPage": 388, "endPage": 436, "section": "safety" },
+    { "tema": 17, "title": "Conducción preventiva y eficiente", "startPage": 437, "endPage": 466, "section": "safety" },
+    { "tema": "anexo", "title": "El permiso de conducir por puntos", "startPage": 467, "endPage": 476, "section": "admin" }
+  ]
+}

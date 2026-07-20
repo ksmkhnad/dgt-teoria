@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+  --paper: #F8F7F3;
+  --paper-alt: #F1EFE9;
+  --ink: #0F0F0F;
+  --ink-soft: #3F3F3F;
+  --line: #1F1F1F;
+  --line-soft: #E4E1D8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #0A0A0A;
+    --paper-alt: #141414;
+    --ink: #F5F5F5;
+    --ink-soft: #B8B8B8;
+    --line: #F5F5F5;
+    --line-soft: #262626;
+  }
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Typographic rhythm helpers used across pages. */
+.overline {
+  @apply text-[10px] font-bold uppercase tracking-widest text-ink-soft;
+  font-feature-settings: "tnum";
+}
+
+.tnum { font-variant-numeric: tabular-nums; }
+
+.hairline {
+  border-color: var(--line-soft);
+}
+
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to   { transform: translateY(0); }
+}
