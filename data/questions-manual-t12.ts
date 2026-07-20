@@ -21,6 +21,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "En los cruces sin señales debes ceder el paso a los vehículos que vienen por tu derecha, aunque lleguen por una vía estrecha o en mal estado.",
+        optionRationales: [
+          "El orden de llegada no determina la preferencia en cruces sin señales.",
+          "",
+          "El tamaño del vehículo nunca es un criterio de preferencia en el reglamento.",
+          "La velocidad tampoco es un criterio; podría incluso ser una infracción.",
+        ],
       },
       en: {
         text: "At a junction with no signs, who must you give way to?",
@@ -32,6 +38,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "At junctions without signs you must give way to vehicles coming from your right, even if they arrive by a narrow or bad-condition road.",
+        optionRationales: [
+          "Arrival order doesn't determine priority at unsignaled junctions.",
+          "",
+          "Vehicle size is never a criterion in Spanish traffic law.",
+          "Speed isn't a criterion either — and could be an offence.",
+        ],
       },
       ru: {
         text: "На перекрёстке без знаков кому нужно уступить?",
@@ -43,6 +55,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "На нерегулируемом перекрёстке уступают тому, кто движется справа, даже если он подъезжает по узкой или плохой дороге.",
+        optionRationales: [
+          "Порядок подъезда не определяет приоритет на нерегулируемом перекрёстке.",
+          "",
+          "Размер ТС никогда не является критерием приоритета в испанских ПДД.",
+          "Скорость тоже не критерий — это может быть даже нарушением.",
+        ],
       },
     },
   },
@@ -62,6 +80,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "Los vehículos que circulan por raíles tienen preferencia sobre los que circulan por la carretera, incluso frente a los que vienen por la derecha.",
+        optionRationales: [
+          "",
+          "El tranvía anula la regla de la derecha: los raíles siempre mandan.",
+          "El orden de llegada no aplica cuando hay un vehículo por raíles.",
+          "El criterio del tamaño no existe; lo que cuenta es que circule por raíles.",
+        ],
       },
       en: {
         text: "At a junction with no signs, a tram and a car arrive at the same time. Who has priority?",
@@ -73,6 +97,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "Rail vehicles have priority over road vehicles, even over those coming from the right.",
+        optionRationales: [
+          "",
+          "The tram overrides the right-hand rule: rail always wins.",
+          "Arrival order doesn't apply when a rail vehicle is involved.",
+          "Size is not a criterion; being on rails is.",
+        ],
       },
       ru: {
         text: "На перекрёстке без знаков одновременно подъехали трамвай и легковой автомобиль. У кого преимущество?",
@@ -84,6 +114,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "Рельсовый транспорт имеет преимущество перед безрельсовым, даже перед теми, кто справа.",
+        optionRationales: [
+          "",
+          "Трамвай отменяет правило «помеха справа»: рельсы всегда важнее.",
+          "Порядок подъезда не действует, когда есть рельсовый транспорт.",
+          "Размер не критерий; критерий — движение по рельсам.",
+        ],
       },
     },
   },
@@ -104,6 +140,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "En una rotonda los vehículos que ya están circulando dentro tienen preferencia sobre los que quieren entrar.",
+        optionRationales: [
+          "Es al revés: los que van a entrar deben ceder el paso.",
+          "Las luces no otorgan preferencia; sirven para ver y ser vistos.",
+          "",
+          "El sentido del giro no cambia la regla de la rotonda.",
+        ],
       },
       en: {
         text: "At a roundabout, priority is given to…",
@@ -115,6 +157,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "Vehicles already circulating in the roundabout have priority over those entering.",
+        optionRationales: [
+          "It's the opposite: entering vehicles must yield.",
+          "Headlights never confer priority; they help you see and be seen.",
+          "",
+          "Which direction you turn doesn't change the roundabout rule.",
+        ],
       },
       ru: {
         text: "На кольцевой развязке преимущество имеют…",
@@ -126,6 +174,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "На кольце преимущество у тех, кто уже движется внутри, перед въезжающими.",
+        optionRationales: [
+          "Наоборот: въезжающие обязаны уступать.",
+          "Свет фар никогда не даёт преимущества; он для видимости.",
+          "",
+          "Направление поворота не меняет правило кольца.",
+        ],
       },
     },
   },
@@ -145,6 +199,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "Los vehículos que ya están dentro de la autopista tienen preferencia sobre los que quieren entrar. Debes ceder el paso desde el carril de aceleración.",
+        optionRationales: [
+          "Es exactamente al revés: el que se incorpora es el que cede el paso.",
+          "",
+          "Parar solo se hace al PRINCIPIO del carril si es imprescindible; no como norma.",
+          "Acelerar sin mirar es peligrosísimo; siempre hay que observar el tráfico.",
+        ],
       },
       en: {
         text: "When joining a motorway from an acceleration lane…",
@@ -156,6 +216,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "Vehicles already on the motorway have priority over those joining. Give way from the acceleration lane.",
+        optionRationales: [
+          "The opposite is true: the joining driver yields.",
+          "",
+          "Stopping only happens at the START of the lane if unavoidable, not as the rule.",
+          "Accelerating blind is extremely dangerous; you must always observe traffic.",
+        ],
       },
       ru: {
         text: "При въезде на автомагистраль с полосы разгона…",
@@ -167,6 +233,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "Те, кто уже движется по автомагистрали, имеют преимущество перед въезжающими. Уступить с полосы разгона.",
+        optionRationales: [
+          "Всё ровно наоборот: уступает именно въезжающий.",
+          "",
+          "Останавливаются только в НАЧАЛЕ полосы, если иначе никак — не как правило.",
+          "Разгоняться, не глядя — крайне опасно; всегда нужно контролировать поток.",
+        ],
       },
     },
   },
@@ -186,6 +258,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "Los peatones tienen preferencia en pasos de peatones, aceras y zonas peatonales; cuando un vehículo gira hacia otra vía por la que están cruzando; y cuando un vehículo cruza una acera (por ejemplo, al salir de un garaje).",
+        optionRationales: [
+          "Los peatones tienen prohibida la circulación por autopistas.",
+          "La hora del día nunca determina la preferencia peatonal.",
+          "La preferencia peatonal se aplica en muchas más situaciones que solo la rotonda.",
+          "",
+        ],
       },
       en: {
         text: "In which situations do pedestrians have priority?",
@@ -197,6 +275,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "Pedestrians have priority at crossings, pavements and pedestrian zones; when a vehicle turns into a street they are crossing; and when a vehicle crosses a pavement (e.g. leaving a garage).",
+        optionRationales: [
+          "Pedestrians are actually forbidden on motorways.",
+          "Time of day never determines pedestrian priority.",
+          "Pedestrian priority applies in many more situations than just roundabouts.",
+          "",
+        ],
       },
       ru: {
         text: "В каких ситуациях у пешеходов есть преимущество?",
@@ -208,6 +292,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "Пешеходы имеют приоритет на переходах, тротуарах, в пешеходных зонах; когда авто поворачивает на улицу, по которой они переходят; когда авто пересекает тротуар (например, выезжая из гаража).",
+        optionRationales: [
+          "Пешеходам вообще запрещено находиться на автомагистрали.",
+          "Время суток никогда не определяет пешеходное преимущество.",
+          "Приоритет пешеходов действует в гораздо большем числе ситуаций, чем только кольцо.",
+          "",
+        ],
       },
     },
   },
@@ -227,6 +317,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "Cuando los ciclistas circulan en grupo y uno ya ha entrado en el cruce, los demás vehículos deben esperar a que pase todo el grupo.",
+        optionRationales: [
+          "Cortar entre ciclistas es peligroso y contrario a la norma.",
+          "El grupo se trata como una unidad: hay que esperar a todo el grupo, no solo al primero.",
+          "",
+          "La regla del grupo se aplica siempre, no depende de la presencia de una señal.",
+        ],
       },
       en: {
         text: "A group of cyclists is crossing a junction. One has already entered. Other vehicles…",
@@ -238,6 +334,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "When cyclists ride in a group and one has already entered a junction, other vehicles must wait for the whole group to pass.",
+        optionRationales: [
+          "Cutting through a group of cyclists is dangerous and against the rules.",
+          "The group counts as one unit; you wait for the whole group, not just the first rider.",
+          "",
+          "The group rule always applies, regardless of signage.",
+        ],
       },
       ru: {
         text: "Группа велосипедистов пересекает перекрёсток, и один уже въехал. Остальные автомобили…",
@@ -249,6 +351,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "Если велосипедисты едут группой и один уже въехал на перекрёсток, остальные транспортные средства должны пропустить всю группу.",
+        optionRationales: [
+          "Проезжать между велосипедистами опасно и запрещено правилами.",
+          "Группа рассматривается как одно целое: пропускать надо всю группу, а не только первого.",
+          "",
+          "Правило группы действует всегда, независимо от знака.",
+        ],
       },
     },
   },
@@ -268,6 +376,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "Todos los vehículos deben facilitar el paso a un vehículo de urgencias en cuanto oigan la sirena o vean las luces: apartarse a la derecha y detenerse si es necesario.",
+        optionRationales: [
+          "",
+          "Frenar bruscamente en tu carril bloquea al vehículo de urgencias y aumenta el riesgo de alcance.",
+          "Adelantar acelerando no libera espacio; puede empeorar la situación.",
+          "El deber de ceder no depende de tu propia velocidad; se cede siempre.",
+        ],
       },
       en: {
         text: "An emergency vehicle with siren and lights is approaching from behind. You must…",
@@ -279,6 +393,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "All vehicles must give way to an emergency vehicle on hearing the siren or seeing the lights: move right and stop if necessary.",
+        optionRationales: [
+          "",
+          "Braking hard in your lane blocks the emergency vehicle and risks a rear-end collision.",
+          "Overtaking doesn't free space — it can worsen the situation.",
+          "The duty to yield doesn't depend on your own speed; you always yield.",
+        ],
       },
       ru: {
         text: "Сзади приближается автомобиль экстренных служб с сиреной и мигалками. Вы должны…",
@@ -290,6 +410,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "Все обязаны уступить дорогу спецтранспорту, услышав сирену или увидев маячки: сместиться вправо и при необходимости остановиться.",
+        optionRationales: [
+          "",
+          "Резкое торможение на своей полосе блокирует спецтранспорт и создаёт риск наезда сзади.",
+          "Обгон не освобождает место, а часто ухудшает ситуацию.",
+          "Обязанность уступить не зависит от вашей скорости — уступают всегда.",
+        ],
       },
     },
   },
@@ -309,6 +435,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "Los vehículos en servicio de urgencias pueden circular más rápido del límite y no están obligados a respetar las señales, siempre que aseguren no poner en peligro a otros. Sí deben obedecer las señales de los agentes.",
+        optionRationales: [
+          "La exención no es absoluta: no pueden poner en peligro a peatones ni a otros.",
+          "También pueden exceder los límites de velocidad, no solo saltarse los semáforos.",
+          "",
+          "Sí tienen exenciones específicas; no equivalen a un turismo normal.",
+        ],
       },
       en: {
         text: "An emergency vehicle on an urgent call may…",
@@ -320,6 +452,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "Emergency vehicles on urgent calls may exceed speed limits and are not required to obey signs, provided they don't endanger others. They must obey traffic officers' signals.",
+        optionRationales: [
+          "The exemption isn't absolute: they may never endanger pedestrians or others.",
+          "They may also exceed speed limits, not only run red lights.",
+          "",
+          "They do have specific exemptions; they aren't treated like a regular car.",
+        ],
       },
       ru: {
         text: "Спецавтомобиль на срочном вызове может…",
@@ -331,6 +469,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "Спецтранспорт на срочном вызове может превышать скорость и не выполнять знаки при условии, что не создаёт опасности. Обязан подчиняться регулировщику.",
+        optionRationales: [
+          "Исключения не абсолютны: создавать опасность пешеходам и другим нельзя.",
+          "Также разрешено превышать скорость, не только проезжать на красный.",
+          "",
+          "У них есть конкретные привилегии; они не приравниваются к обычному авто.",
+        ],
       },
     },
   },
@@ -350,6 +494,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "En zonas estrechas sin señales tiene preferencia el vehículo que ha entrado primero en la zona estrecha.",
+        optionRationales: [
+          "El tamaño no es un criterio en las normas.",
+          "",
+          "La regla de la derecha es para cruces, no para zonas estrechas.",
+          "La preferencia SÍ existe; la tiene quien entró primero, no es «ninguno».",
+        ],
       },
       en: {
         text: "In a narrow section without signs, who has priority?",
@@ -361,6 +511,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "In narrow sections without signs, priority goes to the vehicle that entered the narrow section first.",
+        optionRationales: [
+          "Size isn't a criterion in the rules.",
+          "",
+          "The right-hand rule is for junctions, not narrow sections.",
+          "There IS a priority — the driver who entered first — so 'neither' is wrong.",
+        ],
       },
       ru: {
         text: "На узком участке без знаков у кого преимущество?",
@@ -372,6 +528,12 @@ export const QUESTIONS_MANUAL_T12: Question[] = [
         ],
         explanation:
           "На узком участке без знаков преимущество у того, кто первым въехал в узкий участок.",
+        optionRationales: [
+          "Размер не критерий по правилам.",
+          "",
+          "Правило «помеха справа» — для перекрёстков, а не для узких участков.",
+          "Приоритет ЕСТЬ — у того, кто заехал первым; вариант «ни у кого» неверен.",
+        ],
       },
     },
   },
