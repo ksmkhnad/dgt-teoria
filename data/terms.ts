@@ -566,6 +566,8 @@ export const TERMS: Term[] = [
     id: "glorieta",
     category: "roads",
     source: SRC_MANUAL,
+    imageUrl: "/signs/p4.svg",
+    imageCredit: "P-4 · Wikimedia Commons",
     translations: {
       es: {
         term: "Glorieta / Rotonda",
@@ -725,6 +727,8 @@ export const TERMS: Term[] = [
     category: "signs",
     source: SRC_MANUAL,
     relatedTerms: ["stop"],
+    imageUrl: "/signs/r1.svg",
+    imageCredit: "Wikimedia Commons · public domain",
     translations: {
       es: {
         term: "Ceda el paso",
@@ -748,6 +752,8 @@ export const TERMS: Term[] = [
     category: "signs",
     source: SRC_MANUAL,
     relatedTerms: ["ceda_paso"],
+    imageUrl: "/signs/r2.svg",
+    imageCredit: "Wikimedia Commons · public domain",
     translations: {
       es: {
         term: "STOP",
@@ -770,6 +776,8 @@ export const TERMS: Term[] = [
     id: "senal_peligro",
     category: "signs",
     source: SRC_MANUAL,
+    imageUrl: "/signs/p13a.svg",
+    imageCredit: "P-13a · Wikimedia Commons",
     translations: {
       es: {
         term: "Señal de peligro (serie P)",
@@ -792,6 +800,8 @@ export const TERMS: Term[] = [
     id: "senal_reglamentacion",
     category: "signs",
     source: SRC_MANUAL,
+    imageUrl: "/signs/r301.svg",
+    imageCredit: "R-301 · Wikimedia Commons",
     translations: {
       es: {
         term: "Señal de reglamentación (serie R)",
@@ -814,6 +824,8 @@ export const TERMS: Term[] = [
     id: "senal_indicacion",
     category: "signs",
     source: SRC_MANUAL,
+    imageUrl: "/signs/s13.svg",
+    imageCredit: "S-13 · Wikimedia Commons",
     translations: {
       es: {
         term: "Señal de indicación (serie S)",

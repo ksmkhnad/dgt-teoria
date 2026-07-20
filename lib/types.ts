@@ -101,4 +101,8 @@ export interface Term {
   translations: Record<Lang, TermTranslation>;
   relatedTerms?: string[];
   source?: string;
+  // Path under /public, e.g. "/signs/stop.svg". Optional.
+  imageUrl?: string;
+  // Attribution shown as fine print next to the image ("© Wikimedia Commons").
+  imageCredit?: string;
 }

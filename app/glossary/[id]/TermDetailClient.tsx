@@ -44,6 +44,22 @@ export default function TermDetailClient({ id }: { id: string }) {
         {term.translations.ru.term}
       </div>
 
+      {term.imageUrl && (
+        <figure className="mt-6 border hairline p-6 flex flex-col items-center bg-paper-alt/40 dark:bg-white/[0.02]">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={term.imageUrl}
+            alt={term.translations.es.term}
+            className="max-h-40 w-auto object-contain"
+          />
+          {term.imageCredit && (
+            <figcaption className="mt-3 text-[10px] font-mono uppercase tracking-widest text-ink-faint">
+              {term.imageCredit}
+            </figcaption>
+          )}
+        </figure>
+      )}
+
       <div className="mt-8 border hairline divide-y hairline">
         {(["es", "en", "ru"] as Lang[]).map((l) => {
           const tr = term.translations[l];

@@ -129,6 +129,7 @@ export const QUESTIONS_MANUAL_T8: Question[] = [
     section: "signs",
     correctIndex: 0,
     source: SOURCE,
+    imageUrl: "/signs/r2.svg",
     translations: {
       es: {
         text: "Si coinciden una señal de STOP y una señal de ceda el paso, ¿cuál debes obedecer?",
@@ -484,6 +485,7 @@ export const QUESTIONS_MANUAL_T8: Question[] = [
     correctIndex: 2,
     source: SOURCE,
     termIds: ["senal_peligro", "senal_vertical"],
+    imageUrl: "/signs/p13a.svg",
     translations: {
       es: {
         text: "Las señales verticales cuyo nombre empieza por 'P' son…",
@@ -543,6 +545,7 @@ export const QUESTIONS_MANUAL_T8: Question[] = [
     section: "signs",
     correctIndex: 1,
     source: SOURCE,
+    imageUrl: "/signs/p4.svg",
     translations: {
       es: {
         text: "La señal P-4 indica…",
