@@ -10,6 +10,9 @@ import { QUESTIONS_MANUAL_T9 } from "./questions-manual-t9";
 import { QUESTIONS_MANUAL_T10 } from "./questions-manual-t10";
 import { QUESTIONS_MANUAL_T11 } from "./questions-manual-t11";
 import { QUESTIONS_MANUAL_T12 } from "./questions-manual-t12";
+import { QUESTIONS_MANUAL_T13 } from "./questions-manual-t13";
+import { QUESTIONS_MANUAL_T14 } from "./questions-manual-t14";
+import { QUESTIONS_MANUAL_T15 } from "./questions-manual-t15";
 
 // Seed bank. Original sample questions in the style of the DGT permiso B exam.
 // Manual-derived batches are imported from separate files and appended below.
@@ -852,4 +855,7 @@ export const QUESTIONS: Question[] = [
   ...QUESTIONS_MANUAL_T10,
   ...QUESTIONS_MANUAL_T11,
   ...QUESTIONS_MANUAL_T12,
+  ...QUESTIONS_MANUAL_T13,
+  ...QUESTIONS_MANUAL_T14,
+  ...QUESTIONS_MANUAL_T15,
 ];
