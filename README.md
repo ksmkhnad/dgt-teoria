@@ -11,8 +11,8 @@ Trilingual (ES / EN / RU) practice app for the Spanish DGT driving-theory exam. 
 
 ## Content
 
-- 190 practice questions across 8 sections, each with ES / EN / RU translations and a per-option "why-wrong" rationale, grounded in the DGT free manual "Manual del Permiso B en Lectura Fácil" (2024) plus updates from Igor's 2025 theory course
-- Full manual coverage: T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, Anexo Puntos
+- 218 practice questions across 8 sections, each with ES / EN / RU translations and a per-option "why-wrong" rationale, grounded in the DGT free manual "Manual del Permiso B en Lectura Fácil" (2024) plus updates from Igor's 2025 theory course
+- Full manual coverage: T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, T17, Anexo Puntos
 - 66-term trilingual glossary with search and category filter
 - Reference tables: speed limits, BAC by driver category, ITV schedule, signal priority, P.A.S. accident protocol, ADAS acronyms
 - Mock exam (30 questions, 30 min, ≤3 wrong to pass — real DGT rules)

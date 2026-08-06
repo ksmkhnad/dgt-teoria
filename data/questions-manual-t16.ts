@@ -581,4 +581,358 @@ export const QUESTIONS_MANUAL_T16: Question[] = [
       },
     },
   },
+  {
+    id: "manual-t16-11",
+    section: "safety",
+    correctIndex: 0,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "El protocolo P.A.S. ante un accidente ordena las actuaciones en el orden…",
+        options: [
+          "Proteger, Avisar, Socorrer",
+          "Parar, Ayudar, Señalizar",
+          "Prevenir, Auxiliar, Salvar",
+          "Proteger, Atender, Sanitario",
+        ],
+        explanation:
+          "P.A.S. = Proteger (asegurar la zona y los heridos), Avisar (llamar al 112) y Socorrer (aplicar primeros auxilios). El orden es innegociable: sin proteger no se puede socorrer con seguridad.",
+        optionRationales: [
+          "",
+          "Es una versión inventada; las siglas oficiales son P-A-S y no coinciden con «Parar, Ayudar, Señalizar».",
+          "Otra combinación inventada; no coincide con las siglas oficiales.",
+          "Otra variante inventada; no es P.A.S.",
+        ],
+      },
+      en: {
+        text: "The P.A.S. protocol at an accident sets the order of actions as…",
+        options: [
+          "Protect, Alert, Aid",
+          "Stop, Assist, Signal",
+          "Prevent, Aid, Save",
+          "Protect, Attend, Sanitary",
+        ],
+        explanation:
+          "P.A.S. = Protect (secure the scene and victims), Alert (call 112) and Aid (first aid). The order is non-negotiable: without protecting first you can't aid safely.",
+        optionRationales: [
+          "",
+          "Invented version; the official acronym is P-A-S and doesn't match «Stop, Assist, Signal».",
+          "Another invented combination; doesn't match the official acronym.",
+          "Another invented variant; not P.A.S.",
+        ],
+      },
+      ru: {
+        text: "Протокол P.A.S. на месте ДТП задаёт порядок действий:",
+        options: [
+          "Защитить (Proteger), Сообщить (Avisar), Помочь (Socorrer)",
+          "Остановиться, Помочь, Обозначить",
+          "Предотвратить, Помочь, Спасти",
+          "Защитить, Обслужить, Санитарные меры",
+        ],
+        explanation:
+          "P.A.S. = Proteger (обезопасить место и пострадавших), Avisar (звонок 112), Socorrer (первая помощь). Порядок обязателен: без защиты нельзя безопасно помогать.",
+        optionRationales: [
+          "",
+          "Выдуманный вариант; официальная аббревиатура P-A-S и не совпадает.",
+          "Ещё одна выдуманная комбинация; не совпадает с официальной.",
+          "Ещё один выдуманный вариант; это не P.A.S.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t16-12",
+    section: "safety",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Al bajar del vehículo tras una avería o accidente en una vía interurbana, es obligatorio…",
+        options: [
+          "Solo si hay poca luz",
+          "Ponérselo únicamente al colocar los triángulos",
+          "Llevar puesto el chaleco reflectante de alta visibilidad",
+          "Ponérselo solo si va a caminar más de 100 m",
+        ],
+        explanation:
+          "El chaleco reflectante es obligatorio en toda vía interurbana cuando el conductor sale del vehículo, con independencia de la hora o la luz. Debe estar accesible dentro del habitáculo (no en el maletero).",
+        optionRationales: [
+          "Es obligatorio siempre en interurbanas al salir, no solo con poca luz.",
+          "No solo al colocar triángulos; en cualquier momento fuera del coche.",
+          "",
+          "No depende de la distancia; en el momento en que sales del vehículo debe llevarse.",
+        ],
+      },
+      en: {
+        text: "When getting out of the vehicle after a breakdown or crash on an interurban road, it's mandatory to…",
+        options: [
+          "Only if lighting is poor",
+          "Wear it only while placing the triangles",
+          "Wear a high-visibility reflective vest",
+          "Wear it only if walking more than 100 m",
+        ],
+        explanation:
+          "The reflective vest is mandatory on any interurban road whenever the driver leaves the vehicle, regardless of time or light. It must be inside the cabin (not in the boot).",
+        optionRationales: [
+          "It's always mandatory on interurban roads when leaving, not just with poor lighting.",
+          "Not just when placing triangles; any time outside the car.",
+          "",
+          "It doesn't depend on distance; the moment you step out you must wear it.",
+        ],
+      },
+      ru: {
+        text: "Выходя из автомобиля после поломки или ДТП на междугородной дороге, обязательно…",
+        options: [
+          "Только при плохой освещённости",
+          "Надевать только при установке треугольников",
+          "Надеть светоотражающий жилет",
+          "Надевать только при пешем переходе более 100 м",
+        ],
+        explanation:
+          "Светоотражающий жилет обязателен на любой междугородной дороге при выходе из автомобиля, независимо от времени суток и освещения. Должен быть в салоне (не в багажнике).",
+        optionRationales: [
+          "Обязательно всегда на междугородных при выходе, не только при плохом свете.",
+          "Не только при установке треугольников; в любой момент вне машины.",
+          "",
+          "Не зависит от расстояния; как только вышел — жилет должен быть надет.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t16-13",
+    section: "safety",
+    correctIndex: 3,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "En una vía interurbana convencional (dos sentidos), los triángulos de preseñalización deben colocarse…",
+        options: [
+          "Uno solo, delante del vehículo",
+          "Uno delante y otro detrás, a 10 m",
+          "Uno delante y otro detrás, a 25 m",
+          "Uno delante y otro detrás, a 50 m como mínimo, visibles desde 100 m",
+        ],
+        explanation:
+          "En vías con circulación en ambos sentidos hay que colocar DOS triángulos (uno por sentido) a por lo menos 50 m del vehículo, de modo que sean visibles desde 100 m.",
+        optionRationales: [
+          "Un solo triángulo no protege el sentido contrario; en doble sentido son dos.",
+          "10 m es muy corto; los vehículos que vienen a 90 km/h no tendrán tiempo de reaccionar.",
+          "25 m tampoco es suficiente; el mínimo reglamentario son 50 m.",
+          "",
+        ],
+      },
+      en: {
+        text: "On a two-way interurban road, warning triangles must be placed…",
+        options: [
+          "Just one, in front of the vehicle",
+          "One in front and one behind, at 10 m",
+          "One in front and one behind, at 25 m",
+          "One in front and one behind, at least 50 m away, visible from 100 m",
+        ],
+        explanation:
+          "On two-way roads you must place TWO triangles (one per direction) at least 50 m from the vehicle, visible from 100 m away.",
+        optionRationales: [
+          "One triangle doesn't cover the opposite direction; two-way needs two.",
+          "10 m is far too short; vehicles at 90 km/h won't have time to react.",
+          "25 m isn't enough either; the minimum is 50 m.",
+          "",
+        ],
+      },
+      ru: {
+        text: "На двусторонней междугородной дороге треугольники аварийной остановки ставят…",
+        options: [
+          "Один впереди автомобиля",
+          "Один впереди и один сзади, на 10 м",
+          "Один впереди и один сзади, на 25 м",
+          "Один впереди и один сзади, минимум за 50 м, видимые со 100 м",
+        ],
+        explanation:
+          "На дорогах с двусторонним движением ставят ДВА треугольника (по одному на каждое направление) минимум в 50 м от автомобиля, видимые со 100 м.",
+        optionRationales: [
+          "Один треугольник не защищает встречное направление; для двух сторон — два.",
+          "10 м — слишком мало; идущие 90 км/ч не успеют отреагировать.",
+          "25 м тоже мало; минимум по правилам — 50 м.",
+          "",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t16-14",
+    section: "safety",
+    correctIndex: 1,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Ante un herido inconsciente que respira, la posición adecuada mientras llega la ambulancia es…",
+        options: [
+          "Boca arriba con la cabeza apoyada",
+          "Posición lateral de seguridad (PLS)",
+          "Sentado, con la espalda apoyada",
+          "Boca abajo, con la cabeza girada",
+        ],
+        explanation:
+          "Un inconsciente que respira debe colocarse en Posición Lateral de Seguridad para evitar que vómitos o secreciones obstruyan la vía aérea. Nunca mover si se sospecha lesión medular; en ese caso, esperar.",
+        optionRationales: [
+          "Boca arriba (decúbito supino) es peligroso: si vomita puede ahogarse.",
+          "",
+          "Sentado a un inconsciente lo hará caer y puede empeorar cualquier lesión cervical.",
+          "Boca abajo (decúbito prono) dificulta la respiración y el control de la vía aérea.",
+        ],
+      },
+      en: {
+        text: "For an unconscious casualty who is breathing, the correct position while waiting for the ambulance is…",
+        options: [
+          "Supine with head resting",
+          "Recovery position (lateral safety position)",
+          "Sitting up, back supported",
+          "Face down, head turned",
+        ],
+        explanation:
+          "An unconscious breathing casualty should be placed in the Recovery Position so vomit or secretions don't block the airway. Never move if a spinal injury is suspected — then just wait.",
+        optionRationales: [
+          "Supine is dangerous: if they vomit they can choke.",
+          "",
+          "Sitting an unconscious person up will make them fall and can worsen cervical injury.",
+          "Face-down (prone) hampers breathing and airway control.",
+        ],
+      },
+      ru: {
+        text: "Пострадавший без сознания, но дышит — правильное положение до приезда скорой:",
+        options: [
+          "На спине, голова на опоре",
+          "Устойчивое боковое положение (PLS)",
+          "Сидя со спиной у опоры",
+          "Лицом вниз, голова повёрнута",
+        ],
+        explanation:
+          "Пострадавшего без сознания, но с дыханием, кладут в устойчивое боковое положение, чтобы рвота или секреты не перекрыли дыхательные пути. При подозрении на травму позвоночника — не двигать, ждать.",
+        optionRationales: [
+          "На спине опасно: при рвоте может задохнуться.",
+          "",
+          "Сидя без сознания — упадёт; возможно ухудшение травмы шеи.",
+          "Лицом вниз затрудняет дыхание и контроль путей.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t16-15",
+    section: "safety",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "En caso de accidente con heridos, el número general de emergencias en toda la Unión Europea, incluida España, es…",
+        options: [
+          "091 (Policía Nacional)",
+          "092 (Policía Local)",
+          "112 (emergencias 24/7 en toda la UE)",
+          "062 (Guardia Civil)",
+        ],
+        explanation:
+          "El 112 es el número único europeo de emergencias, gratuito, 24/7, que coordina policía, sanitarios y bomberos. En cualquier accidente con heridos hay que llamar al 112.",
+        optionRationales: [
+          "091 es Policía Nacional; no coordina ambulancias ni bomberos de forma directa.",
+          "092 es Policía Local; alcance limitado al municipio y sin coordinación europea.",
+          "",
+          "062 es Guardia Civil; útil para carretera, pero no es el número general europeo.",
+        ],
+      },
+      en: {
+        text: "In an accident with casualties, the general emergency number across the EU including Spain is…",
+        options: [
+          "091 (National Police)",
+          "092 (Local Police)",
+          "112 (24/7 emergencies across the EU)",
+          "062 (Civil Guard)",
+        ],
+        explanation:
+          "112 is the single European emergency number, free, 24/7, coordinating police, ambulance and fire services. In any accident with casualties call 112.",
+        optionRationales: [
+          "091 is the National Police; doesn't directly coordinate ambulances or fire.",
+          "092 is the Local Police; only municipal, no EU coordination.",
+          "",
+          "062 is the Civil Guard; useful on roads but not the general EU number.",
+        ],
+      },
+      ru: {
+        text: "При ДТП с пострадавшими общий номер экстренных служб по всему ЕС, включая Испанию:",
+        options: [
+          "091 (Национальная полиция)",
+          "092 (Муниципальная полиция)",
+          "112 (единый номер экстренных служб ЕС, 24/7)",
+          "062 (Гражданская гвардия)",
+        ],
+        explanation:
+          "112 — единый бесплатный номер экстренных служб ЕС, 24/7, координирует полицию, скорую и пожарных. При любом ДТП с пострадавшими — звонить 112.",
+        optionRationales: [
+          "091 — Национальная полиция; не координирует напрямую скорую и пожарных.",
+          "092 — Муниципальная полиция; только в пределах города, без общеевропейской координации.",
+          "",
+          "062 — Гражданская гвардия; полезна на трассе, но не универсальный номер ЕС.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t16-16",
+    section: "safety",
+    correctIndex: 3,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Ante un motorista caído en la carretera, el casco…",
+        options: [
+          "Se retira inmediatamente para poder ver la cara",
+          "Se afloja y se levanta rápidamente",
+          "Se coloca al herido boca arriba para poder quitárselo",
+          "No se quita salvo peligro vital (parada respiratoria, vómito o incendio) y solo entre dos personas siguiendo la técnica adecuada",
+        ],
+        explanation:
+          "Nunca se retira el casco por rutina: puede haber lesión cervical y el movimiento podría causar tetraplejia. Solo se retira si peligra la vida (paro respiratorio, vómito, incendio) y siempre entre dos personas manteniendo la alineación cabeza-cuello-tronco.",
+        optionRationales: [
+          "Retirarlo sin más puede provocar parálisis irreversible.",
+          "Aflojarlo y levantarlo bruscamente es especialmente peligroso.",
+          "Girar al herido sin control agrava una posible lesión cervical.",
+          "",
+        ],
+      },
+      en: {
+        text: "For a fallen motorcyclist on the road, the helmet…",
+        options: [
+          "Is removed immediately to see the face",
+          "Is loosened and lifted off quickly",
+          "The casualty is rolled face-up to remove it",
+          "Isn't removed unless life-threatening (respiratory arrest, vomit, fire) and only by two people using the correct technique",
+        ],
+        explanation:
+          "Never remove the helmet by default — there may be a cervical injury and moving could cause quadriplegia. Only remove if life is at risk (arrest, vomit, fire), and always with two people keeping head-neck-trunk aligned.",
+        optionRationales: [
+          "Pulling it off can cause irreversible paralysis.",
+          "Loosening and lifting sharply is particularly dangerous.",
+          "Rolling the casualty around uncontrolled worsens any cervical injury.",
+          "",
+        ],
+      },
+      ru: {
+        text: "Упавший мотоциклист на дороге — шлем…",
+        options: [
+          "Снимают сразу, чтобы видеть лицо",
+          "Ослабляют и быстро приподнимают",
+          "Пострадавшего переворачивают на спину, чтобы снять",
+          "Не снимают, кроме угрозы жизни (остановка дыхания, рвота, пожар); тогда — вдвоём и по правильной технике",
+        ],
+        explanation:
+          "Шлем не снимают без крайней нужды: возможна травма шеи и движение может привести к параличу. Снимают только при угрозе жизни (остановка дыхания, рвота, пожар) и всегда вдвоём, сохраняя линию голова-шея-туловище.",
+        optionRationales: [
+          "Снятие без нужды может привести к необратимому параличу.",
+          "Ослабить и резко приподнять — особенно опасно.",
+          "Неконтролируемо переворачивать пострадавшего — ухудшать возможную травму шеи.",
+          "",
+        ],
+      },
+    },
+  },
 ];

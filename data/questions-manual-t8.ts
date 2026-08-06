@@ -880,4 +880,476 @@ export const QUESTIONS_MANUAL_T8: Question[] = [
       },
     },
   },
+  {
+    id: "manual-t8-16",
+    section: "signs",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Una señal circular con fondo azul y símbolo blanco (por ejemplo, una flecha) es una señal de…",
+        options: [
+          "Prohibición",
+          "Peligro",
+          "Obligación",
+          "Fin de prohibición",
+        ],
+        explanation:
+          "Las señales circulares con fondo azul y símbolos blancos son señales de OBLIGACIÓN: indican la dirección, sentido o comportamiento que se debe seguir.",
+        optionRationales: [
+          "Las prohibiciones son circulares con fondo blanco y borde rojo, no azules.",
+          "Las de peligro son triangulares con borde rojo, no circulares azules.",
+          "",
+          "El fin de prohibición se representa con círculo blanco tachado con barra oblicua, no azul.",
+        ],
+      },
+      en: {
+        text: "A circular sign with blue background and white symbol (e.g. an arrow) is a…",
+        options: [
+          "Prohibition sign",
+          "Warning sign",
+          "Mandatory sign",
+          "End-of-prohibition sign",
+        ],
+        explanation:
+          "Circular signs with blue background and white symbols are MANDATORY signs: they show the direction, way or behaviour you must follow.",
+        optionRationales: [
+          "Prohibitions are circular with white background and red border, not blue.",
+          "Warning signs are triangular with red border, not blue circles.",
+          "",
+          "End-of-prohibition is a white circle crossed by a diagonal bar, not blue.",
+        ],
+      },
+      ru: {
+        text: "Круглый знак на синем фоне с белым символом (например, стрелкой) — это знак…",
+        options: [
+          "Запрета",
+          "Предупреждения",
+          "Предписания",
+          "Окончания запрета",
+        ],
+        explanation:
+          "Круглые знаки с синим фоном и белыми символами — ПРЕДПИСЫВАЮЩИЕ: показывают направление, движение или поведение, которое обязательно.",
+        optionRationales: [
+          "Запрещающие — круглые с белым фоном и красной каймой, не синие.",
+          "Предупреждающие — треугольные с красной каймой, а не синие круги.",
+          "",
+          "Окончание запрета — белый круг с диагональной чертой, не синий.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t8-17",
+    section: "signs",
+    correctIndex: 1,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Ante una señal de STOP…",
+        options: [
+          "Debes ceder el paso reduciendo la velocidad, pero puedes seguir sin parar si no viene nadie",
+          "Debes detener el vehículo completamente antes de la línea de detención y ceder el paso",
+          "Debes tocar el claxon antes de continuar",
+          "Debes detenerte solo si ves otro vehículo",
+        ],
+        explanation:
+          "El STOP obliga a DETENERSE por completo antes de la línea de detención (o del borde de la intersección si no hay línea) y a ceder el paso a los vehículos que circulen por la vía a la que se accede.",
+        optionRationales: [
+          "Eso describe el Ceda el paso, no el STOP.",
+          "",
+          "El claxon no es obligatorio ante un STOP; solo hay que detenerse.",
+          "El STOP exige detención completa siempre, aunque no venga nadie.",
+        ],
+      },
+      en: {
+        text: "At a STOP sign you must…",
+        options: [
+          "Yield by slowing down, but you may go on without stopping if nobody's coming",
+          "Come to a complete stop before the stop line and yield",
+          "Sound the horn before continuing",
+          "Stop only if you see another vehicle",
+        ],
+        explanation:
+          "STOP forces a complete stop before the stop line (or the edge of the intersection if no line) and yielding to vehicles on the road being entered.",
+        optionRationales: [
+          "That describes a yield sign, not STOP.",
+          "",
+          "The horn isn't required at STOP; you just have to stop.",
+          "STOP always requires a full stop, even if nobody's coming.",
+        ],
+      },
+      ru: {
+        text: "У знака STOP нужно…",
+        options: [
+          "Уступить, снизив скорость; но если никого нет — можно ехать не останавливаясь",
+          "Полностью остановиться перед стоп-линией и уступить дорогу",
+          "Просигналить и ехать дальше",
+          "Останавливаться только если видишь другой автомобиль",
+        ],
+        explanation:
+          "STOP обязывает ПОЛНОСТЬЮ остановиться перед стоп-линией (или перед краем перекрёстка, если разметки нет) и уступить дорогу транспорту на дороге, куда выезжаешь.",
+        optionRationales: [
+          "Это описание знака «Уступите», а не STOP.",
+          "",
+          "Сигнал не обязателен у STOP; надо остановиться.",
+          "STOP всегда требует полной остановки, даже если никого нет.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t8-18",
+    section: "signs",
+    correctIndex: 0,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Una línea longitudinal continua BLANCA sobre la calzada significa que…",
+        options: [
+          "No se puede rebasar ni pisar",
+          "Se puede rebasar solo para adelantar",
+          "Se puede pisar para aparcar",
+          "Indica el borde derecho de la calzada",
+        ],
+        explanation:
+          "La línea continua blanca separa carriles y NO se puede rebasar ni pisar, salvo emergencia. Marca la prohibición de invadir el carril contrario o el adyacente.",
+        optionRationales: [
+          "",
+          "Justo lo contrario: la línea continua no permite adelantar.",
+          "Tampoco se puede pisar para aparcar; hay que aparcar antes o después.",
+          "El borde derecho es también una línea continua, pero eso es un uso específico. La regla general de línea continua es no rebasarla ni pisarla.",
+        ],
+      },
+      en: {
+        text: "A solid WHITE longitudinal line on the carriageway means that…",
+        options: [
+          "It cannot be crossed or driven over",
+          "It can be crossed only to overtake",
+          "It can be driven over to park",
+          "It marks the right edge of the carriageway",
+        ],
+        explanation:
+          "A solid white line separates lanes and cannot be crossed or driven over, except in emergency. It forbids invading the opposite or adjacent lane.",
+        optionRationales: [
+          "",
+          "The opposite: a solid line doesn't allow overtaking.",
+          "You can't drive over it to park either; park before or after.",
+          "The right edge is also a solid line, but that's a specific case. The general rule is: don't cross or drive over.",
+        ],
+      },
+      ru: {
+        text: "Продольная сплошная БЕЛАЯ линия на проезжей части означает, что…",
+        options: [
+          "Пересекать и наезжать нельзя",
+          "Пересекать можно только для обгона",
+          "Наезжать можно для парковки",
+          "Обозначает правый край проезжей части",
+        ],
+        explanation:
+          "Сплошная белая разделяет полосы, пересекать и наезжать нельзя, кроме экстренных случаев. Запрещает выезд на встречную или соседнюю полосу.",
+        optionRationales: [
+          "",
+          "Наоборот: сплошная не разрешает обгон.",
+          "И наезжать для парковки нельзя; парковаться — до или после.",
+          "Правый край тоже размечается сплошной, но это частный случай. Общее правило: не пересекать и не наезжать.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t8-19",
+    section: "signs",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Cuando hay señales verticales fijas y, temporalmente, señales de obras (fondo amarillo)…",
+        options: [
+          "Se cumplen las fijas y se ignoran las temporales",
+          "Prevalecen las que tengan menor límite",
+          "Prevalecen las temporales (fondo amarillo) sobre las fijas del mismo tipo",
+          "Se cumplen ambas al mismo tiempo",
+        ],
+        explanation:
+          "Las señales temporales de obras, con fondo amarillo, prevalecen sobre las fijas del mismo tipo. Reflejan una condición transitoria (obras, riesgo temporal) más restrictiva o distinta.",
+        optionRationales: [
+          "Las temporales son las que prevalecen; ignorarlas es infracción.",
+          "El orden no es «la más restrictiva» sino la temporalidad: la temporal manda.",
+          "",
+          "No pueden cumplirse ambas simultáneamente si se contradicen; una prevalece.",
+        ],
+      },
+      en: {
+        text: "When fixed vertical signs coexist with temporary roadworks signs (yellow background)…",
+        options: [
+          "Obey the fixed ones and ignore the temporary",
+          "The one with the lower limit prevails",
+          "Temporary (yellow-background) signs prevail over fixed ones of the same type",
+          "Both apply simultaneously",
+        ],
+        explanation:
+          "Temporary roadworks signs, with yellow background, prevail over fixed signs of the same type. They reflect a transient condition (works, temporary risk) that's more restrictive or different.",
+        optionRationales: [
+          "The temporary ones prevail; ignoring them is an offence.",
+          "The rule isn't «the most restrictive» but temporality: temporary wins.",
+          "",
+          "Both cannot apply at once if they contradict; one prevails.",
+        ],
+      },
+      ru: {
+        text: "Когда есть стационарные вертикальные знаки и временные дорожных работ (жёлтый фон)…",
+        options: [
+          "Соблюдают стационарные, а временные игнорируют",
+          "Действует тот, у кого лимит меньше",
+          "Временные (жёлтый фон) имеют приоритет над стационарными того же типа",
+          "Действуют оба одновременно",
+        ],
+        explanation:
+          "Временные знаки дорожных работ с жёлтым фоном имеют приоритет над стационарными того же типа. Они отражают временное состояние (работы, временный риск), более строгое или иное.",
+        optionRationales: [
+          "Приоритет — у временных; игнорирование — нарушение.",
+          "Правило — не «строже», а именно временность: временный побеждает.",
+          "",
+          "Оба одновременно действовать не могут, если противоречат; один имеет приоритет.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t8-20",
+    section: "priorities",
+    correctIndex: 3,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "El orden de prioridad entre señales, de mayor a menor, es…",
+        options: [
+          "Verticales > Horizontales > Semáforo > Agente",
+          "Semáforo > Agente > Verticales > Horizontales",
+          "Horizontales > Verticales > Semáforo > Agente",
+          "Agente > Semáforo > Verticales > Horizontales",
+        ],
+        explanation:
+          "El orden reglamentario es: 1º Agente de circulación, 2º Semáforo, 3º Señales verticales, 4º Marcas viales (horizontales). El agente siempre manda incluso si contradice al semáforo.",
+        optionRationales: [
+          "Las verticales no están por encima del semáforo ni del agente.",
+          "El semáforo NO está por encima del agente; el agente prevalece siempre.",
+          "Las horizontales son las de menor prioridad, no las de mayor.",
+          "",
+        ],
+      },
+      en: {
+        text: "The order of priority between signs, from highest to lowest, is…",
+        options: [
+          "Vertical > Horizontal > Traffic light > Officer",
+          "Traffic light > Officer > Vertical > Horizontal",
+          "Horizontal > Vertical > Traffic light > Officer",
+          "Officer > Traffic light > Vertical > Horizontal",
+        ],
+        explanation:
+          "The regulatory order is: 1) Traffic officer, 2) Traffic light, 3) Vertical signs, 4) Road markings (horizontal). The officer always overrides, even against a light.",
+        optionRationales: [
+          "Vertical signs are not above the light or the officer.",
+          "The traffic light is NOT above the officer; the officer always prevails.",
+          "Horizontal markings are the lowest priority, not the highest.",
+          "",
+        ],
+      },
+      ru: {
+        text: "Порядок приоритета между знаками (от большего к меньшему):",
+        options: [
+          "Вертикальные > Горизонтальные > Светофор > Регулировщик",
+          "Светофор > Регулировщик > Вертикальные > Горизонтальные",
+          "Горизонтальные > Вертикальные > Светофор > Регулировщик",
+          "Регулировщик > Светофор > Вертикальные > Горизонтальные",
+        ],
+        explanation:
+          "Регламент: 1) Регулировщик, 2) Светофор, 3) Вертикальные знаки, 4) Разметка (горизонтальная). Регулировщик всегда важнее, даже против светофора.",
+        optionRationales: [
+          "Вертикальные не выше светофора и регулировщика.",
+          "Светофор НЕ выше регулировщика; регулировщик всегда впереди.",
+          "Горизонтальные — самый низкий приоритет, не самый высокий.",
+          "",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t8-21",
+    section: "signs",
+    correctIndex: 0,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Una línea longitudinal discontinua AMARILLA sobre el bordillo o el arcén significa que…",
+        options: [
+          "Prohibido estacionar",
+          "Prohibido parar y estacionar",
+          "Solo se puede parar en horario nocturno",
+          "Zona de estacionamiento regulado (zona azul)",
+        ],
+        explanation:
+          "Línea amarilla DISCONTINUA en el bordillo/arcén: prohibido ESTACIONAR (pero se permite la parada momentánea). Línea amarilla CONTINUA: prohibida tanto la parada como el estacionamiento.",
+        optionRationales: [
+          "",
+          "La prohibición de parar Y estacionar es la línea amarilla CONTINUA, no la discontinua.",
+          "No hay diferenciación horaria por color; el color indica el tipo de prohibición.",
+          "La zona azul se señaliza con marcas horizontales azules dentro del carril, no con línea amarilla.",
+        ],
+      },
+      en: {
+        text: "A DISHED yellow longitudinal line on the kerb or hard shoulder means…",
+        options: [
+          "No parking",
+          "No stopping and no parking",
+          "Stopping allowed only at night",
+          "Regulated parking zone (blue zone)",
+        ],
+        explanation:
+          "Yellow DISHED line on kerb/hard shoulder: NO PARKING (but you may briefly stop). Yellow SOLID line: no stopping AND no parking.",
+        optionRationales: [
+          "",
+          "No stopping AND no parking is the SOLID yellow line, not the dashed.",
+          "There's no time-of-day differentiation by colour; colour marks the type of ban.",
+          "Blue zones are marked with blue horizontal marks within the lane, not with a yellow line.",
+        ],
+      },
+      ru: {
+        text: "Прерывистая ЖЁЛТАЯ продольная линия на бордюре или обочине означает…",
+        options: [
+          "Стоянка запрещена",
+          "Остановка и стоянка запрещены",
+          "Остановка только ночью",
+          "Зона регулируемой парковки (синяя зона)",
+        ],
+        explanation:
+          "Жёлтая ПРЕРЫВИСТАЯ на бордюре/обочине — запрет СТОЯНКИ (кратковременная остановка разрешена). Жёлтая СПЛОШНАЯ — запрет и остановки, и стоянки.",
+        optionRationales: [
+          "",
+          "Запрет остановки И стоянки — это СПЛОШНАЯ жёлтая, а не прерывистая.",
+          "Никакого ночного различения по цвету нет; цвет обозначает тип запрета.",
+          "Синяя зона размечается синими горизонтальными полосами внутри полосы, а не жёлтой линией.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t8-22",
+    section: "signs",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Una señal cuadrada con fondo azul y un símbolo blanco (por ejemplo, un tenedor y un cuchillo) es una señal de…",
+        options: [
+          "Prohibición",
+          "Obligación",
+          "Indicaciones generales / servicio",
+          "Advertencia de peligro",
+        ],
+        explanation:
+          "Las señales cuadradas o rectangulares con fondo azul y símbolo blanco son de INDICACIONES GENERALES o de SERVICIO (hotel, restaurante, gasolinera, hospital…). Solo informan; no obligan ni prohíben.",
+        optionRationales: [
+          "Las prohibiciones son circulares con borde rojo, no cuadradas azules.",
+          "Las obligaciones son circulares azules, no cuadradas.",
+          "",
+          "Las de peligro son triangulares con borde rojo.",
+        ],
+      },
+      en: {
+        text: "A square sign with blue background and white symbol (e.g. knife and fork) is a…",
+        options: [
+          "Prohibition sign",
+          "Mandatory sign",
+          "General information / service sign",
+          "Danger warning sign",
+        ],
+        explanation:
+          "Square/rectangular blue signs with white symbols are GENERAL INFORMATION or SERVICE signs (hotel, restaurant, fuel, hospital…). They only inform — no obligation, no prohibition.",
+        optionRationales: [
+          "Prohibitions are circular with red border, not blue squares.",
+          "Mandatory signs are blue CIRCLES, not squares.",
+          "",
+          "Danger signs are triangular with red border.",
+        ],
+      },
+      ru: {
+        text: "Квадратный знак с синим фоном и белым символом (например, вилка и нож) — это знак…",
+        options: [
+          "Запрета",
+          "Предписания",
+          "Общей информации / сервиса",
+          "Предупреждения об опасности",
+        ],
+        explanation:
+          "Квадратные/прямоугольные синие знаки с белыми символами — знаки ОБЩЕЙ ИНФОРМАЦИИ или СЕРВИСА (гостиница, ресторан, АЗС, больница…). Только информируют, не обязывают и не запрещают.",
+        optionRationales: [
+          "Запрещающие — круглые с красной каймой, не синие квадраты.",
+          "Предписывающие — синие КРУГИ, не квадраты.",
+          "",
+          "Предупреждающие — треугольные с красной каймой.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t8-23",
+    section: "priorities",
+    correctIndex: 1,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Un semáforo en ámbar fijo (no intermitente) significa…",
+        options: [
+          "Precaución, se puede pasar reduciendo la velocidad",
+          "Debes detenerte; solo puedes cruzar si al encenderse estás tan cerca que frenar sería peligroso",
+          "Es equivalente al verde",
+          "Solo se aplica a peatones",
+        ],
+        explanation:
+          "El ámbar FIJO obliga a detenerse antes de la línea. Solo se puede continuar si al encenderse el ámbar el vehículo está tan cerca del semáforo que frenar podría causar peligro (por ejemplo, alcance por detrás).",
+        optionRationales: [
+          "Eso describe el ámbar INTERMITENTE (precaución), no el fijo.",
+          "",
+          "El ámbar no equivale al verde; el verde autoriza el paso libremente, el ámbar exige detenerse.",
+          "Aplica a todos los vehículos, no solo a peatones.",
+        ],
+      },
+      en: {
+        text: "A steady (non-flashing) amber traffic light means…",
+        options: [
+          "Caution, you may pass at reduced speed",
+          "You must stop; you may only cross if you're so close when it lights that braking would be dangerous",
+          "Equivalent to green",
+          "Applies only to pedestrians",
+        ],
+        explanation:
+          "Steady amber requires stopping before the line. You may only continue if, when it lit up, your vehicle was so close to the light that braking could cause danger (e.g. rear-end collision).",
+        optionRationales: [
+          "That describes FLASHING amber (caution), not steady.",
+          "",
+          "Amber isn't equivalent to green; green allows free passage, amber requires stopping.",
+          "Applies to all vehicles, not only pedestrians.",
+        ],
+      },
+      ru: {
+        text: "Жёлтый (не мигающий) сигнал светофора означает…",
+        options: [
+          "Осторожно, можно проехать со сниженной скоростью",
+          "Нужно остановиться; проехать можно, только если при включении был так близко, что торможение опасно",
+          "Равнозначен зелёному",
+          "Действует только для пешеходов",
+        ],
+        explanation:
+          "Постоянный жёлтый требует остановки перед линией. Проехать можно, только если в момент включения ты был так близко, что торможение опасно (например, наезд сзади).",
+        optionRationales: [
+          "Это описание МИГАЮЩЕГО жёлтого (осторожно), а не постоянного.",
+          "",
+          "Жёлтый не равен зелёному; зелёный разрешает проезд, жёлтый требует остановиться.",
+          "Действует для всех ТС, не только для пешеходов.",
+        ],
+      },
+    },
+  },
 ];

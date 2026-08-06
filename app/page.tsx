@@ -5,11 +5,14 @@ import { useI18n } from "./providers";
 import { useProgress } from "@/lib/useProgress";
 import { useProfile } from "@/lib/useProfile";
 import { daysUntil } from "@/lib/profile";
+import { usePlan } from "@/lib/usePlan";
+import { PLAN_TOTAL_DAYS } from "@/lib/plan";
 
 export default function Home() {
   const { t } = useI18n();
   const { ready, streak, xp, today, dailyGoal } = useProgress();
   const { profile } = useProfile();
+  const { state: planState, currentDay: planDay, todayTask: planTask, todayDone: planDone } = usePlan();
 
   const goalPct = Math.min(100, Math.round((today.correct / dailyGoal) * 100));
   const goalMet = today.correct >= dailyGoal;
@@ -34,6 +37,7 @@ export default function Home() {
     { href: "/glossary", key: "glossary", num: "05" },
     { href: "/reference", key: "reference", num: "06" },
     { href: "/resources", key: "resources", num: "07" },
+    { href: "/plan", key: "plan", num: "08" },
   ];
 
   return (
@@ -83,6 +87,44 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Plan banner — only when plan is active */}
+      {planState && planTask && planDay != null && (
+        <Link
+          href={planDone ? "/plan" : "/plan/today"}
+          className={`block mb-6 border-2 p-4 hover:bg-paper-alt/60 dark:hover:bg-white/[0.03] transition ${
+            planDone
+              ? "border-emerald-600 dark:border-emerald-500"
+              : "border-brand"
+          }`}
+        >
+          <div className="flex items-baseline justify-between mb-2">
+            <div className="overline">
+              {t("plan.today")} · {t("plan.dayLabel")}{" "}
+              <span className="tnum">{planDay}</span> {t("plan.of")}{" "}
+              <span className="tnum">{PLAN_TOTAL_DAYS}</span>
+            </div>
+            <div className="text-[10px] font-mono uppercase tracking-widest text-ink-faint">
+              {t(`plan.focus.${planTask.focus}`)}
+            </div>
+          </div>
+          {planDone ? (
+            <div className="text-sm font-bold text-emerald-700 dark:text-emerald-400">
+              {t("plan.todayDone")}
+            </div>
+          ) : (
+            <div className="flex items-baseline gap-2">
+              <span className="text-3xl font-bold tnum text-brand">
+                {planTask.size}
+              </span>
+              <span className="text-xs font-mono uppercase tracking-widest text-ink-soft">
+                {t("plan.questions")}
+              </span>
+              <span className="ml-auto text-brand text-lg">→</span>
+            </div>
+          )}
+        </Link>
+      )}
 
       {/* Grid of entry cards */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-px bg-line-soft dark:bg-neutral-800 border hairline">

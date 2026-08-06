@@ -1,4 +1,5 @@
 import type { Question } from "@/lib/types";
+import { QUESTIONS_MANUAL_T1 } from "./questions-manual-t1";
 import { QUESTIONS_MANUAL_T2 } from "./questions-manual-t2";
 import { QUESTIONS_MANUAL_T3 } from "./questions-manual-t3";
 import { QUESTIONS_MANUAL_T4 } from "./questions-manual-t4";
@@ -1261,6 +1262,7 @@ const SEED: Question[] = [
 
 export const QUESTIONS: Question[] = [
   ...SEED,
+  ...QUESTIONS_MANUAL_T1,
   ...QUESTIONS_MANUAL_T2,
   ...QUESTIONS_MANUAL_T3,
   ...QUESTIONS_MANUAL_T4,

@@ -554,4 +554,240 @@ export const QUESTIONS_MANUAL_T5: Question[] = [
       },
     },
   },
+  {
+    id: "manual-t5-11",
+    section: "safety",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Los menores deben viajar en un sistema de retención infantil (SRI) hasta que midan…",
+        options: [
+          "1,20 m",
+          "1,30 m",
+          "1,35 m",
+          "1,50 m o cumplan 14 años",
+        ],
+        explanation:
+          "En España es obligatorio el SRI adecuado al peso y talla del menor hasta que mida al menos 1,35 m. A partir de esa altura puede usar solo el cinturón.",
+        optionRationales: [
+          "1,20 m no es el umbral vigente en España; queda por debajo de lo exigido.",
+          "1,30 m tampoco; la norma actual fija 1,35 m como umbral inferior.",
+          "",
+          "1,50 m es una recomendación de seguridad, no la obligación legal para dejar de usar SRI.",
+        ],
+      },
+      en: {
+        text: "Children must travel in a child restraint system (CRS) until they measure at least…",
+        options: [
+          "1.20 m",
+          "1.30 m",
+          "1.35 m",
+          "1.50 m or age 14",
+        ],
+        explanation:
+          "In Spain a CRS matching the child's weight and height is mandatory until at least 1.35 m tall. Above that they may use just the seatbelt.",
+        optionRationales: [
+          "1.20 m isn't the Spanish threshold; below what's required.",
+          "1.30 m isn't either; the current rule is 1.35 m as the minimum.",
+          "",
+          "1.50 m is a safety recommendation, not the legal cutoff for stopping CRS use.",
+        ],
+      },
+      ru: {
+        text: "Дети должны ехать в детском удерживающем устройстве, пока не достигнут роста…",
+        options: [
+          "1,20 м",
+          "1,30 м",
+          "1,35 м",
+          "1,50 м или возраста 14 лет",
+        ],
+        explanation:
+          "В Испании детское кресло (по весу и росту) обязательно, пока ребёнок не достигнет 1,35 м. С этого роста можно использовать только ремень.",
+        optionRationales: [
+          "1,20 м — не действующий в Испании порог; ниже требуемого.",
+          "1,30 м тоже нет; действующая норма — минимум 1,35 м.",
+          "",
+          "1,50 м — рекомендация по безопасности, а не юридический порог для отказа от кресла.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t5-12",
+    section: "safety",
+    correctIndex: 1,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Si necesitas llevar un SRI a contramarcha en el asiento del acompañante, debes…",
+        options: [
+          "No es posible: prohibido totalmente",
+          "Desconectar el airbag frontal de ese asiento",
+          "Bajar la ventanilla para reducir presión",
+          "Poner el asiento en su posición más adelantada",
+        ],
+        explanation:
+          "Un SRI a contramarcha en el asiento delantero exige desactivar el airbag frontal del acompañante. Un airbag activo puede matar al bebé si se abre contra la sillita.",
+        optionRationales: [
+          "Sí se puede llevar delante a contramarcha, pero solo con el airbag desactivado.",
+          "",
+          "La ventanilla no tiene ningún efecto sobre el riesgo del airbag.",
+          "Poner el asiento más adelantado empeora la situación: hay que alejarlo del salpicadero.",
+        ],
+      },
+      en: {
+        text: "If you need to fit a rear-facing CRS on the front passenger seat, you must…",
+        options: [
+          "You can't — completely forbidden",
+          "Deactivate that seat's frontal airbag",
+          "Lower the window to reduce pressure",
+          "Move the seat all the way forward",
+        ],
+        explanation:
+          "A rear-facing CRS in the front requires disabling the passenger frontal airbag. An active airbag can kill the baby by hitting the seat.",
+        optionRationales: [
+          "It IS allowed rear-facing in front, but only with the airbag disabled.",
+          "",
+          "The window has no effect on the airbag risk.",
+          "Moving the seat forward makes it worse — you should move it back, away from the dashboard.",
+        ],
+      },
+      ru: {
+        text: "Если детское кресло стоит спиной вперёд на переднем пассажирском сиденье, нужно…",
+        options: [
+          "Так нельзя — полностью запрещено",
+          "Отключить фронтальную подушку безопасности этого сиденья",
+          "Приоткрыть окно, чтобы снизить давление",
+          "Максимально придвинуть сиденье вперёд",
+        ],
+        explanation:
+          "Кресло спиной вперёд впереди разрешено, но только с ОТКЛЮЧЁННОЙ пассажирской фронтальной подушкой. Активная подушка может убить ребёнка, ударив в кресло.",
+        optionRationales: [
+          "Спиной вперёд впереди разрешено, но только с выключенной подушкой.",
+          "",
+          "Окно никак не влияет на риск от подушки.",
+          "Придвигать сиденье вперёд — только ухудшать; наоборот, надо отодвинуть от торпедо.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t5-13",
+    section: "safety",
+    correctIndex: 3,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "El reposacabezas está bien ajustado cuando…",
+        options: [
+          "Su parte inferior queda a la altura del cuello",
+          "Toca el techo del vehículo",
+          "Queda separado unos 10 cm de la cabeza",
+          "Su parte superior queda a la altura de la parte alta de la cabeza y lo más cerca posible de ella",
+        ],
+        explanation:
+          "El reposacabezas evita el latigazo cervical. Está bien ajustado cuando su parte superior queda a la misma altura que la parte alta de la cabeza y lo más pegado posible a ella.",
+        optionRationales: [
+          "A la altura del cuello no protege: en un impacto la cabeza pasa por encima.",
+          "Tocar el techo no es un ajuste; el ajuste es respecto a la cabeza del ocupante.",
+          "10 cm de separación es demasiado: la cabeza chocará bruscamente contra él en un frenazo.",
+          "",
+        ],
+      },
+      en: {
+        text: "The headrest is properly adjusted when…",
+        options: [
+          "Its lower edge is at neck height",
+          "It touches the vehicle roof",
+          "It sits about 10 cm away from the head",
+          "Its top edge is level with the top of the head and as close to it as possible",
+        ],
+        explanation:
+          "The headrest prevents whiplash. It's properly adjusted when its top edge matches the top of the head and sits as close as possible to it.",
+        optionRationales: [
+          "At neck height it won't protect: on impact the head goes over the top.",
+          "Touching the roof isn't the adjustment — it's about the occupant's head, not the roof.",
+          "10 cm gap is too much: the head hits it hard on braking.",
+          "",
+        ],
+      },
+      ru: {
+        text: "Подголовник отрегулирован правильно, когда…",
+        options: [
+          "Его нижний край на уровне шеи",
+          "Он касается потолка автомобиля",
+          "Между ним и головой около 10 см",
+          "Его верхний край на уровне макушки и как можно ближе к голове",
+        ],
+        explanation:
+          "Подголовник защищает от хлыстовой травмы. Правильно отрегулирован, когда верхний край на уровне макушки и максимально близко к голове.",
+        optionRationales: [
+          "На уровне шеи — не защитит: при ударе голова перелетит через него.",
+          "Касается потолка — не критерий; критерий — голова седока, а не крыша.",
+          "10 см — слишком много: голова резко ударится о него при торможении.",
+          "",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t5-14",
+    section: "safety",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "El uso del cinturón de seguridad está exento en…",
+        options: [
+          "Trayectos urbanos de menos de 5 km",
+          "Cuando el conductor lleva chaqueta gruesa",
+          "Conductores de taxi en servicio urbano y personal de emergencias en intervención",
+          "Cualquier trayecto de menos de 10 minutos",
+        ],
+        explanation:
+          "El cinturón es obligatorio siempre para todos, con excepciones muy tasadas: taxistas en servicio urbano, personal de emergencias en actuación, personas con exención médica acreditada y algún caso puntual (marcha atrás, aparcamiento).",
+        optionRationales: [
+          "La distancia no exime; el cinturón es obligatorio también en trayectos cortos urbanos.",
+          "La ropa no exime en absoluto; hay que ponérselo bien.",
+          "",
+          "La duración del trayecto no crea exención.",
+        ],
+      },
+      en: {
+        text: "Seatbelt use is exempt for…",
+        options: [
+          "Urban trips shorter than 5 km",
+          "When the driver wears a thick jacket",
+          "Taxi drivers in urban service and emergency workers during an intervention",
+          "Any trip shorter than 10 minutes",
+        ],
+        explanation:
+          "The seatbelt is always mandatory, with very narrow exemptions: taxi drivers in urban service, emergency workers during interventions, people with a certified medical exemption and a few specific cases (reversing, parking).",
+        optionRationales: [
+          "Distance doesn't exempt; the belt is required even on short urban trips.",
+          "Clothing doesn't exempt at all; wear it properly.",
+          "",
+          "Trip duration doesn't create an exemption.",
+        ],
+      },
+      ru: {
+        text: "Использование ремня безопасности НЕ требуется при…",
+        options: [
+          "Городских поездках менее 5 км",
+          "Если водитель в толстой куртке",
+          "У таксистов в городском обслуживании и служб экстренного реагирования на вызове",
+          "Любой поездке менее 10 минут",
+        ],
+        explanation:
+          "Ремень обязателен всегда с очень узкими исключениями: таксисты в городе, экстренные службы на вызове, лица с медицинским освобождением и отдельные случаи (движение задним ходом, парковка).",
+        optionRationales: [
+          "Расстояние не освобождает; ремень обязателен и на коротких городских поездках.",
+          "Одежда никак не освобождает; ремень надевается правильно.",
+          "",
+          "Продолжительность поездки не создаёт исключения.",
+        ],
+      },
+    },
+  },
 ];

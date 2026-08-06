@@ -549,4 +549,122 @@ export const QUESTIONS_MANUAL_T3: Question[] = [
       },
     },
   },
+  {
+    id: "manual-t3-11",
+    section: "alcohol_drugs",
+    correctIndex: 3,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "En un control de drogas al volante, la tasa permitida de cannabis o cocaína es…",
+        options: [
+          "La misma que la de alcohol para novel (0,3 g/L)",
+          "Menor de 20 ng/mL en saliva",
+          "Menor de 50 ng/mL en saliva",
+          "Cero: cualquier presencia detectable es infracción muy grave",
+        ],
+        explanation:
+          "Para las drogas de abuso (cannabis, cocaína, opiáceos, anfetaminas…) rige tolerancia cero: dar positivo por cualquier cantidad detectable es infracción muy grave (1.000 € + 6 puntos).",
+        optionRationales: [
+          "Las «tasas» del alcohol no se aplican a las drogas; para drogas es tolerancia cero.",
+          "No existe un umbral autorizado; cualquier detección es positivo.",
+          "Tampoco hay un umbral autorizado de 50 ng/mL; cualquier presencia es infracción.",
+          "",
+        ],
+      },
+      en: {
+        text: "In a roadside drug test, the permitted level of cannabis or cocaine is…",
+        options: [
+          "Same as alcohol for novice drivers (0.3 g/L)",
+          "Below 20 ng/mL in saliva",
+          "Below 50 ng/mL in saliva",
+          "Zero: any detectable presence is a very serious offence",
+        ],
+        explanation:
+          "For drugs of abuse (cannabis, cocaine, opiates, amphetamines…) zero tolerance applies: any detectable positive is a very serious offence (€1,000 + 6 points).",
+        optionRationales: [
+          "Alcohol thresholds don't apply to drugs; drugs are zero-tolerance.",
+          "There's no permitted threshold; any detection is a positive.",
+          "There's no 50 ng/mL allowance either; any presence is an offence.",
+          "",
+        ],
+      },
+      ru: {
+        text: "При проверке на наркотики за рулём допустимая концентрация каннабиса или кокаина…",
+        options: [
+          "Как у алкоголя для начинающих (0,3 г/л)",
+          "Менее 20 нг/мл в слюне",
+          "Менее 50 нг/мл в слюне",
+          "Ноль: любое обнаружение — грубое нарушение",
+        ],
+        explanation:
+          "Для наркотиков (каннабис, кокаин, опиаты, амфетамины…) нулевая толерантность: любое обнаружение — грубое нарушение (1000 € + 6 баллов).",
+        optionRationales: [
+          "Алкогольные лимиты к наркотикам не применяются; для наркотиков — ноль.",
+          "Никакого разрешённого порога нет; любое обнаружение — положительно.",
+          "Никакого 50 нг/мл тоже нет; любое присутствие — нарушение.",
+          "",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t3-12",
+    section: "alcohol_drugs",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Antes de conducir tras tomar un medicamento con receta, debes…",
+        options: [
+          "Confiar en tu propia sensación: si te sientes bien, conducir",
+          "Reducir la dosis a la mitad",
+          "Leer el prospecto y consultar al médico o farmacéutico si aparece el pictograma del coche rojo",
+          "Esperar 30 minutos y ya se puede conducir",
+        ],
+        explanation:
+          "Muchos medicamentos con receta (antihistamínicos, ansiolíticos, opiáceos, algunos antibióticos) afectan la conducción. Los envases llevan un pictograma triangular del coche en rojo cuando pueden ser peligrosos. Hay que leer el prospecto y consultar.",
+        optionRationales: [
+          "La sensación subjetiva no es fiable; muchos fármacos afectan reflejos y vista sin que uno lo note.",
+          "Cambiar la dosis por tu cuenta es peligroso: la dosis la ajusta el médico.",
+          "",
+          "No hay una espera fija; depende del medicamento y hay que consultar el prospecto.",
+        ],
+      },
+      en: {
+        text: "Before driving after taking a prescription medicine, you should…",
+        options: [
+          "Trust how you feel — if you feel fine, drive",
+          "Halve the dose",
+          "Read the leaflet and ask your doctor or pharmacist if the red-car pictogram appears",
+          "Wait 30 minutes and you can drive",
+        ],
+        explanation:
+          "Many prescription drugs (antihistamines, anxiolytics, opiates, some antibiotics) affect driving. Packaging carries a red triangular car pictogram when they may be dangerous. Read the leaflet and ask.",
+        optionRationales: [
+          "Subjective feeling isn't reliable; many drugs impair reflexes and vision without you noticing.",
+          "Changing the dose on your own is dangerous — dosing is the doctor's call.",
+          "",
+          "There's no fixed wait; it depends on the drug and you must check the leaflet.",
+        ],
+      },
+      ru: {
+        text: "Перед тем как сесть за руль после рецептурного лекарства, нужно…",
+        options: [
+          "Довериться самочувствию: чувствуешь себя нормально — езжай",
+          "Уменьшить дозу вдвое",
+          "Прочитать инструкцию и спросить врача или фармацевта, если на упаковке красный значок автомобиля",
+          "Подождать 30 минут — и можно ехать",
+        ],
+        explanation:
+          "Многие рецептурные препараты (антигистаминные, анксиолитики, опиаты, некоторые антибиотики) влияют на вождение. Опасные помечаются красным треугольным пиктограммом с автомобилем. Читайте инструкцию и уточняйте.",
+        optionRationales: [
+          "Субъективное ощущение обманчиво: многие лекарства снижают реакции и зрение незаметно.",
+          "Менять дозу самому опасно: дозу назначает врач.",
+          "",
+          "Универсальных 30 минут нет; зависит от препарата — читайте инструкцию.",
+        ],
+      },
+    },
+  },
 ];
