@@ -477,4 +477,417 @@ export const QUESTIONS_MANUAL_T7: Question[] = [
       },
     },
   },
+  {
+    id: "manual-t7-09",
+    section: "driving_conditions",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Circulas de noche por carretera convencional a más de 40 km/h sin cruzarte con nadie. ¿Qué luces debes llevar?",
+        options: [
+          "Solo las de posición",
+          "Solo las de corto alcance (cruce)",
+          "Las de largo alcance (carretera), obligatorias si no hay riesgo de deslumbrar",
+          "Cualquiera de las tres, a tu elección",
+        ],
+        explanation:
+          "Fuera de poblado, por la noche y a más de 40 km/h, las luces de largo alcance son obligatorias si no existe riesgo de deslumbrar a otros conductores.",
+        optionRationales: [
+          "Solo posición no permite ver la vía; es insuficiente y peligroso.",
+          "Corto alcance ilumina ~40 m; a más de 40 km/h no da tiempo de reaccionar ante un obstáculo.",
+          "",
+          "La normativa fija cuáles usar según velocidad y visibilidad; no es libre elección.",
+        ],
+      },
+      en: {
+        text: "You drive at night on a conventional road above 40 km/h with no oncoming traffic. Which lights should you use?",
+        options: [
+          "Only sidelights",
+          "Only dipped beams",
+          "High beams — mandatory if there's no risk of dazzling others",
+          "Any of the three, your choice",
+        ],
+        explanation:
+          "Outside built-up areas, at night and above 40 km/h, high beams are mandatory if there's no risk of dazzling other drivers.",
+        optionRationales: [
+          "Sidelights don't let you see the road; insufficient and dangerous.",
+          "Dipped beams light ~40 m; above 40 km/h that's not enough time to react.",
+          "",
+          "The rules fix which lights to use by speed and visibility; not a free choice.",
+        ],
+      },
+      ru: {
+        text: "Едете ночью по обычной дороге быстрее 40 км/ч, встречных нет. Какой свет?",
+        options: [
+          "Только габариты",
+          "Только ближний свет",
+          "Дальний свет — обязателен, если нет риска ослепить других",
+          "Любой на выбор",
+        ],
+        explanation:
+          "Вне населённого пункта, ночью, при скорости выше 40 км/ч дальний свет обязателен, если нет риска ослепить других.",
+        optionRationales: [
+          "Только габариты не позволяют видеть дорогу — недостаточно и опасно.",
+          "Ближний освещает ~40 м; на скорости выше 40 км/ч не хватит времени среагировать.",
+          "",
+          "Правила фиксируют выбор света по скорости и видимости — не по желанию.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t7-10",
+    section: "driving_conditions",
+    correctIndex: 1,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Si te cruzas de noche con otro vehículo que viene de frente con las luces largas, debes…",
+        options: [
+          "Encender también las largas para «devolvérselo»",
+          "Cambiar tus largas a cortas con antelación (al menos 150 m antes) para no deslumbrarlo",
+          "Apagar todas las luces para no molestar",
+          "Frenar en seco y detenerte hasta que pase",
+        ],
+        explanation:
+          "Al cruzarte con otro vehículo por la noche, debes cambiar de largas a cortas con antelación suficiente (mínimo 150 m antes) para no deslumbrarlo.",
+        optionRationales: [
+          "«Devolver» las largas provoca deslumbramiento mutuo y riesgo de accidente frontal.",
+          "",
+          "Apagar todas las luces te vuelve invisible; es infracción muy grave.",
+          "Frenar bruscamente en carretera puede causar alcance por detrás.",
+        ],
+      },
+      en: {
+        text: "If you meet another vehicle at night with its high beams on, you must…",
+        options: [
+          "Turn on your high beams to 'return the favour'",
+          "Switch from high to low beams in advance (at least 150 m before) so as not to dazzle",
+          "Turn off all lights so as not to bother them",
+          "Brake hard and stop until they pass",
+        ],
+        explanation:
+          "When meeting another vehicle at night, switch from high to low beams in advance (at least 150 m before) so as not to dazzle them.",
+        optionRationales: [
+          "'Returning' high beams causes mutual dazzle and risks a head-on crash.",
+          "",
+          "Turning off all lights makes you invisible; a very serious offence.",
+          "Braking hard on the road risks a rear-end collision from behind.",
+        ],
+      },
+      ru: {
+        text: "Ночью навстречу едет машина с дальним светом. Ваши действия?",
+        options: [
+          "Тоже включить дальний, «в ответ»",
+          "Заранее переключиться с дальнего на ближний (минимум за 150 м), чтобы не ослепить",
+          "Выключить все фары, чтобы не мешать",
+          "Резко затормозить и остановиться, пока не проедет",
+        ],
+        explanation:
+          "При встрече ночью нужно заранее (минимум за 150 м) переключиться с дальнего на ближний, чтобы не ослепить встречного.",
+        optionRationales: [
+          "«Ответный» дальний слепит обоих и грозит лобовым столкновением.",
+          "",
+          "Погасить все фары — стать невидимым, это очень грубое нарушение.",
+          "Резко тормозить на трассе опасно — получите удар сзади.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t7-11",
+    section: "driving_conditions",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Un vehículo que viene de frente te deslumbra con sus luces. ¿Qué debes hacer?",
+        options: [
+          "Mirar fijamente sus faros para ver mejor",
+          "Encender tus antinieblas traseras",
+          "Reducir la velocidad y mirar hacia el borde derecho de la calzada",
+          "Cambiar de carril inmediatamente",
+        ],
+        explanation:
+          "Ante un deslumbramiento debes reducir la velocidad, no mirar directamente a los faros y desviar la vista al borde derecho de la calzada como referencia para seguir tu trayectoria.",
+        optionRationales: [
+          "Mirar los faros ciega la retina y agrava el deslumbramiento durante varios segundos.",
+          "Las antinieblas traseras deslumbran a quien va detrás y no ayudan contra la luz de frente.",
+          "",
+          "Cambiar de carril sin ver bien es peligroso; primero se reduce velocidad y se orienta la vista.",
+        ],
+      },
+      en: {
+        text: "An oncoming vehicle dazzles you with its lights. What should you do?",
+        options: [
+          "Look straight at its headlights to see better",
+          "Turn on your rear fog lights",
+          "Reduce speed and look towards the right edge of the road",
+          "Change lanes immediately",
+        ],
+        explanation:
+          "When dazzled, reduce speed, don't look at the headlights and shift your gaze to the right edge of the road as a reference for your path.",
+        optionRationales: [
+          "Staring at headlights blinds the retina and prolongs the dazzle for seconds.",
+          "Rear fog lights dazzle those behind and don't help against front glare.",
+          "",
+          "Changing lanes without clear vision is dangerous; first slow down and reorient your gaze.",
+        ],
+      },
+      ru: {
+        text: "Встречный автомобиль слепит вас фарами. Ваши действия?",
+        options: [
+          "Смотреть прямо на фары, чтобы лучше видеть",
+          "Включить задние противотуманные",
+          "Снизить скорость и смотреть на правый край проезжей части",
+          "Немедленно перестроиться",
+        ],
+        explanation:
+          "При ослеплении: снизить скорость, не смотреть на фары, перевести взгляд к правому краю проезжей части как ориентиру.",
+        optionRationales: [
+          "Смотреть на фары — ослепляет сетчатку и продлевает эффект на секунды.",
+          "Задние противотуманки слепят тех, кто сзади, и не помогают против встречного света.",
+          "",
+          "Перестраиваться, ничего не видя, опасно; сначала сбавить скорость и переориентировать взгляд.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t7-12",
+    section: "driving_conditions",
+    correctIndex: 3,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Las luces antinieblas traseras solo deben usarse cuando…",
+        options: [
+          "Empieza a oscurecer",
+          "Circulas por una vía urbana iluminada",
+          "Hay tráfico lento delante de ti",
+          "Hay niebla densa, lluvia muy fuerte o nevada intensa",
+        ],
+        explanation:
+          "Las antinieblas traseras son muy potentes y deslumbran al que va detrás. Solo se encienden con niebla densa, lluvia muy fuerte o nevada intensa; en cualquier otra condición están prohibidas.",
+        optionRationales: [
+          "Al atardecer basta con las de posición y luego las cortas; las antinieblas traseras deslumbrarían.",
+          "En una calle iluminada son molestas e innecesarias, y su uso indebido se sanciona.",
+          "El tráfico lento no justifica encenderlas; para eso están las de freno y las de emergencia.",
+          "",
+        ],
+      },
+      en: {
+        text: "Rear fog lights should only be used when…",
+        options: [
+          "Dusk is beginning",
+          "You're driving on a lit urban street",
+          "There's slow traffic ahead",
+          "There's dense fog, very heavy rain or heavy snow",
+        ],
+        explanation:
+          "Rear fog lights are very bright and dazzle those behind you. Only use them in dense fog, very heavy rain or heavy snow; otherwise they're forbidden.",
+        optionRationales: [
+          "At dusk, position and then dipped beams are enough; rear fogs would dazzle.",
+          "On a lit street they're annoying and unnecessary — misuse is fined.",
+          "Slow traffic doesn't justify them; brake and hazard lights already handle that.",
+          "",
+        ],
+      },
+      ru: {
+        text: "Задние противотуманные фары включают только когда…",
+        options: [
+          "Начинает темнеть",
+          "Едете по освещённой городской улице",
+          "Впереди медленное движение",
+          "Густой туман, очень сильный дождь или снегопад",
+        ],
+        explanation:
+          "Задние противотуманки очень яркие и слепят тех, кто сзади. Включают только при густом тумане, очень сильном дожде или снегопаде — в остальных случаях запрещено.",
+        optionRationales: [
+          "В сумерках достаточно габаритов и потом ближнего; задние противотуманки будут слепить.",
+          "На освещённой улице они мешают и не нужны — за нецелевое использование штрафуют.",
+          "Медленный трафик не повод; для этого есть стоп-сигнал и аварийка.",
+          "",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t7-13",
+    section: "driving_conditions",
+    correctIndex: 1,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Estacionas por la noche en calzada o arcén de una vía insuficientemente iluminada. ¿Qué luces debes dejar?",
+        options: [
+          "Ninguna, para no gastar batería",
+          "Al menos las luces de posición",
+          "Las luces de largo alcance",
+          "Solo los intermitentes de emergencia",
+        ],
+        explanation:
+          "En calzada o arcén de una vía insuficientemente iluminada, los vehículos estacionados por la noche deben tener encendidas al menos las luces de posición para ser vistos.",
+        optionRationales: [
+          "Sin luces el vehículo es invisible y provoca alcances traseros; infracción grave.",
+          "",
+          "Las largas encendidas y estacionadas deslumbran a otros y están expresamente prohibidas.",
+          "Los intermitentes de emergencia consumen mucho y no son la señal indicada para estacionamiento nocturno normal.",
+        ],
+      },
+      en: {
+        text: "You park at night on the carriageway or hard shoulder of an insufficiently lit road. Which lights must you leave on?",
+        options: [
+          "None, to save battery",
+          "At least the position (side) lights",
+          "The high beams",
+          "Only the hazard lights",
+        ],
+        explanation:
+          "On the carriageway or hard shoulder of an insufficiently lit road, vehicles parked at night must have at least the position lights on to be seen.",
+        optionRationales: [
+          "With no lights the vehicle is invisible and gets rear-ended; a serious offence.",
+          "",
+          "High beams while parked dazzle others and are explicitly forbidden.",
+          "Hazards drain the battery and aren't the right signal for normal night parking.",
+        ],
+      },
+      ru: {
+        text: "Ночью паркуетесь на проезжей части или обочине плохо освещённой дороги. Какой свет оставить?",
+        options: [
+          "Никакой, чтобы не сесть аккумулятор",
+          "Как минимум габаритные огни",
+          "Дальний свет",
+          "Только аварийку",
+        ],
+        explanation:
+          "На проезжей части или обочине плохо освещённой дороги ночью припаркованные ТС обязаны иметь хотя бы включённые габариты, чтобы их было видно.",
+        optionRationales: [
+          "Без света машина невидима — попутка ударит сзади; серьёзное нарушение.",
+          "",
+          "Дальний свет на парковке слепит и прямо запрещён.",
+          "Аварийка сажает аккумулятор и не является штатным сигналом ночной парковки.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t7-14",
+    section: "driving_conditions",
+    correctIndex: 3,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Instalar luces de colores no reglamentarios (por ejemplo, tira LED azul debajo del coche) en un vehículo particular es…",
+        options: [
+          "Legal si solo se enciende de día",
+          "Legal si el vehículo ya ha pasado la ITV",
+          "Legal en ciudad, prohibido en carretera",
+          "Prohibido y sancionable; el vehículo puede no pasar la ITV",
+        ],
+        explanation:
+          "Solo pueden llevarse las luces reglamentarias, con los colores y posiciones autorizados. Cualquier luz adicional o de color no permitido está prohibida y el vehículo puede no pasar la ITV.",
+        optionRationales: [
+          "El horario no exime; el vehículo debe cumplir siempre con la homologación.",
+          "Haber pasado la ITV no autoriza modificaciones posteriores no homologadas.",
+          "La normativa aplica igual en ciudad y en carretera; no hay excepción por ubicación.",
+          "",
+        ],
+      },
+      en: {
+        text: "Fitting non-standard coloured lights (e.g. a blue LED strip under the car) on a private vehicle is…",
+        options: [
+          "Legal if only used by day",
+          "Legal if the vehicle has passed its ITV",
+          "Legal in the city, forbidden on the open road",
+          "Forbidden and fineable; the vehicle may fail its ITV",
+        ],
+        explanation:
+          "Only regulation lights, with authorised colours and positions, may be fitted. Any extra or non-standard-colour light is forbidden and the vehicle may fail the ITV.",
+        optionRationales: [
+          "Time of day doesn't exempt; the vehicle must always meet homologation.",
+          "Passing the ITV doesn't authorise later non-homologated modifications.",
+          "The rules apply equally in the city and on the road; no location exemption.",
+          "",
+        ],
+      },
+      ru: {
+        text: "Установить нештатные цветные фары (например, синюю LED-подсветку под днище) на частный автомобиль…",
+        options: [
+          "Разрешено, если пользоваться только днём",
+          "Разрешено, если авто уже прошло ITV",
+          "Разрешено в городе, запрещено на трассе",
+          "Запрещено и штрафуется; авто может не пройти ITV",
+        ],
+        explanation:
+          "Разрешены только штатные фары установленных цветов и положения. Любая дополнительная или нештатного цвета — запрещена, ТС может не пройти ITV.",
+        optionRationales: [
+          "Время суток не освобождает; авто всегда должно соответствовать гомологации.",
+          "Пройденный ITV не даёт права на последующие несертифицированные доработки.",
+          "Правила одинаковы в городе и на трассе; исключений по месту нет.",
+          "",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t7-15",
+    section: "driving_conditions",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Las luces de gálibo son obligatorias en vehículos con anchura superior a…",
+        options: [
+          "1,50 m",
+          "1,80 m",
+          "2,10 m",
+          "2,55 m",
+        ],
+        explanation:
+          "Las luces de gálibo son obligatorias en vehículos con anchura superior a 2,10 m para señalizar sus dimensiones a los demás conductores, especialmente en la oscuridad.",
+        optionRationales: [
+          "1,50 m es la anchura aproximada de un turismo pequeño; no requiere gálibo.",
+          "1,80 m es la anchura media de un turismo grande; tampoco requiere gálibo.",
+          "",
+          "2,55 m es la anchura máxima general permitida (camiones); a partir de 2,10 m ya son obligatorias.",
+        ],
+      },
+      en: {
+        text: "Marker (gálibo) lights are mandatory on vehicles wider than…",
+        options: [
+          "1.50 m",
+          "1.80 m",
+          "2.10 m",
+          "2.55 m",
+        ],
+        explanation:
+          "Marker lights are mandatory on vehicles over 2.10 m wide to signal their dimensions to other drivers, especially at night.",
+        optionRationales: [
+          "1.50 m is roughly a small car — no markers needed.",
+          "1.80 m is a large saloon — still no markers needed.",
+          "",
+          "2.55 m is the general max width (lorries); markers are required from 2.10 m.",
+        ],
+      },
+      ru: {
+        text: "Габаритные фонари (gálibo) обязательны на ТС шириной более…",
+        options: [
+          "1,50 м",
+          "1,80 м",
+          "2,10 м",
+          "2,55 м",
+        ],
+        explanation:
+          "Габаритные фонари обязательны при ширине ТС более 2,10 м — чтобы обозначать габариты другим водителям, особенно ночью.",
+        optionRationales: [
+          "1,50 м — ширина маленького легкового; габаритные не нужны.",
+          "1,80 м — ширина крупного легкового; тоже не требуются.",
+          "",
+          "2,55 м — максимальная общая ширина (грузовики); обязательны уже с 2,10 м.",
+        ],
+      },
+    },
+  },
 ];

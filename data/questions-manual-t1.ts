@@ -447,4 +447,417 @@ export const QUESTIONS_MANUAL_T1: Question[] = [
       },
     },
   },
+  {
+    id: "manual-t1-09",
+    section: "others",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "La Carga Útil de un vehículo se calcula como…",
+        options: [
+          "MMA + Tara",
+          "MMA × 2",
+          "MMA − Tara",
+          "Tara − MMA",
+        ],
+        explanation:
+          "La Carga Útil es la máxima carga (pasajeros + mercancías) que un vehículo puede transportar. Se calcula restando la Tara a la MMA: Carga Útil = MMA − Tara.",
+        optionRationales: [
+          "Sumar da un número sin sentido físico; no representa capacidad de carga.",
+          "Multiplicar la MMA por 2 no tiene relación con la carga; es un número arbitrario.",
+          "",
+          "Tara menos MMA daría un valor negativo (la MMA siempre es mayor que la Tara).",
+        ],
+      },
+      en: {
+        text: "The Carga Útil (payload) of a vehicle is calculated as…",
+        options: [
+          "MMA + Tara",
+          "MMA × 2",
+          "MMA − Tara",
+          "Tara − MMA",
+        ],
+        explanation:
+          "Payload is the max load (passengers + goods) a vehicle can carry. It's MMA minus Tara: Payload = MMA − Tara.",
+        optionRationales: [
+          "Adding gives a meaningless number; doesn't represent load capacity.",
+          "MMA × 2 is unrelated to load; an arbitrary number.",
+          "",
+          "Tara minus MMA gives a negative value (MMA is always greater than Tara).",
+        ],
+      },
+      ru: {
+        text: "Carga Útil (полезная нагрузка) вычисляется как…",
+        options: [
+          "MMA + Tara",
+          "MMA × 2",
+          "MMA − Tara",
+          "Tara − MMA",
+        ],
+        explanation:
+          "Полезная нагрузка — максимум груза (пассажиры + вещи), который может везти авто. Считается как MMA минус Tara: Carga Útil = MMA − Tara.",
+        optionRationales: [
+          "Сложение даёт бессмысленное число, не характеризующее грузоподъёмность.",
+          "MMA × 2 никак не связано с грузом — произвольное число.",
+          "",
+          "Tara минус MMA даст отрицательное значение (MMA всегда больше Tara).",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t1-10",
+    section: "others",
+    correctIndex: 1,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Una travesía es…",
+        options: [
+          "Una calle peatonal del centro urbano",
+          "El tramo de una carretera interurbana que atraviesa un poblado",
+          "Un camino rural sin asfaltar",
+          "Una carretera de circunvalación por fuera del poblado",
+        ],
+        explanation:
+          "Travesía es el tramo de carretera interurbana que atraviesa el suelo urbano de un poblado. No cuenta como vía urbana ordinaria; conserva su carácter de carretera aunque haya casas alrededor.",
+        optionRationales: [
+          "Las calles peatonales no forman parte de la red de carreteras; son vías urbanas puras.",
+          "",
+          "Los caminos rurales sin asfaltar son vías secundarias, no travesías.",
+          "Una circunvalación va POR FUERA del poblado, precisamente para no atravesarlo.",
+        ],
+      },
+      en: {
+        text: "A travesía is…",
+        options: [
+          "A pedestrian street in the town centre",
+          "The segment of an interurban road that crosses a built-up area",
+          "An unpaved rural track",
+          "A ring road going around the outside of a town",
+        ],
+        explanation:
+          "A travesía is the segment of an interurban road that crosses the built-up area of a town. It doesn't count as an ordinary urban road; it keeps its road character even with houses around.",
+        optionRationales: [
+          "Pedestrian streets aren't part of the road network; they are pure urban streets.",
+          "",
+          "Unpaved rural tracks are secondary lanes, not travesías.",
+          "A ring road goes AROUND the outside, precisely to avoid crossing the town.",
+        ],
+      },
+      ru: {
+        text: "Travesía — это…",
+        options: [
+          "Пешеходная улица в центре города",
+          "Участок междугородной дороги, проходящий через населённый пункт",
+          "Грунтовая сельская дорога",
+          "Объездная дорога снаружи населённого пункта",
+        ],
+        explanation:
+          "Travesía — участок междугородной дороги, проходящий через территорию населённого пункта. Это не обычная городская улица; сохраняет статус дороги, даже если вокруг дома.",
+        optionRationales: [
+          "Пешеходные улицы не входят в дорожную сеть — это чисто городские улицы.",
+          "",
+          "Грунтовые сельские дороги — второстепенные пути, не travesías.",
+          "Объездная идёт СНАРУЖИ, именно чтобы не проходить через населённый пункт.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t1-11",
+    section: "others",
+    correctIndex: 0,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "En una glorieta (rotonda), ¿quién tiene prioridad?",
+        options: [
+          "Los vehículos que ya están circulando por el anillo",
+          "Los que entran, porque llegan primero al cruce",
+          "Los que salen de la glorieta",
+          "No hay reglas; el primero que pase",
+        ],
+        explanation:
+          "En una glorieta los vehículos que ya circulan por el anillo tienen prioridad sobre los que se disponen a entrar. Al incorporarse hay que ceder el paso.",
+        optionRationales: [
+          "",
+          "Es al revés: el que entra debe ceder el paso al que ya está dentro.",
+          "Los que salen simplemente se marchan; no hay «prioridad de salida» especial.",
+          "Sí hay reglas claras y son obligatorias; no es «el primero que pase».",
+        ],
+      },
+      en: {
+        text: "In a roundabout, who has priority?",
+        options: [
+          "Vehicles already circulating in the ring",
+          "Vehicles entering, because they arrived at the junction first",
+          "Vehicles leaving the roundabout",
+          "No rules — first come, first served",
+        ],
+        explanation:
+          "In a roundabout, vehicles already in the ring have priority over those about to enter. When joining you must give way.",
+        optionRationales: [
+          "",
+          "It's the opposite: whoever enters must give way to those already inside.",
+          "Vehicles leaving just exit; there's no special 'exit priority'.",
+          "There are clear, mandatory rules — it isn't 'first come, first served'.",
+        ],
+      },
+      ru: {
+        text: "На круговом перекрёстке (glorieta) у кого приоритет?",
+        options: [
+          "У тех, кто уже едет по кольцу",
+          "У тех, кто въезжает — они первыми подошли к перекрёстку",
+          "У тех, кто выезжает с кольца",
+          "Никаких правил — кто первый успел",
+        ],
+        explanation:
+          "На круговом перекрёстке приоритет у тех, кто уже движется по кольцу. Въезжающий обязан уступить.",
+        optionRationales: [
+          "",
+          "Наоборот: въезжающий уступает тем, кто уже в кольце.",
+          "Выезжающие просто покидают кольцо; специального «приоритета выезда» нет.",
+          "Правила есть и они обязательны, это не «кто первый успел».",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t1-12",
+    section: "others",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Un vehículo de movilidad personal (VMP), como un patinete eléctrico, tiene una velocidad máxima autorizada de…",
+        options: [
+          "10 km/h",
+          "20 km/h",
+          "25 km/h",
+          "45 km/h",
+        ],
+        explanation:
+          "Los VMP (patinetes eléctricos) están limitados a 25 km/h. No pueden circular por aceras, autopistas, autovías, túneles urbanos ni travesías; sí por carriles bici y calzada urbana según ordenanzas.",
+        optionRationales: [
+          "10 km/h es la velocidad de un peatón corriendo; los VMP superan claramente esa cifra.",
+          "20 km/h no es el límite reglamentario; el manual fija 25.",
+          "",
+          "45 km/h es el máximo del ciclomotor (L1e), no del VMP.",
+        ],
+      },
+      en: {
+        text: "A Personal Mobility Vehicle (VMP), like an e-scooter, has an authorised maximum speed of…",
+        options: [
+          "10 km/h",
+          "20 km/h",
+          "25 km/h",
+          "45 km/h",
+        ],
+        explanation:
+          "PMVs (e-scooters) are limited to 25 km/h. They can't use pavements, motorways, dual carriageways, urban tunnels or travesías; they may use bike lanes and urban carriageways per local rules.",
+        optionRationales: [
+          "10 km/h is a running pedestrian's pace; PMVs clearly exceed that.",
+          "20 km/h isn't the regulatory limit; the manual sets 25.",
+          "",
+          "45 km/h is the moped (L1e) maximum, not the PMV's.",
+        ],
+      },
+      ru: {
+        text: "Персональное транспортное средство (VMP), например электросамокат, имеет максимально разрешённую скорость…",
+        options: [
+          "10 км/ч",
+          "20 км/ч",
+          "25 км/ч",
+          "45 км/ч",
+        ],
+        explanation:
+          "СИМ (электросамокаты) ограничены 25 км/ч. Им запрещены тротуары, автомагистрали, скоростные, городские тоннели и travesías; разрешены велополосы и проезжая часть по местным правилам.",
+        optionRationales: [
+          "10 км/ч — скорость бегущего пешехода; СИМ явно её превышает.",
+          "20 км/ч — не установленный законом лимит; в руководстве 25.",
+          "",
+          "45 км/ч — максимум мопеда (L1e), а не СИМ.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t1-13",
+    section: "others",
+    correctIndex: 1,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Un vehículo articulado está formado por…",
+        options: [
+          "Dos turismos unidos por una barra rígida",
+          "Un vehículo tractor (cabeza) y un semirremolque acoplado",
+          "Un camión con dos remolques",
+          "Un autobús de dos pisos",
+        ],
+        explanation:
+          "Un vehículo articulado es la combinación de un vehículo tractor (cabeza tractora) y un semirremolque unido a él mediante quinta rueda. Los conjuntos con remolques son «trenes de carretera», no articulados.",
+        optionRationales: [
+          "Dos turismos con una barra no son un vehículo articulado; es un remolcado de auxilio en carretera.",
+          "",
+          "Un camión con dos remolques es un «tren de carretera» (conjunto de vehículos), no un articulado.",
+          "Un autobús de dos pisos es un solo vehículo, sin articulación.",
+        ],
+      },
+      en: {
+        text: "An articulated vehicle is made up of…",
+        options: [
+          "Two cars joined by a rigid bar",
+          "A tractor unit (cab) and a semi-trailer coupled to it",
+          "A truck with two trailers",
+          "A double-decker bus",
+        ],
+        explanation:
+          "An articulated vehicle is the combination of a tractor unit and a semi-trailer connected by a fifth wheel. Combinations with full trailers are 'road trains', not articulated.",
+        optionRationales: [
+          "Two cars linked by a bar aren't articulated; that's a roadside recovery tow.",
+          "",
+          "A truck with two trailers is a 'road train' (vehicle combination), not articulated.",
+          "A double-decker bus is a single vehicle with no articulation.",
+        ],
+      },
+      ru: {
+        text: "Сочленённое транспортное средство состоит из…",
+        options: [
+          "Двух легковых, соединённых жёсткой сцепкой",
+          "Тягача (кабины) и присоединённого к нему полуприцепа",
+          "Грузовика с двумя прицепами",
+          "Двухэтажного автобуса",
+        ],
+        explanation:
+          "Сочленённое ТС — комбинация тягача и полуприцепа, соединённых через седельно-сцепное устройство. Составы с полными прицепами — «автопоезда», не сочленённые.",
+        optionRationales: [
+          "Две легковых на жёсткой сцепке — не сочленённое ТС, это буксировка в аварийных случаях.",
+          "",
+          "Грузовик с двумя прицепами — это «автопоезд» (состав ТС), а не сочленённое.",
+          "Двухэтажный автобус — одно цельное ТС без сочленения.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t1-14",
+    section: "others",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Las líneas azules en una zona de estacionamiento indican…",
+        options: [
+          "Estacionamiento reservado para residentes",
+          "Estacionamiento gratuito sin límite de tiempo",
+          "Estacionamiento regulado (ORA/zona azul): tiempo limitado y suele requerir pago",
+          "Estacionamiento exclusivo para motocicletas",
+        ],
+        explanation:
+          "Las líneas azules delimitan una zona de estacionamiento regulado (ORA / «zona azul»): tiempo limitado, generalmente con pago mediante parquímetro o app.",
+        optionRationales: [
+          "Las plazas para residentes se marcan con líneas verdes (o mixtas), no azules puras.",
+          "El estacionamiento gratuito sin límite se marca con líneas blancas.",
+          "",
+          "Las plazas exclusivas para motos suelen estar señaladas con pictogramas, no con color azul.",
+        ],
+      },
+      en: {
+        text: "Blue lines in a parking zone indicate…",
+        options: [
+          "Parking reserved for residents",
+          "Free parking with no time limit",
+          "Regulated parking (ORA / 'blue zone'): time-limited, usually paid",
+          "Parking exclusive to motorcycles",
+        ],
+        explanation:
+          "Blue lines mark a regulated parking zone (ORA / 'blue zone'): time-limited and usually requiring payment at a meter or via an app.",
+        optionRationales: [
+          "Resident parking is marked with green lines (or mixed), not pure blue.",
+          "Unlimited free parking is marked with white lines.",
+          "",
+          "Motorcycle-only bays are marked with pictograms, not blue colour.",
+        ],
+      },
+      ru: {
+        text: "Синие линии в зоне парковки означают…",
+        options: [
+          "Парковка только для резидентов",
+          "Бесплатная парковка без ограничения времени",
+          "Регулируемая парковка (ORA/«синяя зона»): ограничение времени, обычно платно",
+          "Парковка только для мотоциклов",
+        ],
+        explanation:
+          "Синие линии обозначают регулируемую парковку (ORA / «синяя зона»): ограничение времени, обычно с оплатой через паркомат или приложение.",
+        optionRationales: [
+          "Парковка для резидентов — зелёные линии (или смешанные), не чисто синие.",
+          "Бесплатная без ограничений — белые линии.",
+          "",
+          "Мотопарковки обозначают пиктограммой, а не цветом.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t1-15",
+    section: "others",
+    correctIndex: 3,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Una autocaravana es un vehículo…",
+        options: [
+          "Que solo puede conducirse con permiso C",
+          "Que no está permitido en autopistas",
+          "Que siempre supera los 3.500 kg de MMA",
+          "Especial, con espacio habitable, que puede llegar hasta 3.500 kg de MMA y conducirse con permiso B",
+        ],
+        explanation:
+          "La autocaravana es un vehículo con espacio habitable que hasta 3.500 kg de MMA se puede conducir con el permiso B (categoría M1). Por encima de 3.500 kg requiere permiso C1 o C.",
+        optionRationales: [
+          "Solo requiere C si supera 3.500 kg; la mayoría de autocaravanas de alquiler son ≤ 3.500 kg y van con B.",
+          "En autopistas están permitidas como cualquier vehículo a motor.",
+          "No siempre; existen modelos por debajo de 3.500 kg pensados justamente para el permiso B.",
+          "",
+        ],
+      },
+      en: {
+        text: "A motorhome (autocaravana) is a vehicle that…",
+        options: [
+          "Can only be driven with a C licence",
+          "Isn't allowed on motorways",
+          "Always exceeds 3,500 kg MMA",
+          "Is a special vehicle with a living area; up to 3,500 kg MMA can be driven on a B licence",
+        ],
+        explanation:
+          "A motorhome has a living space and, up to 3,500 kg MMA, can be driven on a B licence (M1 category). Above 3,500 kg needs C1 or C.",
+        optionRationales: [
+          "C is only needed above 3,500 kg; most rental motorhomes are ≤ 3,500 kg and use B.",
+          "Motorways allow them like any motor vehicle.",
+          "Not always; there are models below 3,500 kg designed precisely for the B licence.",
+          "",
+        ],
+      },
+      ru: {
+        text: "Автодом (autocaravana) — это ТС, которое…",
+        options: [
+          "Можно водить только с правами C",
+          "Не допускается на автомагистрали",
+          "Всегда превышает 3500 кг MMA",
+          "Специальное ТС с жилым пространством; до 3500 кг MMA — можно водить с правами B",
+        ],
+        explanation:
+          "Автодом имеет жилую зону, и до 3500 кг MMA можно водить с правами B (категория M1). Свыше 3500 кг нужны C1 или C.",
+        optionRationales: [
+          "C нужен только свыше 3500 кг; большинство арендных автодомов ≤ 3500 кг и допускают B.",
+          "На автомагистралях они разрешены как любые моторные ТС.",
+          "Не всегда; есть модели до 3500 кг, специально под категорию B.",
+          "",
+        ],
+      },
+    },
+  },
 ];
