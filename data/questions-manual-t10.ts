@@ -478,4 +478,524 @@ export const QUESTIONS_MANUAL_T10: Question[] = [
       },
     },
   },
+  {
+    id: "manual-t10-10",
+    section: "driving_conditions",
+    correctIndex: 1,
+    source: SOURCE,
+    termIds: ["via_urbana"],
+    translations: {
+      es: {
+        text: "En vía urbana con calzada y acera al mismo nivel (plataforma única), la velocidad máxima es…",
+        options: ["30 km/h", "20 km/h", "40 km/h", "50 km/h"],
+        explanation:
+          "Plataforma única (acera y calzada al mismo nivel) = 20 km/h. Es el límite urbano más bajo, para proteger a los peatones que comparten el espacio.",
+        optionRationales: [
+          "30 km/h aplica a calles urbanas con 1 carril por sentido, no a plataforma única.",
+          "",
+          "40 km/h no es un límite urbano oficial.",
+          "50 km/h aplica a calles urbanas con 2+ carriles por sentido.",
+        ],
+      },
+      en: {
+        text: "On an urban road with roadway and pavement at the same level (shared platform), the max speed is…",
+        options: ["30 km/h", "20 km/h", "40 km/h", "50 km/h"],
+        explanation:
+          "Shared platform (pavement and roadway at same level) = 20 km/h. It's the lowest urban limit, to protect pedestrians sharing the space.",
+        optionRationales: [
+          "30 km/h is for urban streets with 1 lane per direction, not shared platform.",
+          "",
+          "40 km/h isn't an official urban limit.",
+          "50 km/h is for urban streets with 2+ lanes per direction.",
+        ],
+      },
+      ru: {
+        text: "На городской улице с проезжей частью и тротуаром на одном уровне (общая платформа) максимум скорости…",
+        options: ["30 км/ч", "20 км/ч", "40 км/ч", "50 км/ч"],
+        explanation:
+          "Общая платформа (тротуар и дорога на одном уровне) = 20 км/ч. Самый низкий городской лимит, защищает пешеходов.",
+        optionRationales: [
+          "30 км/ч — для городских улиц с 1 полосой в направлении, не для общей платформы.",
+          "",
+          "40 км/ч — не официальный городской лимит.",
+          "50 км/ч — для городских улиц с 2+ полосами в направлении.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t10-11",
+    section: "driving_conditions",
+    correctIndex: 3,
+    source: SOURCE,
+    termIds: ["travesia"],
+    translations: {
+      es: {
+        text: "En una travesía (tramo de carretera que atraviesa un pueblo), la velocidad máxima general es…",
+        options: ["30 km/h", "70 km/h", "90 km/h", "50 km/h"],
+        explanation:
+          "En travesía la velocidad máxima genérica es 50 km/h, sin importar cuántos carriles tenga. Es una carretera interurbana pero cruza un poblado.",
+        optionRationales: [
+          "30 km/h es el límite urbano de calle con 1 carril por sentido, no de travesía.",
+          "70 km/h no es un límite oficial.",
+          "90 km/h es el máximo en carretera convencional (fuera del poblado).",
+          "",
+        ],
+      },
+      en: {
+        text: "On a travesía (interurban road passing through a town), the general maximum speed is…",
+        options: ["30 km/h", "70 km/h", "90 km/h", "50 km/h"],
+        explanation:
+          "On a travesía the general maximum is 50 km/h regardless of lane count. It's an interurban road but goes through a built-up area.",
+        optionRationales: [
+          "30 km/h is the urban limit for a single-lane-per-direction street, not travesía.",
+          "70 km/h isn't an official limit.",
+          "90 km/h is the max on conventional (out-of-town) roads.",
+          "",
+        ],
+      },
+      ru: {
+        text: "На travesía (загородная дорога, проходящая через посёлок) общий максимум скорости…",
+        options: ["30 км/ч", "70 км/ч", "90 км/ч", "50 км/ч"],
+        explanation:
+          "На travesía общий максимум — 50 км/ч независимо от числа полос. Загородная дорога, но проходит через населённый пункт.",
+        optionRationales: [
+          "30 км/ч — городской лимит для одной полосы в направлении, не для travesía.",
+          "70 км/ч — не официальный лимит.",
+          "90 км/ч — максимум на обычной загородной дороге.",
+          "",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t10-12",
+    section: "driving_conditions",
+    correctIndex: 2,
+    source: SOURCE,
+    termIds: ["autopista"],
+    translations: {
+      es: {
+        text: "¿Cuál es la velocidad MÍNIMA para circular por autopista o autovía?",
+        options: ["40 km/h", "50 km/h", "60 km/h", "80 km/h"],
+        explanation:
+          "El mínimo en autopista y autovía es 60 km/h. Por debajo de esa velocidad se considera «anormalmente reducida» y no está permitido circular.",
+        optionRationales: [
+          "40 km/h es demasiado bajo; provocaría alcances por detrás.",
+          "50 km/h es el mínimo urbano típico, no de autopista.",
+          "",
+          "80 km/h es más alto que el mínimo; es la mitad del máximo genérico de turismo en autopista.",
+        ],
+      },
+      en: {
+        text: "What is the MINIMUM speed on a motorway or dual carriageway?",
+        options: ["40 km/h", "50 km/h", "60 km/h", "80 km/h"],
+        explanation:
+          "Minimum on motorway/dual carriageway is 60 km/h. Below that is 'abnormally low' and not allowed.",
+        optionRationales: [
+          "40 km/h is too low; it would cause rear-end crashes.",
+          "50 km/h is typical urban limit, not motorway minimum.",
+          "",
+          "80 km/h is above the minimum; roughly half the car's generic max on motorway.",
+        ],
+      },
+      ru: {
+        text: "Какой МИНИМАЛЬНЫЙ скоростной лимит на автомагистрали?",
+        options: ["40 км/ч", "50 км/ч", "60 км/ч", "80 км/ч"],
+        explanation:
+          "Минимум на автомагистрали и скоростной автодороге — 60 км/ч. Ниже — «аномально низкая», ехать запрещено.",
+        optionRationales: [
+          "40 км/ч слишком мало; риск наезда сзади.",
+          "50 км/ч — типичный городской лимит, не минимум магистрали.",
+          "",
+          "80 км/ч выше минимума; примерно половина общего лимита для легковых.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t10-13",
+    section: "driving_conditions",
+    correctIndex: 1,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "En carretera convencional, la velocidad máxima genérica para un camión es…",
+        options: ["100 km/h", "80 km/h", "90 km/h", "70 km/h"],
+        explanation:
+          "Camiones, tractocamiones, furgonetas > 3.500 kg, autocaravanas > 3.500 kg y vehículos con remolque: 80 km/h en carretera convencional (90 en autopista).",
+        optionRationales: [
+          "100 km/h no aplica a camiones; es el máximo urbano-autovía para autobuses.",
+          "",
+          "90 km/h es el máximo del camión en autopista, no en convencional (el camión siempre 10 km/h menos que turismo).",
+          "70 km/h es demasiado bajo; el mínimo genérico para camión.",
+        ],
+      },
+      en: {
+        text: "On a conventional road, the general maximum speed for a lorry is…",
+        options: ["100 km/h", "80 km/h", "90 km/h", "70 km/h"],
+        explanation:
+          "Lorries, tractor-lorries, vans > 3,500 kg, motorhomes > 3,500 kg and vehicles with trailer: 80 km/h on conventional road (90 on motorway).",
+        optionRationales: [
+          "100 km/h doesn't apply to lorries.",
+          "",
+          "90 km/h is the lorry max on motorway, not conventional (lorry always 10 km/h below cars).",
+          "70 km/h is too low; that's not a generic lorry limit.",
+        ],
+      },
+      ru: {
+        text: "На обычной загородной дороге общий максимум для грузовика…",
+        options: ["100 км/ч", "80 км/ч", "90 км/ч", "70 км/ч"],
+        explanation:
+          "Грузовики, тягачи, фургоны > 3500 кг, кемперы > 3500 кг и авто с прицепом: 80 км/ч на обычной дороге (90 на автомагистрали).",
+        optionRationales: [
+          "100 км/ч не относится к грузовикам.",
+          "",
+          "90 км/ч — предел грузовика на автомагистрали, не на обычной (грузовик всегда на 10 км/ч ниже легковой).",
+          "70 км/ч слишком мало; не общий предел грузовика.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t10-14",
+    section: "driving_conditions",
+    correctIndex: 3,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "En carretera convencional, la velocidad máxima genérica para un autobús es…",
+        options: ["70 km/h", "80 km/h", "100 km/h", "90 km/h"],
+        explanation:
+          "Autobuses, vehículos derivados de turismo y mixtos adaptables: 90 km/h en carretera convencional y 100 km/h en autopista/autovía.",
+        optionRationales: [
+          "70 km/h no es un límite oficial para autobús.",
+          "80 km/h es el límite del camión en convencional, no del autobús.",
+          "100 km/h es el máximo del autobús en autopista, no en convencional.",
+          "",
+        ],
+      },
+      en: {
+        text: "On a conventional road, the general max for a bus is…",
+        options: ["70 km/h", "80 km/h", "100 km/h", "90 km/h"],
+        explanation:
+          "Buses, car-derived and mixed-adaptable vehicles: 90 km/h on conventional road, 100 km/h on motorway.",
+        optionRationales: [
+          "70 km/h isn't an official bus limit.",
+          "80 km/h is the lorry limit on conventional roads, not bus.",
+          "100 km/h is the bus max on motorway, not conventional.",
+          "",
+        ],
+      },
+      ru: {
+        text: "На обычной загородной дороге общий максимум для автобуса…",
+        options: ["70 км/ч", "80 км/ч", "100 км/ч", "90 км/ч"],
+        explanation:
+          "Автобусы и производные от легковых: 90 км/ч на обычной дороге, 100 км/ч на автомагистрали.",
+        optionRationales: [
+          "70 км/ч — не официальный лимит автобуса.",
+          "80 км/ч — лимит грузовика на обычной дороге, не автобуса.",
+          "100 км/ч — предел автобуса на автомагистрали, не на обычной.",
+          "",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t10-15",
+    section: "driving_conditions",
+    correctIndex: 0,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Circular a 100 km/h en una carretera donde el máximo permitido es 90 km/h se llama…",
+        options: [
+          "Exceso de velocidad",
+          "Velocidad inadecuada",
+          "Velocidad óptima",
+          "Velocidad anormalmente reducida",
+        ],
+        explanation:
+          "Cuando el vehículo va más rápido que el máximo permitido, se llama «exceso de velocidad». No confundir con «inadecuada» (dentro del límite pero mala para las condiciones).",
+        optionRationales: [
+          "",
+          "«Inadecuada» es cuando estás DENTRO del límite legal pero es mala idea (hielo, niebla, obras). Aquí ya te pasaste del límite.",
+          "«Óptima» no es una categoría oficial en el reglamento.",
+          "«Anormalmente reducida» es lo opuesto: ir por DEBAJO del mínimo.",
+        ],
+      },
+      en: {
+        text: "Driving at 100 km/h on a road where the max is 90 km/h is called…",
+        options: [
+          "Speeding (exceso de velocidad)",
+          "Unsuitable speed",
+          "Optimal speed",
+          "Abnormally low speed",
+        ],
+        explanation:
+          "When you exceed the legal max, that's 'exceso de velocidad' (speeding). Don't confuse with 'unsuitable' (within limit but bad for the conditions).",
+        optionRationales: [
+          "",
+          "'Unsuitable' is when you're WITHIN the legal limit but it's a bad idea (ice, fog, works). Here you've already crossed the limit.",
+          "'Optimal' isn't an official regulation category.",
+          "'Abnormally low' is the opposite: going BELOW the minimum.",
+        ],
+      },
+      ru: {
+        text: "Ехать 100 км/ч там, где максимум 90 км/ч — это…",
+        options: [
+          "Превышение скорости (exceso de velocidad)",
+          "Ненадлежащая скорость",
+          "Оптимальная скорость",
+          "Аномально низкая скорость",
+        ],
+        explanation:
+          "Когда едешь быстрее лимита, это «exceso de velocidad» — превышение. Не путать с «ненадлежащей» (в лимите, но плохо для условий).",
+        optionRationales: [
+          "",
+          "«Ненадлежащая» — когда ты В ПРЕДЕЛАХ лимита, но плохая идея (лёд, туман, работы). Здесь ты уже превысил лимит.",
+          "«Оптимальная» — не официальная категория в правилах.",
+          "«Аномально низкая» — противоположное: ниже минимума.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t10-16",
+    section: "driving_conditions",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Al acercarte a un autobús escolar parado que está subiendo o bajando niños, debes…",
+        options: [
+          "Continuar a velocidad normal",
+          "Acelerar para pasar rápido",
+          "Reducir la velocidad y estar preparado para detenerte",
+          "Tocar el claxon",
+        ],
+        explanation:
+          "Los niños pueden bajarse del autobús y cruzar sin mirar. Hay que reducir la velocidad y estar listo para parar. Es una de las situaciones de máxima precaución del manual.",
+        optionRationales: [
+          "A velocidad normal no reaccionas a tiempo si un niño cruza.",
+          "Acelerar es exactamente lo contrario de lo que se debe hacer.",
+          "",
+          "El claxon puede asustar y provocar que el niño se lance a la carretera.",
+        ],
+      },
+      en: {
+        text: "Approaching a stopped school bus loading or unloading children, you should…",
+        options: [
+          "Keep at normal speed",
+          "Speed up to pass quickly",
+          "Slow down and be ready to stop",
+          "Honk the horn",
+        ],
+        explanation:
+          "Kids may get off the bus and cross without looking. Slow down and be ready to stop. One of the manual's max-caution situations.",
+        optionRationales: [
+          "At normal speed you won't react in time if a child crosses.",
+          "Speeding up is exactly the wrong response.",
+          "",
+          "Honking may startle the child into stepping into traffic.",
+        ],
+      },
+      ru: {
+        text: "Подъезжая к остановившемуся школьному автобусу, где дети садятся или выходят, нужно…",
+        options: [
+          "Ехать с обычной скоростью",
+          "Ускориться, чтобы быстрее проехать",
+          "Снизить скорость и быть готовым остановиться",
+          "Посигналить",
+        ],
+        explanation:
+          "Дети могут выйти из автобуса и перебежать дорогу не глядя. Снижаем скорость, готовы остановиться. Одна из ситуаций максимальной осторожности.",
+        optionRationales: [
+          "На обычной скорости не успеешь среагировать, если ребёнок побежит.",
+          "Ускорение — прямо противоположное правильному действию.",
+          "",
+          "Клаксон может напугать ребёнка и толкнуть его на проезжую часть.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t10-17",
+    section: "driving_conditions",
+    correctIndex: 1,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Un ciclomotor circulando por autopista o autovía…",
+        options: [
+          "Está permitido si va a más de 45 km/h",
+          "Está PROHIBIDO",
+          "Está permitido de día",
+          "Solo con acompañante",
+        ],
+        explanation:
+          "Los ciclomotores (velocidad máxima 45 km/h) están PROHIBIDOS en autopistas y autovías porque no pueden alcanzar el mínimo de 60 km/h.",
+        optionRationales: [
+          "Un ciclomotor por definición no supera 45 km/h; si va más rápido ya no es ciclomotor.",
+          "",
+          "La hora no cambia la regla; siempre prohibido.",
+          "Un acompañante no cambia la clase del vehículo ni su velocidad máxima.",
+        ],
+      },
+      en: {
+        text: "A moped on a motorway or dual carriageway…",
+        options: [
+          "Is allowed if it goes above 45 km/h",
+          "Is FORBIDDEN",
+          "Is allowed during the day",
+          "Only with a passenger",
+        ],
+        explanation:
+          "Mopeds (max speed 45 km/h) are FORBIDDEN on motorways/dual carriageways because they can't reach the 60 km/h minimum.",
+        optionRationales: [
+          "By definition a moped can't exceed 45 km/h; if it does, it's not a moped anymore.",
+          "",
+          "Time of day doesn't change the rule; always forbidden.",
+          "A passenger doesn't change the vehicle class or its max speed.",
+        ],
+      },
+      ru: {
+        text: "Мопед на автомагистрали…",
+        options: [
+          "Разрешён, если едет более 45 км/ч",
+          "ЗАПРЕЩЁН",
+          "Разрешён днём",
+          "Только с пассажиром",
+        ],
+        explanation:
+          "Мопеды (максимум 45 км/ч) ЗАПРЕЩЕНЫ на автомагистрали, потому что не могут набрать минимум 60 км/ч.",
+        optionRationales: [
+          "По определению мопед не превышает 45 км/ч; если превышает — уже не мопед.",
+          "",
+          "Время суток не меняет правило; всегда запрещено.",
+          "Пассажир не меняет класс ТС и максимальную скорость.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t10-18",
+    section: "driving_conditions",
+    correctIndex: 3,
+    source: SOURCE,
+    termIds: ["distancia_frenado"],
+    translations: {
+      es: {
+        text: "Si duplicas la velocidad (por ejemplo, de 50 a 100 km/h), la distancia de frenado…",
+        options: [
+          "Se duplica también",
+          "No cambia",
+          "Se reduce a la mitad",
+          "Se multiplica aproximadamente por cuatro",
+        ],
+        explanation:
+          "La distancia de frenado crece con el CUADRADO de la velocidad. Al doblar la velocidad, la distancia de frenado se cuadruplica. Por eso el exceso de velocidad es tan peligroso.",
+        optionRationales: [
+          "Se duplica solo la distancia de REACCIÓN (proporcional a la velocidad). El frenado escala con el cuadrado.",
+          "Cambia y mucho; ignorar esto es la causa más común de alcances graves.",
+          "Reducirse a la mitad al DUPLICAR la velocidad es imposible físicamente.",
+          "",
+        ],
+      },
+      en: {
+        text: "If you double your speed (say, from 50 to 100 km/h), the braking distance…",
+        options: [
+          "Also doubles",
+          "Doesn't change",
+          "Halves",
+          "Multiplies by roughly four",
+        ],
+        explanation:
+          "Braking distance grows with the SQUARE of speed. Doubling the speed quadruples the braking distance. That's why speeding is so dangerous.",
+        optionRationales: [
+          "Only the REACTION distance doubles (proportional to speed). Braking scales with the square.",
+          "It changes a lot; ignoring this is the most common cause of serious rear-end crashes.",
+          "Halving braking distance when speed doubles is physically impossible.",
+          "",
+        ],
+      },
+      ru: {
+        text: "Если удвоить скорость (например, с 50 до 100 км/ч), тормозной путь…",
+        options: [
+          "Тоже удвоится",
+          "Не изменится",
+          "Уменьшится вдвое",
+          "Умножится примерно в четыре раза",
+        ],
+        explanation:
+          "Тормозной путь растёт как КВАДРАТ скорости. При удвоении скорости тормозной путь увеличивается в 4 раза. Поэтому превышение так опасно.",
+        optionRationales: [
+          "Удваивается только дистанция РЕАКЦИИ (пропорциональна скорости). Тормозной путь — квадрат.",
+          "Меняется, и сильно; игнорирование этого — главная причина серьёзных наездов сзади.",
+          "Уменьшить тормозной путь при удвоении скорости физически невозможно.",
+          "",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t10-19",
+    section: "driving_conditions",
+    correctIndex: 0,
+    source: SOURCE,
+    termIds: ["distancia_seguridad"],
+    translations: {
+      es: {
+        text: "Circulando por túnel, la distancia de seguridad recomendada con el vehículo de delante es…",
+        options: [
+          "Al menos 100 m (150 m para vehículos pesados)",
+          "10 m suficientes",
+          "50 m siempre",
+          "Igual que fuera del túnel",
+        ],
+        explanation:
+          "En túnel la distancia recomendada es 100 m (o 4 segundos), y 150 m (o 6 segundos) para vehículos pesados. En caso de incendio esta distancia salva vidas.",
+        optionRationales: [
+          "",
+          "10 m es peligrosísimo; sin distancia no hay margen de reacción ni de evacuación.",
+          "50 m es la referencia para vehículos > 3.500 kg fuera del túnel, no dentro.",
+          "En túnel la distancia debe ser MAYOR que fuera; incidencias en túnel son más graves.",
+        ],
+      },
+      en: {
+        text: "Inside a tunnel, the recommended following distance is…",
+        options: [
+          "At least 100 m (150 m for heavy vehicles)",
+          "10 m is enough",
+          "50 m always",
+          "Same as outside the tunnel",
+        ],
+        explanation:
+          "In a tunnel, recommended distance is 100 m (or 4 seconds), and 150 m (6 s) for heavy vehicles. In a tunnel fire this distance saves lives.",
+        optionRationales: [
+          "",
+          "10 m is extremely dangerous; no margin to react or evacuate.",
+          "50 m is the reference for > 3,500 kg vehicles outside the tunnel, not inside.",
+          "In-tunnel distance must be GREATER than outside; tunnel incidents are more severe.",
+        ],
+      },
+      ru: {
+        text: "В тоннеле рекомендуемая дистанция до впереди идущего…",
+        options: [
+          "Минимум 100 м (150 м для тяжёлых ТС)",
+          "10 м достаточно",
+          "50 м всегда",
+          "Такая же, как вне тоннеля",
+        ],
+        explanation:
+          "В тоннеле — 100 м (или 4 сек), для тяжёлых ТС — 150 м (6 сек). При пожаре в тоннеле эта дистанция спасает жизни.",
+        optionRationales: [
+          "",
+          "10 м крайне опасно; нет запаса для реакции и эвакуации.",
+          "50 м — для ТС > 3500 кг ВНЕ тоннеля, не внутри.",
+          "В тоннеле дистанция должна быть БОЛЬШЕ, чем снаружи; инциденты в тоннеле опаснее.",
+        ],
+      },
+    },
+  },
 ];
