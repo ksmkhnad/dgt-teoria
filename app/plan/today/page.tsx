@@ -28,8 +28,11 @@ export default function PlanTodayPage() {
   const [seed, setSeed] = useState(0);
   const size = todayTask?.size ?? 10;
 
+  // Always compute (idempotent, guarded by !todayTask return below). Depending
+  // on todayTask directly is necessary — size alone may not change between the
+  // initial null-task render and the real one, leaving the memo stuck at [].
   const questions: Question[] = useMemo(
-    () => (todayTask ? shuffle(getAllQuestions()).slice(0, size) : []),
+    () => shuffle(getAllQuestions()).slice(0, size),
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [size, seed]
   );
