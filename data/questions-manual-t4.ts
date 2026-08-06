@@ -565,4 +565,299 @@ export const QUESTIONS_MANUAL_T4: Question[] = [
       },
     },
   },
+  {
+    id: "manual-t4-11",
+    section: "others",
+    correctIndex: 3,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "El cinturón de seguridad es obligatorio para…",
+        options: [
+          "Solo el conductor",
+          "Solo los ocupantes de los asientos delanteros",
+          "Solo los ocupantes de los asientos traseros",
+          "Todos los ocupantes del vehículo, delanteros y traseros",
+        ],
+        explanation:
+          "El cinturón de seguridad es obligatorio para todos los ocupantes del vehículo, en los asientos delanteros y también en los traseros. El conductor es responsable de que los pasajeros menores lo lleven.",
+        optionRationales: [
+          "Solo el conductor no basta; los pasajeros sin cinturón se convierten en proyectiles en un choque.",
+          "Delanteros solo es la regla antigua; la actual incluye a todos.",
+          "Traseros solo no tiene sentido; los delanteros van más expuestos.",
+          "",
+        ],
+      },
+      en: {
+        text: "The seat belt is mandatory for…",
+        options: [
+          "Only the driver",
+          "Only the front-seat occupants",
+          "Only the rear-seat occupants",
+          "All occupants of the vehicle, front and rear",
+        ],
+        explanation:
+          "The seat belt is mandatory for all occupants, front and rear. The driver is responsible for ensuring minors wear it.",
+        optionRationales: [
+          "Just the driver isn't enough; unbelted passengers become projectiles in a crash.",
+          "Front-only is the old rule; the current one covers everyone.",
+          "Rear-only makes no sense; front seats are more exposed.",
+          "",
+        ],
+      },
+      ru: {
+        text: "Ремень безопасности обязателен для…",
+        options: [
+          "Только водителя",
+          "Только пассажиров передних сидений",
+          "Только пассажиров задних сидений",
+          "Всех, кто в машине — и спереди, и сзади",
+        ],
+        explanation:
+          "Ремень обязателен для всех, кто в машине, — и на передних, и на задних сиденьях. Водитель отвечает за то, чтобы несовершеннолетние были пристёгнуты.",
+        optionRationales: [
+          "Только водителя недостаточно; непристёгнутые пассажиры становятся снарядами при ударе.",
+          "«Только спереди» — старое правило; сейчас правило шире.",
+          "«Только сзади» — бессмысленно; спереди больше риск.",
+          "",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t4-12",
+    section: "others",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Los menores deben viajar en un sistema de retención infantil (SRI) hasta alcanzar…",
+        options: [
+          "1,20 m de altura",
+          "1,25 m de altura",
+          "1,35 m de altura (o más, según el pediatra)",
+          "1,60 m de altura",
+        ],
+        explanation:
+          "Los menores deben viajar en un sistema de retención infantil homologado hasta alcanzar los 1,35 m de altura. Por debajo, deben ir en las plazas traseras salvo excepciones concretas.",
+        optionRationales: [
+          "1,20 m es la referencia antigua; se ha ampliado a 1,35 m para mayor protección.",
+          "1,25 m no es el umbral vigente; la ley fija 1,35.",
+          "",
+          "1,60 m corresponde a un adulto de baja estatura; ya no requiere SRI.",
+        ],
+      },
+      en: {
+        text: "Children must ride in a child restraint system (CRS) until they reach…",
+        options: [
+          "1.20 m tall",
+          "1.25 m tall",
+          "1.35 m tall (or more if a paediatrician recommends it)",
+          "1.60 m tall",
+        ],
+        explanation:
+          "Children must ride in an approved child restraint until they reach 1.35 m. Below that height they must ride in the rear seats except in specific cases.",
+        optionRationales: [
+          "1.20 m is the old figure; it was raised to 1.35 m for extra protection.",
+          "1.25 m isn't the current threshold; the law sets 1.35.",
+          "",
+          "1.60 m is a short adult's height; no CRS needed.",
+        ],
+      },
+      ru: {
+        text: "Дети должны ехать в детском удерживающем устройстве (SRI) до роста…",
+        options: [
+          "1,20 м",
+          "1,25 м",
+          "1,35 м (или выше по совету педиатра)",
+          "1,60 м",
+        ],
+        explanation:
+          "Дети должны ехать в сертифицированном детском кресле до роста 1,35 м. Ниже этой высоты — только на задних сиденьях, за отдельными исключениями.",
+        optionRationales: [
+          "1,20 м — старый показатель; поднят до 1,35 м для большей защиты.",
+          "1,25 м не действующий предел; закон устанавливает 1,35.",
+          "",
+          "1,60 м — рост невысокого взрослого; кресло уже не требуется.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t4-13",
+    section: "others",
+    correctIndex: 0,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "El casco es obligatorio para conductor y pasajero de motocicleta y ciclomotor…",
+        options: [
+          "Siempre, en cualquier vía",
+          "Solo fuera de poblado",
+          "Solo por la noche",
+          "Solo cuando la velocidad supera los 40 km/h",
+        ],
+        explanation:
+          "El casco homologado es obligatorio para conductor y pasajero de motocicleta y ciclomotor en cualquier vía y a cualquier velocidad. Es el elemento de seguridad más importante.",
+        optionRationales: [
+          "",
+          "Dentro de poblado también es obligatorio; hay muchos accidentes urbanos.",
+          "El horario no exime; el casco es obligatorio también de día.",
+          "La velocidad no es criterio; incluso a 20 km/h una caída puede ser mortal sin casco.",
+        ],
+      },
+      en: {
+        text: "A helmet is mandatory for motorcycle and moped riders and passengers…",
+        options: [
+          "Always, on any road",
+          "Only outside built-up areas",
+          "Only at night",
+          "Only above 40 km/h",
+        ],
+        explanation:
+          "An approved helmet is mandatory for motorcycle and moped rider and passenger on any road and at any speed. It's the most important safety item.",
+        optionRationales: [
+          "",
+          "Inside built-up areas it's also mandatory; many urban crashes happen.",
+          "Time of day doesn't exempt; helmets are mandatory by day too.",
+          "Speed isn't the criterion; even at 20 km/h a fall can be fatal without a helmet.",
+        ],
+      },
+      ru: {
+        text: "Шлем обязателен для водителя и пассажира мотоцикла и мопеда…",
+        options: [
+          "Всегда, на любой дороге",
+          "Только вне населённого пункта",
+          "Только ночью",
+          "Только при скорости выше 40 км/ч",
+        ],
+        explanation:
+          "Сертифицированный шлем обязателен для водителя и пассажира мотоцикла и мопеда на любой дороге и на любой скорости. Это важнейший элемент безопасности.",
+        optionRationales: [
+          "",
+          "В городе тоже обязателен — там много ДТП с мотоциклами.",
+          "Время суток не освобождает; шлем нужен и днём.",
+          "Скорость не критерий: даже при 20 км/ч падение без шлема может быть смертельным.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t4-14",
+    section: "others",
+    correctIndex: 3,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Si eres testigo o parte de un accidente de tráfico, tu obligación es…",
+        options: [
+          "Marcharte para no verte implicado",
+          "Solo llamar por teléfono al día siguiente",
+          "Avisar a un vecino, sin acercarte al lugar",
+          "Detenerte, señalizar el accidente, ayudar a los heridos y avisar a los servicios de emergencia",
+        ],
+        explanation:
+          "Toda persona implicada o testigo debe detenerse, señalizar el accidente, prestar ayuda a las víctimas dentro de sus posibilidades y avisar a los servicios de emergencia (112). No hacerlo puede ser delito (omisión del deber de socorro).",
+        optionRationales: [
+          "Marcharte del lugar es delito de omisión del deber de socorro y de fuga.",
+          "Llamar al día siguiente puede llegar demasiado tarde; hay que actuar de inmediato.",
+          "Avisar a un vecino sin acercarte no cumple con el deber de socorro directo.",
+          "",
+        ],
+      },
+      en: {
+        text: "If you witness or are involved in a traffic accident, your duty is to…",
+        options: [
+          "Leave to avoid being involved",
+          "Just call the next day",
+          "Alert a neighbour without approaching the scene",
+          "Stop, signal the accident, help the injured and call the emergency services",
+        ],
+        explanation:
+          "Anyone involved or witnessing must stop, signal the crash, help the victims within their means and call emergency services (112). Failing to do so can be a criminal offence (failure to render aid).",
+        optionRationales: [
+          "Leaving the scene is failure-to-aid and hit-and-run — both criminal.",
+          "Calling the next day may be too late; you must act immediately.",
+          "Alerting a neighbour without approaching doesn't fulfil the direct duty to aid.",
+          "",
+        ],
+      },
+      ru: {
+        text: "Если вы свидетель или участник ДТП, ваша обязанность —",
+        options: [
+          "Уехать, чтобы не оказаться замешанным",
+          "Позвонить только на следующий день",
+          "Позвать соседа, самому не подходя к месту",
+          "Остановиться, обозначить ДТП, помочь пострадавшим и вызвать экстренные службы",
+        ],
+        explanation:
+          "Любой участник или свидетель обязан остановиться, обозначить ДТП, помочь пострадавшим в меру своих возможностей и вызвать экстренные службы (112). Иначе — уголовная ответственность (неоказание помощи).",
+        optionRationales: [
+          "Уехать с места — это неоказание помощи и оставление места ДТП (уголовно).",
+          "Звонок на следующий день может опоздать; действовать надо немедленно.",
+          "Позвать соседа, не подходя, не выполняет прямую обязанность помочь.",
+          "",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t4-15",
+    section: "others",
+    correctIndex: 1,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "El conductor requerido para hacer una prueba de alcoholemia por un agente…",
+        options: [
+          "Puede negarse si se siente bien",
+          "Está OBLIGADO a someterse; negarse puede ser delito penal",
+          "Solo debe hacerla si ha bebido",
+          "Puede pedir hacerla al día siguiente",
+        ],
+        explanation:
+          "El conductor está obligado a someterse a las pruebas de alcohol y drogas cuando lo requiere un agente. Negarse conlleva la pérdida de 6 puntos, una multa muy grave y puede constituir delito penal de desobediencia.",
+        optionRationales: [
+          "«Sentirse bien» no vale como justificación; la prueba es una obligación legal.",
+          "",
+          "El agente decide cuándo hacerla; no es una decisión del conductor según haya bebido o no.",
+          "La prueba se hace en el momento; no puede postponerse al día siguiente.",
+        ],
+      },
+      en: {
+        text: "A driver required to take a breathalyser by an officer…",
+        options: [
+          "May refuse if they feel fine",
+          "MUST submit; refusing can be a criminal offence",
+          "Only takes it if they've been drinking",
+          "May ask to take it the next day",
+        ],
+        explanation:
+          "The driver must submit to alcohol and drug tests when an officer requires it. Refusing means 6 points lost, a very serious fine and can be a criminal offence (disobedience).",
+        optionRationales: [
+          "'Feeling fine' isn't a valid excuse; the test is a legal obligation.",
+          "",
+          "The officer decides when to test; it isn't the driver's call based on whether they drank.",
+          "The test is done on the spot; it can't be postponed to the next day.",
+        ],
+      },
+      ru: {
+        text: "Водитель, которого сотрудник обязал пройти тест на алкоголь…",
+        options: [
+          "Может отказаться, если чувствует себя хорошо",
+          "ОБЯЗАН пройти; отказ может быть уголовным преступлением",
+          "Проходит только если пил",
+          "Может попросить перенести на завтра",
+        ],
+        explanation:
+          "Водитель обязан пройти тест на алкоголь и наркотики по требованию сотрудника. Отказ — минус 6 баллов, очень крупный штраф и возможное уголовное дело (неповиновение).",
+        optionRationales: [
+          "«Хорошо себя чувствую» — не оправдание; тест — юридическая обязанность.",
+          "",
+          "Проводить ли тест — решает сотрудник, а не водитель.",
+          "Тест проходят на месте; перенести на завтра нельзя.",
+        ],
+      },
+    },
+  },
 ];

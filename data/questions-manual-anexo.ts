@@ -329,4 +329,210 @@ export const QUESTIONS_MANUAL_ANEXO: Question[] = [
       },
     },
   },
+  {
+    id: "manual-anexo-08",
+    section: "admin",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "No llevar puesto el cinturón de seguridad, casco u otro sistema de retención supone la pérdida de…",
+        options: ["1 punto", "2 puntos", "3 puntos", "6 puntos"],
+        explanation:
+          "No llevar puesto el cinturón, el casco o cualquier otro sistema de retención = 3 puntos + multa. Aplica al conductor y también si permite que un pasajero no lo lleve.",
+        optionRationales: [
+          "1 punto no se aplica a esta infracción; es demasiado bajo.",
+          "2 puntos no corresponde; para el cinturón el sistema fija 3.",
+          "",
+          "6 puntos se reserva para las faltas muy graves (alcohol, móvil, adelantamiento peligroso).",
+        ],
+      },
+      en: {
+        text: "Not wearing a seat belt, helmet or other restraint system loses you…",
+        options: ["1 point", "2 points", "3 points", "6 points"],
+        explanation:
+          "Not wearing a seat belt, helmet or any restraint system = 3 points + fine. Applies to the driver and also if they let a passenger skip it.",
+        optionRationales: [
+          "1 point doesn't apply here; it's too low.",
+          "2 points isn't right either; for the belt the system sets 3.",
+          "",
+          "6 points is reserved for very serious offences (alcohol, phone, dangerous overtake).",
+        ],
+      },
+      ru: {
+        text: "Не пристёгнутый ремень, шлем или другое средство защиты — потеря…",
+        options: ["1 балла", "2 баллов", "3 баллов", "6 баллов"],
+        explanation:
+          "Отсутствие ремня, шлема или иного средства защиты = минус 3 балла + штраф. Касается водителя и случая, когда он допустил не пристёгнутого пассажира.",
+        optionRationales: [
+          "1 балл не применяется — слишком мало.",
+          "2 балла тоже неверно; за ремень система назначает 3.",
+          "",
+          "6 баллов — за очень грубые нарушения (алкоголь, телефон, опасный обгон).",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-anexo-09",
+    section: "admin",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Saltarse un semáforo en rojo supone la pérdida de…",
+        options: ["2 puntos", "3 puntos", "4 puntos", "6 puntos"],
+        explanation:
+          "No respetar la luz roja de un semáforo o una señal de STOP / ceda el paso = 4 puntos + multa. Es infracción grave por el riesgo de colisión en el cruce.",
+        optionRationales: [
+          "2 puntos es una infracción menor; saltarse un rojo no lo es.",
+          "3 puntos corresponde a otras faltas (cinturón, cambio de sentido indebido).",
+          "",
+          "6 puntos se aplica a alcohol, drogas, móvil en mano, etc., no al semáforo por sí solo.",
+        ],
+      },
+      en: {
+        text: "Running a red light loses you…",
+        options: ["2 points", "3 points", "4 points", "6 points"],
+        explanation:
+          "Failing to respect a red light or a STOP / give-way sign = 4 points + fine. It's a serious offence because of the collision risk at the junction.",
+        optionRationales: [
+          "2 points is for minor offences; running a red isn't minor.",
+          "3 points is for other offences (seat belt, illegal U-turn).",
+          "",
+          "6 points applies to alcohol, drugs, hand-held phone etc., not to running a red on its own.",
+        ],
+      },
+      ru: {
+        text: "Проезд на красный свет — потеря…",
+        options: ["2 баллов", "3 баллов", "4 баллов", "6 баллов"],
+        explanation:
+          "Нарушение красного сигнала светофора или знаков STOP / уступи дорогу = минус 4 балла + штраф. Серьёзное нарушение из-за риска ДТП на перекрёстке.",
+        optionRationales: [
+          "2 балла — за мелкие нарушения; проезд на красный к ним не относится.",
+          "3 балла — за другие нарушения (ремень, незаконный разворот).",
+          "",
+          "6 баллов — за алкоголь, наркотики, телефон в руке и т. п., но не за проезд на красный.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-anexo-10",
+    section: "admin",
+    correctIndex: 3,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Negarse a hacer las pruebas de alcohol o drogas supone…",
+        options: [
+          "Pérdida de 3 puntos y multa administrativa",
+          "Pérdida de 4 puntos",
+          "Nada; es un derecho del conductor negarse",
+          "Pérdida de 6 puntos, multa muy grave y puede ser delito penal",
+        ],
+        explanation:
+          "Negarse a las pruebas de alcohol o drogas = 6 puntos, multa muy grave y además puede constituir delito penal (desobediencia). No es un derecho: la ley obliga a someterse.",
+        optionRationales: [
+          "3 puntos es una sanción menor; la negativa a la prueba es más grave.",
+          "4 puntos tampoco corresponde; se sanciona con el máximo (6).",
+          "No es un derecho; el conductor está obligado a someterse a las pruebas.",
+          "",
+        ],
+      },
+      en: {
+        text: "Refusing to take an alcohol or drugs test carries…",
+        options: [
+          "3 points and an administrative fine",
+          "4 points",
+          "Nothing; drivers have the right to refuse",
+          "6 points, a very serious fine and it can be a criminal offence",
+        ],
+        explanation:
+          "Refusing an alcohol or drugs test = 6 points, a very serious fine and can even be a criminal offence (disobedience). It's not a right — the law requires submission.",
+        optionRationales: [
+          "3 points is a mild sanction; refusing the test is more serious.",
+          "4 points isn't right either; refusal draws the maximum (6).",
+          "It isn't a right; the driver is legally required to take the tests.",
+          "",
+        ],
+      },
+      ru: {
+        text: "Отказ от теста на алкоголь или наркотики влечёт…",
+        options: [
+          "Минус 3 балла и административный штраф",
+          "Минус 4 балла",
+          "Ничего; у водителя есть право отказаться",
+          "Минус 6 баллов, очень крупный штраф, возможно уголовное дело",
+        ],
+        explanation:
+          "Отказ от теста на алкоголь или наркотики = минус 6 баллов, очень крупный штраф, вплоть до уголовной ответственности (неповиновение). Это не право: закон обязывает пройти тест.",
+        optionRationales: [
+          "3 балла — слишком мягко; отказ от теста серьёзнее.",
+          "4 балла тоже не то; при отказе применяется максимум (6).",
+          "Это не право; закон обязывает пройти тест.",
+          "",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-anexo-11",
+    section: "admin",
+    correctIndex: 1,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Un conductor que comete una infracción GRAVE recupera el saldo total de puntos si pasan…",
+        options: [
+          "1 año sin cometer otra infracción grave o muy grave",
+          "2 años sin cometer otra infracción grave o muy grave",
+          "3 años",
+          "5 años",
+        ],
+        explanation:
+          "Se recupera el saldo total tras 2 años sin cometer otra infracción grave o muy grave. Para infracciones muy graves, el plazo es de 3 años.",
+        optionRationales: [
+          "1 año no basta para faltas graves; el plazo son 2 años.",
+          "",
+          "3 años es el plazo para recuperar el saldo tras infracciones MUY GRAVES, no graves.",
+          "5 años no corresponde; el sistema fija 2 años (grave) o 3 años (muy grave).",
+        ],
+      },
+      en: {
+        text: "A driver who commits a SERIOUS offence recovers their full points balance after…",
+        options: [
+          "1 year without another serious or very serious offence",
+          "2 years without another serious or very serious offence",
+          "3 years",
+          "5 years",
+        ],
+        explanation:
+          "Full balance is restored after 2 years without another serious or very serious offence. For very serious offences, the period is 3 years.",
+        optionRationales: [
+          "1 year isn't enough for serious offences; the period is 2 years.",
+          "",
+          "3 years is the period for recovering the balance after VERY SERIOUS offences, not serious ones.",
+          "5 years doesn't apply; the system sets 2 (serious) or 3 (very serious).",
+        ],
+      },
+      ru: {
+        text: "Водитель, совершивший ГРУБОЕ нарушение, полностью восстанавливает баланс баллов через…",
+        options: [
+          "1 год без нового грубого или очень грубого нарушения",
+          "2 года без нового грубого или очень грубого нарушения",
+          "3 года",
+          "5 лет",
+        ],
+        explanation:
+          "Полный баланс восстанавливается через 2 года без нового грубого или очень грубого нарушения. Для очень грубых нарушений — 3 года.",
+        optionRationales: [
+          "1 год мало; для грубых нарушений установлено 2 года.",
+          "",
+          "3 года — срок восстановления после ОЧЕНЬ грубых нарушений, не грубых.",
+          "5 лет не подходит; система устанавливает 2 (грубое) или 3 (очень грубое).",
+        ],
+      },
+    },
+  },
 ];

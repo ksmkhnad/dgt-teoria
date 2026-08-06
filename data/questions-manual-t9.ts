@@ -585,4 +585,299 @@ export const QUESTIONS_MANUAL_T9: Question[] = [
       },
     },
   },
+  {
+    id: "manual-t9-11",
+    section: "driving_conditions",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "La mediana de una vía es…",
+        options: [
+          "El carril central",
+          "La línea pintada en el medio",
+          "La franja longitudinal que separa dos calzadas de sentidos opuestos, no destinada a la circulación",
+          "El arcén interior de una autopista",
+        ],
+        explanation:
+          "La mediana es la franja longitudinal que separa dos calzadas de sentidos opuestos y no está destinada a la circulación. Puede estar pavimentada, ajardinada o llevar un quitamiedos.",
+        optionRationales: [
+          "El carril central es un carril de circulación; la mediana no lo es.",
+          "Una línea pintada es una marca vial (por ejemplo, doble continua), no una mediana.",
+          "",
+          "El arcén interior es una franja pavimentada anexa a la calzada, distinta de la mediana en sí.",
+        ],
+      },
+      en: {
+        text: "The median (mediana) of a road is…",
+        options: [
+          "The central lane",
+          "The painted line in the middle",
+          "The longitudinal strip separating two roadways with opposite senses, not for traffic",
+          "The inner shoulder of a motorway",
+        ],
+        explanation:
+          "The median is the longitudinal strip separating two carriageways of opposite senses; not for traffic. It can be paved, planted or have a barrier.",
+        optionRationales: [
+          "The central lane IS a traffic lane; the median isn't.",
+          "A painted line is a road marking (e.g. double continuous), not a median.",
+          "",
+          "The inner shoulder is a paved strip alongside the carriageway, distinct from the median itself.",
+        ],
+      },
+      ru: {
+        text: "Mediana дороги — это…",
+        options: [
+          "Средняя полоса движения",
+          "Разметочная линия по центру",
+          "Продольная разделительная полоса между двумя проезжими частями противоположных направлений, не для движения",
+          "Внутренняя обочина автомагистрали",
+        ],
+        explanation:
+          "Mediana — продольная разделительная полоса между двумя проезжими частями противоположных направлений; для движения не предназначена. Может быть с покрытием, озеленением или отбойником.",
+        optionRationales: [
+          "Средняя полоса — полоса движения; mediana — нет.",
+          "Разметочная линия — это marking (двойная сплошная и т. п.), не разделительная полоса.",
+          "",
+          "Внутренняя обочина — полоса с покрытием у проезжей части, отличается от самой mediana.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t9-12",
+    section: "driving_conditions",
+    correctIndex: 0,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Un carril reversible es…",
+        options: [
+          "Un carril cuyo sentido de circulación puede cambiarse según la hora o el tráfico, señalizado en cada momento",
+          "Un carril solo para vehículos de emergencia",
+          "Un carril únicamente para taxis",
+          "El carril de la izquierda en cualquier autovía",
+        ],
+        explanation:
+          "El carril reversible cambia de sentido según hora o necesidad de tráfico (por ejemplo, entradas y salidas de grandes ciudades). Su sentido siempre está señalizado en cada momento; con luces las cortas encendidas.",
+        optionRationales: [
+          "",
+          "Los carriles para emergencias son distintos (arcén habilitado o carril bus-VAO).",
+          "Los carriles solo para taxis son carriles reservados (BUS/TAXI), no reversibles.",
+          "El carril izquierdo en autovía no es reversible; es simplemente el más rápido/de adelantamiento.",
+        ],
+      },
+      en: {
+        text: "A reversible lane is…",
+        options: [
+          "A lane whose direction can change by hour or traffic, always signposted at the moment of use",
+          "A lane only for emergency vehicles",
+          "A lane only for taxis",
+          "The left lane of any dual carriageway",
+        ],
+        explanation:
+          "A reversible lane switches direction by time of day or traffic need (e.g. big-city commutes). Its direction is always signposted at that moment; drive with dipped beams on.",
+        optionRationales: [
+          "",
+          "Emergency lanes are different (equipped shoulder or bus/HOV lanes).",
+          "Taxi-only lanes are reserved lanes (BUS/TAXI), not reversible.",
+          "The left lane of a dual carriageway is a fast/overtaking lane, not reversible.",
+        ],
+      },
+      ru: {
+        text: "Реверсивная полоса — это…",
+        options: [
+          "Полоса, направление движения которой может меняться по времени или трафику, всегда обозначается в момент использования",
+          "Полоса только для экстренных служб",
+          "Полоса только для такси",
+          "Левая полоса на любой скоростной дороге",
+        ],
+        explanation:
+          "Реверсивная полоса меняет направление по времени или необходимости трафика (например, часы пик в больших городах). Её направление всегда обозначается в конкретный момент; ехать с ближним светом.",
+        optionRationales: [
+          "",
+          "Полосы для экстренных — другое (обозначенная обочина или BUS/VAO).",
+          "Полосы только для такси — выделенные (BUS/TAXI), не реверсивные.",
+          "Левая полоса скоростной — это полоса для обгона, не реверсивная.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t9-13",
+    section: "driving_conditions",
+    correctIndex: 3,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Los carriles BUS-VAO están reservados a…",
+        options: [
+          "Solo autobuses",
+          "Solo taxis",
+          "Solo motocicletas",
+          "Autobuses y vehículos con alta ocupación (varios ocupantes), según señalización",
+        ],
+        explanation:
+          "El carril BUS-VAO (Vehículo de Alta Ocupación) es para autobuses y vehículos con más de un ocupante (según la señal: 2+ o 3+ personas). Suele estar en accesos a grandes ciudades.",
+        optionRationales: [
+          "«Solo autobuses» sería un carril BUS estándar, no BUS-VAO.",
+          "Los taxis pueden usarlo por normativa, pero no es exclusivo suyo.",
+          "Las motocicletas suelen tenerlo permitido, pero no es «solo motos».",
+          "",
+        ],
+      },
+      en: {
+        text: "BUS-VAO (HOV) lanes are reserved for…",
+        options: [
+          "Buses only",
+          "Taxis only",
+          "Motorcycles only",
+          "Buses and high-occupancy vehicles (several occupants), as signposted",
+        ],
+        explanation:
+          "The BUS-VAO (High-Occupancy Vehicle) lane is for buses and vehicles with more than one occupant (2+ or 3+ depending on signs). Usually on the approach to big cities.",
+        optionRationales: [
+          "'Buses only' would be a standard BUS lane, not BUS-VAO.",
+          "Taxis may use them by rule but they aren't taxi-exclusive.",
+          "Motorbikes are usually allowed but the lane isn't 'motorbikes only'.",
+          "",
+        ],
+      },
+      ru: {
+        text: "Полосы BUS-VAO предназначены для…",
+        options: [
+          "Только автобусов",
+          "Только такси",
+          "Только мотоциклов",
+          "Автобусов и авто с высокой загруженностью (несколько человек в салоне), по знаку",
+        ],
+        explanation:
+          "Полоса BUS-VAO (Vehículo de Alta Ocupación) — для автобусов и авто с несколькими пассажирами (по знаку 2+ или 3+ человек). Обычно на подъездах к крупным городам.",
+        optionRationales: [
+          "«Только автобусы» — это стандартная BUS, а не BUS-VAO.",
+          "Такси часто разрешены, но полоса не «только для такси».",
+          "Мотоциклам обычно тоже разрешено, но полоса не «только для мото».",
+          "",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t9-14",
+    section: "driving_conditions",
+    correctIndex: 1,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "En una pendiente descendente pronunciada, ¿cómo debes conducir para gastar menos frenos?",
+        options: [
+          "En punto muerto para ahorrar combustible",
+          "Con una marcha corta engranada para usar el freno motor",
+          "Con las luces largas encendidas",
+          "Con el freno de mano parcialmente accionado",
+        ],
+        explanation:
+          "En pendiente descendente hay que llevar una marcha corta engranada. El freno motor ayuda a controlar la velocidad y evita el sobrecalentamiento de los frenos por uso prolongado.",
+        optionRationales: [
+          "En punto muerto pierdes freno motor y control; además, en pendiente ni siquiera se ahorra combustible en coches modernos.",
+          "",
+          "Las luces largas no ayudan a frenar; solo iluminan más.",
+          "Usar el freno de mano parcialmente en marcha es peligroso: se sobrecalienta y puede bloquear las traseras.",
+        ],
+      },
+      en: {
+        text: "On a steep downhill, how should you drive to save the brakes?",
+        options: [
+          "In neutral to save fuel",
+          "In a low gear so engine braking helps",
+          "With high beams on",
+          "With the handbrake partly on",
+        ],
+        explanation:
+          "Downhill, stay in a low gear. Engine braking helps control speed and stops the brakes from overheating from prolonged use.",
+        optionRationales: [
+          "In neutral you lose engine braking and control; modern cars don't save fuel that way either.",
+          "",
+          "High beams don't help you brake; they only light more.",
+          "Partial handbrake while moving is dangerous — it overheats and can lock the rears.",
+        ],
+      },
+      ru: {
+        text: "На крутом спуске как ехать, чтобы меньше изнашивать тормоза?",
+        options: [
+          "На нейтрали, чтобы экономить топливо",
+          "На пониженной передаче, используя торможение двигателем",
+          "С включённым дальним светом",
+          "С частично поднятым ручником",
+        ],
+        explanation:
+          "На спуске ехать на пониженной передаче. Торможение двигателем помогает контролировать скорость и не даёт тормозам перегреться.",
+        optionRationales: [
+          "На нейтрали пропадает торможение двигателем и контроль; современные машины на нейтрали топливо не экономят.",
+          "",
+          "Дальний свет не помогает тормозить; он лишь ярче светит.",
+          "Ручник в движении опасен: перегревается и может заблокировать задние колёса.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t9-15",
+    section: "driving_conditions",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "En un túnel debes…",
+        options: [
+          "Circular con luces largas para ver mejor",
+          "Quitarte las gafas de sol solo después de salir",
+          "Encender las luces de cruce (aunque el túnel esté iluminado), mantener la distancia y no cambiar de carril",
+          "Adelantar rápido para salir cuanto antes",
+        ],
+        explanation:
+          "En túnel: enciende las luces de cruce aunque esté iluminado, mantén distancia con el vehículo de delante, no cambies de carril salvo necesidad y no adelantes si no está expresamente permitido.",
+        optionRationales: [
+          "Las luces largas deslumbran en túnel, sobre todo a los que vienen de frente.",
+          "Las gafas de sol se quitan ANTES de entrar; dentro no se ve nada con ellas puestas.",
+          "",
+          "Adelantar «rápido» en túnel es peligroso: espacio reducido, poca visibilidad lateral y posible tráfico frontal.",
+        ],
+      },
+      en: {
+        text: "In a tunnel you must…",
+        options: [
+          "Drive with high beams for better vision",
+          "Only take sunglasses off after exiting",
+          "Turn on dipped beams (even if the tunnel is lit), keep distance and don't change lanes",
+          "Overtake fast to get out sooner",
+        ],
+        explanation:
+          "In a tunnel: dipped beams on even in a lit tunnel, keep distance from the car in front, don't change lanes unless needed and don't overtake unless explicitly allowed.",
+        optionRationales: [
+          "High beams dazzle in a tunnel, especially oncoming traffic.",
+          "Sunglasses come off BEFORE entering; inside you can't see with them on.",
+          "",
+          "'Fast' overtaking in a tunnel is dangerous: tight space, poor lateral view, possible oncoming traffic.",
+        ],
+      },
+      ru: {
+        text: "В тоннеле нужно…",
+        options: [
+          "Ехать с дальним, чтобы лучше видеть",
+          "Снять солнечные очки только после выезда",
+          "Включить ближний свет (даже если тоннель освещён), держать дистанцию и не менять полосу",
+          "Быстро обгонять, чтобы скорее выехать",
+        ],
+        explanation:
+          "В тоннеле: ближний свет включён, даже если тоннель освещён; держать дистанцию; полосу без нужды не менять; обгон — только там, где явно разрешён.",
+        optionRationales: [
+          "Дальний в тоннеле слепит — особенно встречных.",
+          "Очки снимают ДО въезда; внутри в них ничего не видно.",
+          "",
+          "«Быстро обогнать» в тоннеле опасно: тесно, боковой обзор плохой, возможно встречное движение.",
+        ],
+      },
+    },
+  },
 ];

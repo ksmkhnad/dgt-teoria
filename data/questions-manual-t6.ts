@@ -595,4 +595,284 @@ export const QUESTIONS_MANUAL_T6: Question[] = [
       },
     },
   },
+  {
+    id: "manual-t6-11",
+    section: "mechanics",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "La profundidad mínima legal del dibujo (banda de rodadura) de los neumáticos de un turismo es de…",
+        options: ["0,8 mm", "1,2 mm", "1,6 mm", "3 mm"],
+        explanation:
+          "La profundidad mínima legal es de 1,6 mm en toda la banda de rodadura. Por debajo, el neumático no evacúa agua y aumenta el riesgo de aquaplaning y frenadas largas.",
+        optionRationales: [
+          "0,8 mm está por debajo del mínimo legal; el neumático sería peligroso.",
+          "1,2 mm tampoco cumple; no es la cifra oficial.",
+          "",
+          "3 mm es una recomendación de cambio preventivo, no el mínimo legal.",
+        ],
+      },
+      en: {
+        text: "The minimum legal tyre tread depth on a car is…",
+        options: ["0.8 mm", "1.2 mm", "1.6 mm", "3 mm"],
+        explanation:
+          "The legal minimum is 1.6 mm across the whole tread. Below that the tyre can't evacuate water — aquaplaning risk and longer braking distances.",
+        optionRationales: [
+          "0.8 mm is below the legal minimum; the tyre would be unsafe.",
+          "1.2 mm doesn't meet the requirement either; not the official figure.",
+          "",
+          "3 mm is a recommended change-early depth, not the legal minimum.",
+        ],
+      },
+      ru: {
+        text: "Минимальная глубина протектора шин легкового автомобиля по закону —",
+        options: ["0,8 мм", "1,2 мм", "1,6 мм", "3 мм"],
+        explanation:
+          "Юридический минимум — 1,6 мм по всей рабочей поверхности. Ниже — шина не отводит воду, растёт риск аквапланирования и удлиняется тормозной путь.",
+        optionRationales: [
+          "0,8 мм — ниже минимума; шина опасна.",
+          "1,2 мм — тоже не выдерживает норму; не официальная цифра.",
+          "",
+          "3 мм — рекомендуемая для замены раньше, не юридический минимум.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t6-12",
+    section: "mechanics",
+    correctIndex: 3,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "El ABS (sistema antibloqueo de frenos) permite…",
+        options: [
+          "Frenar más lejos de un obstáculo",
+          "Bloquear las ruedas para deslizarse mejor",
+          "Aumentar la velocidad al frenar",
+          "Frenar fuerte sin bloquear las ruedas, manteniendo la capacidad de dirigir el coche",
+        ],
+        explanation:
+          "El ABS evita el bloqueo de las ruedas al frenar bruscamente. Así el conductor puede seguir dirigiendo el vehículo mientras frena a fondo, sobre todo para esquivar obstáculos.",
+        optionRationales: [
+          "Al contrario: el ABS reduce la distancia de frenada útil y sobre todo mantiene la dirección.",
+          "El ABS EVITA el bloqueo; no lo provoca. Bloqueadas, las ruedas no dirigen.",
+          "El ABS es un sistema de frenado; no aumenta la velocidad.",
+          "",
+        ],
+      },
+      en: {
+        text: "ABS (anti-lock braking system) lets you…",
+        options: [
+          "Brake further from an obstacle",
+          "Lock the wheels for better sliding",
+          "Increase speed while braking",
+          "Brake hard without locking the wheels, keeping steering ability",
+        ],
+        explanation:
+          "ABS prevents wheel lock during hard braking. That way you can keep steering while braking flat-out — especially useful to swerve around obstacles.",
+        optionRationales: [
+          "Opposite: ABS reduces useful braking distance and keeps steering.",
+          "ABS PREVENTS lock; it doesn't cause it. Locked wheels can't steer.",
+          "ABS is a braking system; it doesn't increase speed.",
+          "",
+        ],
+      },
+      ru: {
+        text: "ABS (антиблокировочная система) позволяет…",
+        options: [
+          "Тормозить дальше от препятствия",
+          "Заблокировать колёса для лучшего скольжения",
+          "Увеличить скорость при торможении",
+          "Резко тормозить без блокировки колёс, сохраняя управляемость",
+        ],
+        explanation:
+          "ABS предотвращает блокировку колёс при резком торможении. Так водитель может рулить, тормозя в пол — особенно чтобы объехать препятствие.",
+        optionRationales: [
+          "Наоборот: ABS сокращает эффективный тормозной путь и сохраняет управление.",
+          "ABS ПРЕДОТВРАЩАЕТ блокировку, а не создаёт её. Заблокированные колёса не рулят.",
+          "ABS — это система торможения; она не разгоняет.",
+          "",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t6-13",
+    section: "mechanics",
+    correctIndex: 1,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "El ESP (o ESC) es un sistema que…",
+        options: [
+          "Aumenta la potencia del motor",
+          "Corrige la trayectoria del vehículo si detecta que empieza a derrapar o a perder estabilidad",
+          "Enciende las luces automáticamente",
+          "Reduce el consumo de combustible en llano",
+        ],
+        explanation:
+          "El ESP (Electronic Stability Program) detecta derrapes o pérdidas de estabilidad y actúa sobre los frenos y el motor de forma independiente en cada rueda para recuperar la trayectoria.",
+        optionRationales: [
+          "El ESP no toca la potencia como aumento; solo la modula para estabilizar.",
+          "",
+          "Encender luces automáticamente es una función de las luces auto, no del ESP.",
+          "El ESP no está pensado para reducir consumo, sino para evitar accidentes por pérdida de control.",
+        ],
+      },
+      en: {
+        text: "ESP (or ESC) is a system that…",
+        options: [
+          "Boosts engine power",
+          "Corrects the vehicle's path when it detects a skid or loss of stability",
+          "Turns headlights on automatically",
+          "Reduces fuel consumption on flat roads",
+        ],
+        explanation:
+          "ESP (Electronic Stability Program) detects skids or stability loss and acts on brakes and engine independently at each wheel to restore the trajectory.",
+        optionRationales: [
+          "ESP doesn't boost power; it only modulates it to stabilise.",
+          "",
+          "Auto headlights is a separate feature, not ESP.",
+          "ESP isn't for fuel saving; it prevents loss-of-control crashes.",
+        ],
+      },
+      ru: {
+        text: "ESP (или ESC) — это система, которая…",
+        options: [
+          "Повышает мощность двигателя",
+          "Корректирует траекторию, если обнаруживает занос или потерю устойчивости",
+          "Автоматически включает фары",
+          "Снижает расход топлива на равнине",
+        ],
+        explanation:
+          "ESP (Electronic Stability Program) распознаёт занос или потерю устойчивости и подтормаживает отдельные колёса, а также вмешивается в двигатель, чтобы вернуть машину на курс.",
+        optionRationales: [
+          "ESP не «повышает» мощность, а модулирует её для стабилизации.",
+          "",
+          "Автосвет — отдельная функция, не ESP.",
+          "ESP не для экономии, а против потери управления.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t6-14",
+    section: "mechanics",
+    correctIndex: 0,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Un menor de estatura inferior a 1,35 m no puede viajar en el asiento delantero salvo en supuestos como…",
+        options: [
+          "Que no haya asientos traseros o estén todos ocupados por otros menores en SRI",
+          "Que el conductor lo autorice porque conduce con cuidado",
+          "Que viajen menos de 30 minutos",
+          "Que el airbag esté encendido",
+        ],
+        explanation:
+          "Los menores de 1,35 m viajan en los asientos traseros con SRI. Excepcionalmente van delante si el vehículo no tiene asientos traseros o si están todos ocupados por otros menores con SRI. Delante y con airbag frontal, el SRI a contra-marcha está prohibido.",
+        optionRationales: [
+          "",
+          "«Conducir con cuidado» no exime; hay riesgo de choque incluso del conductor prudente.",
+          "La duración del viaje no autoriza saltarse las reglas de seguridad.",
+          "El airbag delantero es precisamente el motivo para NO llevar SRI a contra-marcha delante.",
+        ],
+      },
+      en: {
+        text: "A child under 1.35 m tall may only ride in the front seat in cases such as…",
+        options: [
+          "There are no rear seats, or they are all occupied by other children in CRS",
+          "The driver allows it because they drive carefully",
+          "The trip is less than 30 minutes",
+          "The airbag is on",
+        ],
+        explanation:
+          "Children under 1.35 m ride in the rear with a CRS. As an exception they can ride in front if there are no rear seats, or they are all taken by other children in CRS. With a front airbag on, a rearward-facing CRS in front is forbidden.",
+        optionRationales: [
+          "",
+          "'Driving carefully' isn't an exemption; other drivers can still hit you.",
+          "Trip length doesn't authorise skipping safety rules.",
+          "A front airbag is precisely the reason NOT to put a rearward CRS in front.",
+        ],
+      },
+      ru: {
+        text: "Ребёнок ростом менее 1,35 м может ехать на переднем сиденье только если…",
+        options: [
+          "Задних сидений нет или они заняты другими детьми в креслах",
+          "Водитель разрешил, потому что он аккуратный",
+          "Поездка меньше 30 минут",
+          "Включена подушка безопасности",
+        ],
+        explanation:
+          "Дети до 1,35 м ездят сзади в детском кресле. Спереди — как исключение, если нет задних сидений или они заняты другими детьми в креслах. Против движения спереди при включённой подушке ставить нельзя.",
+        optionRationales: [
+          "",
+          "«Аккуратный водитель» не оправдание — есть другие водители.",
+          "Длительность поездки не разрешает нарушать правила безопасности.",
+          "Передняя подушка — как раз причина НЕ ставить кресло против движения спереди.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t6-15",
+    section: "mechanics",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "El nivel de aceite del motor debe comprobarse…",
+        options: [
+          "Con el motor recién arrancado, aún caliente",
+          "En cualquier momento",
+          "Con el vehículo en llano y el motor frío o algunos minutos después de apagarlo",
+          "Solo en talleres, nunca por el conductor",
+        ],
+        explanation:
+          "El nivel de aceite se comprueba en llano, con el motor frío o unos minutos después de apagarlo, para que el aceite haya vuelto al cárter. Si se mide caliente y en marcha, el resultado no es fiable.",
+        optionRationales: [
+          "Con el motor caliente, parte del aceite está circulando; la medición engaña.",
+          "«En cualquier momento» ignora la necesidad de que el aceite esté en el cárter.",
+          "",
+          "El conductor puede y debe comprobar el nivel; no es exclusivo del taller.",
+        ],
+      },
+      en: {
+        text: "The engine oil level should be checked…",
+        options: [
+          "Right after starting, while still warm",
+          "At any time",
+          "On level ground with the engine cold or a few minutes after switching off",
+          "Only in workshops, never by the driver",
+        ],
+        explanation:
+          "Check oil on level ground with the engine cold or a few minutes after switch-off, so the oil is back in the sump. Measuring hot and running gives an unreliable reading.",
+        optionRationales: [
+          "With a hot running engine, some oil is still circulating — the reading is misleading.",
+          "'Any time' ignores the need for the oil to have returned to the sump.",
+          "",
+          "The driver can and should check the level; it isn't workshop-only.",
+        ],
+      },
+      ru: {
+        text: "Уровень масла в двигателе следует проверять…",
+        options: [
+          "Сразу после запуска, пока двигатель горячий",
+          "В любой момент",
+          "На ровной поверхности при холодном двигателе или через несколько минут после остановки",
+          "Только в сервисе, никогда самому",
+        ],
+        explanation:
+          "Уровень масла проверяют на ровной площадке, при холодном двигателе или через несколько минут после остановки — тогда масло стекло в поддон. Горячим и заведённым проверять нельзя.",
+        optionRationales: [
+          "Пока двигатель работает и горячий, часть масла в системе; результат обманчив.",
+          "«В любой момент» игнорирует необходимость стекания масла в поддон.",
+          "",
+          "Водитель может и должен проверять уровень сам; не только сервис.",
+        ],
+      },
+    },
+  },
 ];

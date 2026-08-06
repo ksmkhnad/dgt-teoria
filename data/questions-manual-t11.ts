@@ -585,4 +585,299 @@ export const QUESTIONS_MANUAL_T11: Question[] = [
       },
     },
   },
+  {
+    id: "manual-t11-11",
+    section: "others",
+    correctIndex: 3,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "La marcha atrás como maniobra…",
+        options: [
+          "Puede recorrer cualquier distancia si no molesta",
+          "Está permitida siempre que enciendas los intermitentes",
+          "Se puede hacer en autopista para no perder una salida",
+          "Solo se hace en distancias cortas, como complemento de otra maniobra, y donde no esté prohibido",
+        ],
+        explanation:
+          "La marcha atrás se usa como complemento de otra maniobra (por ejemplo, aparcar) y en distancias cortas. Está totalmente prohibida en autopista y autovía. Nunca se hace como forma normal de circular.",
+        optionRationales: [
+          "«Cualquier distancia» sin límite es una infracción; la marcha atrás es una excepción, no la norma.",
+          "Los intermitentes no autorizan por sí solos; la maniobra requiere condiciones estrictas.",
+          "En autopista y autovía la marcha atrás está expresamente prohibida, aunque pierdas una salida.",
+          "",
+        ],
+      },
+      en: {
+        text: "Reversing as a maneuver…",
+        options: [
+          "May cover any distance as long as it doesn't disturb others",
+          "Is allowed whenever you switch on the indicators",
+          "Can be done on a motorway to avoid missing an exit",
+          "Only for short distances, as a complement to another maneuver, and where not prohibited",
+        ],
+        explanation:
+          "Reversing is used as a complement to another maneuver (e.g. parking) and only over short distances. It's completely forbidden on motorways/dual carriageways. Never a normal way to drive.",
+        optionRationales: [
+          "'Any distance' without limits is an offence; reversing is an exception, not the norm.",
+          "Indicators alone don't authorise it; the maneuver has strict conditions.",
+          "Reversing is explicitly forbidden on motorways/dual carriageways, even if you miss an exit.",
+          "",
+        ],
+      },
+      ru: {
+        text: "Движение задним ходом как манёвр…",
+        options: [
+          "Может быть на любое расстояние, если никому не мешает",
+          "Разрешено всегда при включённых поворотниках",
+          "Можно на автомагистрали, чтобы не пропустить съезд",
+          "Только на короткие расстояния, как дополнение к другому манёвру, и где это не запрещено",
+        ],
+        explanation:
+          "Движение задним ходом используется как дополнение к другому манёвру (например, парковке) и на коротких дистанциях. На автомагистрали и скоростной автодороге полностью запрещено. Как штатный способ движения — никогда.",
+        optionRationales: [
+          "«Любое расстояние» без ограничений — нарушение; задним ходом — исключение, а не норма.",
+          "Одни поворотники не разрешают; манёвр имеет строгие условия.",
+          "На автомагистрали и скоростной автодороге задний ход прямо запрещён, даже если проехали съезд.",
+          "",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t11-12",
+    section: "others",
+    correctIndex: 1,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "¿En cuál de los siguientes lugares está PROHIBIDO estacionar (parking)?",
+        options: [
+          "En un solar sin señalizar dentro de una urbanización privada",
+          "Sobre un paso de peatones o en una curva sin visibilidad",
+          "En una zona azul pagando el ticket",
+          "En un aparcamiento subterráneo público",
+        ],
+        explanation:
+          "Está prohibido estacionar en pasos de peatones, curvas o cambios de rasante sin visibilidad, delante de vados, en carril bici, en zonas reservadas y en cualquier lugar donde se obstaculice la circulación o se ponga en peligro a otros.",
+        optionRationales: [
+          "Un solar privado sin señalización no es vía pública; se rige por las normas de la urbanización, no la DGT.",
+          "",
+          "En zona azul pagando el ticket es exactamente el uso previsto de esa zona.",
+          "Un aparcamiento subterráneo público es un lugar habilitado; nada lo prohíbe.",
+        ],
+      },
+      en: {
+        text: "Which of these places is PARKING prohibited?",
+        options: [
+          "On a private-estate plot with no signs",
+          "On a pedestrian crossing or on a blind curve",
+          "In a blue zone with a paid ticket",
+          "In a public underground car park",
+        ],
+        explanation:
+          "Parking is forbidden on pedestrian crossings, blind curves or crests, in front of driveways, in bike lanes, in reserved zones and anywhere it obstructs traffic or endangers others.",
+        optionRationales: [
+          "A private-estate plot with no signs isn't a public road; the estate's own rules apply, not the DGT's.",
+          "",
+          "Blue zone with a paid ticket is exactly the intended use.",
+          "A public underground car park is a designated place; nothing forbids it.",
+        ],
+      },
+      ru: {
+        text: "В каком из мест ЗАПРЕЩЕНО стоять на парковке?",
+        options: [
+          "На пустыре без разметки внутри частного посёлка",
+          "На пешеходном переходе или на закрытом повороте",
+          "В синей зоне с оплаченным талоном",
+          "На общественной подземной парковке",
+        ],
+        explanation:
+          "Запрещена парковка на пешеходных переходах, на закрытых поворотах и подъёмах, перед выездами (vados), на велополосах, в резервированных зонах и там, где мешает движению или создаёт опасность.",
+        optionRationales: [
+          "Пустырь в частном посёлке — не публичная дорога; действуют правила посёлка, не DGT.",
+          "",
+          "Синяя зона с оплаченным талоном — это её штатное использование.",
+          "Общественная подземная парковка — специально для этого; нет запрета.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t11-13",
+    section: "others",
+    correctIndex: 2,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Al girar a la derecha en un cruce debes…",
+        options: [
+          "Situarte lo más a la izquierda posible antes de girar",
+          "Girar rápido para no molestar",
+          "Situarte cerca del borde derecho, señalizar con antelación y ceder el paso a peatones y ciclistas que crucen",
+          "No usar el intermitente para evitar confundir",
+        ],
+        explanation:
+          "Antes de girar a la derecha, sitúate cerca del borde derecho, señaliza con antelación, reduce la velocidad y cede el paso a peatones y ciclistas que crucen la vía a la que entras.",
+        optionRationales: [
+          "Situarte a la izquierda antes de girar a la derecha es exactamente lo contrario y peligroso para los ciclistas por la derecha.",
+          "«Girar rápido» impide observar peatones y ciclistas y aumenta el riesgo de vuelco.",
+          "",
+          "No señalizar es infracción y confunde más que señalizar bien con antelación.",
+        ],
+      },
+      en: {
+        text: "When turning right at a junction you must…",
+        options: [
+          "Position yourself as far left as possible before turning",
+          "Turn fast so you don't get in the way",
+          "Move close to the right edge, signal early and give way to pedestrians and cyclists crossing",
+          "Skip the indicator to avoid confusion",
+        ],
+        explanation:
+          "Before turning right, move close to the right edge, signal early, slow down and give way to pedestrians and cyclists crossing the road you're entering.",
+        optionRationales: [
+          "Positioning left before a right turn is the opposite and dangerous for cyclists on your right.",
+          "'Turning fast' prevents you noticing pedestrians and cyclists and increases roll-over risk.",
+          "",
+          "Not signalling is an offence and confuses more than signalling early.",
+        ],
+      },
+      ru: {
+        text: "При повороте направо на перекрёстке нужно…",
+        options: [
+          "Занять крайнее левое положение перед поворотом",
+          "Свернуть быстро, чтобы не мешать",
+          "Держаться правого края, заранее сигнализировать и уступить пешеходам и велосипедистам",
+          "Не включать поворотник, чтобы не путать",
+        ],
+        explanation:
+          "Перед поворотом направо — занять крайнее правое положение, заранее сигнализировать, снизить скорость и уступить пешеходам и велосипедистам, пересекающим дорогу, на которую поворачиваете.",
+        optionRationales: [
+          "Заезжать налево перед поворотом направо — противоположность и опасно для велосипедистов справа.",
+          "«Быстро свернуть» не даёт заметить пешеходов и велосипедистов и увеличивает риск опрокидывания.",
+          "",
+          "Без сигнала — нарушение и путаницы больше, чем при заранее включённом поворотнике.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t11-14",
+    section: "others",
+    correctIndex: 0,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "Si tu vehículo se avería en la calzada, ¿qué debes hacer?",
+        options: [
+          "Encender los intermitentes de emergencia, colocar la señal V-16 (o triángulos si no dispones de V-16) y usar chaleco reflectante al salir",
+          "Salir corriendo del vehículo sin señalizar",
+          "Dejar el coche en la calzada y volver a por él al día siguiente",
+          "Empujarlo hasta el arcén y quedarte dentro sin luces",
+        ],
+        explanation:
+          "Averiado: intermitentes de emergencia, señal V-16 (obligatoria desde 2026) o triángulos si aún la usas, chaleco reflectante al salir, y desplaza el vehículo al arcén si es posible. Si no, sal por la puerta más segura y ponte fuera de la calzada tras la barrera.",
+        optionRationales: [
+          "",
+          "Salir sin señalizar te expone a un atropello; primero se avisa a los demás.",
+          "Dejar el coche en la calzada crea un obstáculo peligroso; hay que retirarlo y señalizar.",
+          "En el arcén sin luces por la noche es peligrosísimo; los intermitentes deben quedar encendidos.",
+        ],
+      },
+      en: {
+        text: "If your vehicle breaks down on the roadway, you should…",
+        options: [
+          "Turn on hazards, place the V-16 (or triangles if no V-16) and put on the reflective vest before getting out",
+          "Get out fast without any warning",
+          "Leave the car in the roadway and come back for it tomorrow",
+          "Push it to the shoulder and sit inside with no lights",
+        ],
+        explanation:
+          "Breakdown: hazards on, V-16 signal (mandatory from 2026) or triangles if still using them, reflective vest before exiting, and move the vehicle to the shoulder if possible. Otherwise, exit through the safest door and go behind the barrier, off the roadway.",
+        optionRationales: [
+          "",
+          "Getting out unwarned exposes you to a hit; first warn others.",
+          "Leaving the car in the roadway creates a dangerous obstacle; you must move it and signal.",
+          "On the shoulder with no lights at night is extremely dangerous; hazards must stay on.",
+        ],
+      },
+      ru: {
+        text: "Если машина сломалась на проезжей части, нужно…",
+        options: [
+          "Включить аварийку, установить сигнал V-16 (или треугольники, если V-16 нет) и надеть светоотражающий жилет перед выходом",
+          "Быстро выскочить без предупреждения",
+          "Оставить машину на проезжей части и вернуться завтра",
+          "Толкнуть на обочину и сидеть внутри без света",
+        ],
+        explanation:
+          "Поломка: аварийка, сигнал V-16 (обязателен с 2026) или треугольники, если ещё используются, жилет перед выходом, по возможности откатить на обочину. Если нет — выйти в самую безопасную сторону и уйти за отбойник, с проезжей части.",
+        optionRationales: [
+          "",
+          "Выйти без предупреждения — попасть под наезд; сначала предупреждают.",
+          "Оставлять машину на проезжей — опасная помеха; нужно откатить и обозначить.",
+          "На обочине без света ночью крайне опасно; аварийка должна работать.",
+        ],
+      },
+    },
+  },
+  {
+    id: "manual-t11-15",
+    section: "others",
+    correctIndex: 1,
+    source: SOURCE,
+    translations: {
+      es: {
+        text: "En autopista o autovía, para salir por una vía de deceleración debes…",
+        options: [
+          "Frenar bruscamente en el carril principal antes de la salida",
+          "Señalizar con antelación, incorporarte al carril de deceleración y frenar dentro de él",
+          "Cambiar de carril en el último momento sin señalizar",
+          "Detenerte en el arcén antes de la salida",
+        ],
+        explanation:
+          "Para salir de autopista/autovía: señaliza con antelación, incorpórate al carril de deceleración y solo entonces reduce la velocidad dentro de él, sin frenar en el carril principal.",
+        optionRationales: [
+          "Frenar en el carril principal provoca alcances por detrás; hay que reducir dentro del carril de deceleración.",
+          "",
+          "Cambiar de carril sin señalizar en el último momento es infracción y muy peligroso.",
+          "Detenerse en el arcén no es la salida; puede provocar accidente y multa.",
+        ],
+      },
+      en: {
+        text: "On a motorway/dual carriageway, to leave via a deceleration lane you must…",
+        options: [
+          "Brake hard in the main lane before the exit",
+          "Signal early, join the deceleration lane and brake inside it",
+          "Change lanes at the last moment without signalling",
+          "Stop on the hard shoulder before the exit",
+        ],
+        explanation:
+          "To leave a motorway: signal early, join the deceleration lane and only then slow down inside it — never brake in the main lane.",
+        optionRationales: [
+          "Braking in the main lane causes rear-end crashes; slow down inside the deceleration lane.",
+          "",
+          "Last-moment lane changes without signalling are an offence and very dangerous.",
+          "Stopping on the shoulder isn't the exit; risks a crash and a fine.",
+        ],
+      },
+      ru: {
+        text: "Чтобы съехать с автомагистрали/скоростной по полосе замедления, нужно…",
+        options: [
+          "Резко тормозить на основной полосе перед съездом",
+          "Заранее сигнализировать, перейти на полосу замедления и тормозить уже на ней",
+          "Перестроиться в последний момент без сигнала",
+          "Остановиться на обочине перед съездом",
+        ],
+        explanation:
+          "Для съезда: заранее сигнализировать, перестроиться на полосу замедления и только там снижать скорость — не тормозить на основной полосе.",
+        optionRationales: [
+          "Торможение на основной полосе — риск удара сзади; сбрасывать скорость нужно на полосе замедления.",
+          "",
+          "Перестроение в последний момент без сигнала — нарушение и опасно.",
+          "Остановка на обочине — не съезд; чревато ДТП и штрафом.",
+        ],
+      },
+    },
+  },
 ];
