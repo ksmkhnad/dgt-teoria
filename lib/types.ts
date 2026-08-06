@@ -106,3 +106,18 @@ export interface Term {
   // Attribution shown as fine print next to the image ("© Wikimedia Commons").
   imageCredit?: string;
 }
+
+export interface TheoryChapterTranslation {
+  title: string;
+  overview: string;
+  keyFacts: string[];
+}
+
+export interface TheoryChapter {
+  id: string;                // "t1", "t2", ..., "anexo"
+  tema: string;              // display label: "1", "2", ..., "Anexo"
+  section: Section;          // to link into /practice/[section]
+  sourceStartPage?: number;  // reference into the DGT manual
+  termIds?: string[];        // related glossary term IDs
+  translations: Record<Lang, TheoryChapterTranslation>;
+}

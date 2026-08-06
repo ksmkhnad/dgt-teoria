@@ -38,6 +38,7 @@ export default function Home() {
     { href: "/reference", key: "reference", num: "06" },
     { href: "/resources", key: "resources", num: "07" },
     { href: "/plan", key: "plan", num: "08" },
+    { href: "/teoria", key: "teoria", num: "09" },
   ];
 
   return (
